@@ -1,0 +1,41 @@
+[0.048s] Invoking command in '/home/parsa/main_robot_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/robot_description -- -j16 -l16
+[1.064s] Invoked command in '/home/parsa/main_robot_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/robot_description -- -j16 -l16
+[1.112s] Invoking command in '/home/parsa/main_robot_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/robot_description
+[1.305s] -- Install configuration: ""
+[1.305s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/description
+[1.306s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/description/atwork.urdf.xacro
+[1.306s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/description/robot_core.xacro
+[1.306s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/description/lidar.xacro
+[1.306s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/description/arm_control.xacro
+[1.307s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/description/ros2_control.xacro
+[1.307s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/description/arm.urdf.xacro
+[1.307s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/description/arm.urdf.xacro.bak
+[1.307s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/launch
+[1.307s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/launch/rsp.launch.py
+[1.307s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/meshes
+[1.307s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/meshes/base_link.STL
+[1.307s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/meshes/a2.STL
+[1.307s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/meshes/a4.STL
+[1.307s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/meshes/g1.STL
+[1.307s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/meshes/g12.STL
+[1.307s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/meshes/g22.STL
+[1.307s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/meshes/bg.STL
+[1.308s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/meshes/a1.STL
+[1.308s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/meshes/g2.STL
+[1.308s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/meshes/a3.STL
+[1.308s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[1.308s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[1.308s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[1.308s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[1.308s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/environment/path.sh
+[1.308s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/environment/path.dsv
+[1.308s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/local_setup.bash
+[1.308s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/local_setup.sh
+[1.308s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/local_setup.zsh
+[1.308s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/local_setup.dsv
+[1.308s] -- Installing: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/package.dsv
+[1.308s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[1.308s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[1.308s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[1.308s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_description/share/robot_description/package.xml
+[1.341s] Invoked command in '/home/parsa/main_robot_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/robot_description

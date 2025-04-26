@@ -1,0 +1,41 @@
+[1.665s] Invoking command in '/home/parsa/main_robot_ws/src/competition_robot': PYTHONPATH=/home/parsa/main_robot_ws/build/competition_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/competition_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/competition_robot build --build-base /home/parsa/main_robot_ws/build/competition_robot/build install --record /home/parsa/main_robot_ws/build/competition_robot/install.log --single-version-externally-managed install_data
+[1.880s] running egg_info
+[1.880s] creating ../../build/competition_robot/competition_robot.egg-info
+[1.880s] writing ../../build/competition_robot/competition_robot.egg-info/PKG-INFO
+[1.880s] writing dependency_links to ../../build/competition_robot/competition_robot.egg-info/dependency_links.txt
+[1.880s] writing entry points to ../../build/competition_robot/competition_robot.egg-info/entry_points.txt
+[1.880s] writing requirements to ../../build/competition_robot/competition_robot.egg-info/requires.txt
+[1.880s] writing top-level names to ../../build/competition_robot/competition_robot.egg-info/top_level.txt
+[1.881s] writing manifest file '../../build/competition_robot/competition_robot.egg-info/SOURCES.txt'
+[1.883s] reading manifest file '../../build/competition_robot/competition_robot.egg-info/SOURCES.txt'
+[1.883s] writing manifest file '../../build/competition_robot/competition_robot.egg-info/SOURCES.txt'
+[1.883s] running build
+[1.883s] running build_py
+[1.883s] creating /home/parsa/main_robot_ws/build/competition_robot/build
+[1.883s] creating /home/parsa/main_robot_ws/build/competition_robot/build/lib
+[1.883s] creating /home/parsa/main_robot_ws/build/competition_robot/build/lib/competition_robot
+[1.883s] copying competition_robot/__init__.py -> /home/parsa/main_robot_ws/build/competition_robot/build/lib/competition_robot
+[1.883s] copying competition_robot/competition_node.py -> /home/parsa/main_robot_ws/build/competition_robot/build/lib/competition_robot
+[1.883s] running install
+[1.884s] running install_lib
+[1.884s] creating /home/parsa/main_robot_ws/install/competition_robot/lib/python3.10/site-packages/competition_robot
+[1.884s] copying /home/parsa/main_robot_ws/build/competition_robot/build/lib/competition_robot/__init__.py -> /home/parsa/main_robot_ws/install/competition_robot/lib/python3.10/site-packages/competition_robot
+[1.884s] copying /home/parsa/main_robot_ws/build/competition_robot/build/lib/competition_robot/competition_node.py -> /home/parsa/main_robot_ws/install/competition_robot/lib/python3.10/site-packages/competition_robot
+[1.885s] byte-compiling /home/parsa/main_robot_ws/install/competition_robot/lib/python3.10/site-packages/competition_robot/__init__.py to __init__.cpython-310.pyc
+[1.885s] byte-compiling /home/parsa/main_robot_ws/install/competition_robot/lib/python3.10/site-packages/competition_robot/competition_node.py to competition_node.cpython-310.pyc
+[1.887s] running install_data
+[1.887s] creating /home/parsa/main_robot_ws/install/competition_robot/share/ament_index
+[1.887s] creating /home/parsa/main_robot_ws/install/competition_robot/share/ament_index/resource_index
+[1.887s] creating /home/parsa/main_robot_ws/install/competition_robot/share/ament_index/resource_index/packages
+[1.887s] copying resource/competition_robot -> /home/parsa/main_robot_ws/install/competition_robot/share/ament_index/resource_index/packages
+[1.887s] copying package.xml -> /home/parsa/main_robot_ws/install/competition_robot/share/competition_robot
+[1.887s] creating /home/parsa/main_robot_ws/install/competition_robot/share/competition_robot/config
+[1.887s] copying config/competition_params.yaml -> /home/parsa/main_robot_ws/install/competition_robot/share/competition_robot/config
+[1.887s] creating /home/parsa/main_robot_ws/install/competition_robot/share/competition_robot/launch
+[1.887s] copying launch/competition_launch.py -> /home/parsa/main_robot_ws/install/competition_robot/share/competition_robot/launch
+[1.888s] running install_egg_info
+[1.890s] Copying ../../build/competition_robot/competition_robot.egg-info to /home/parsa/main_robot_ws/install/competition_robot/lib/python3.10/site-packages/competition_robot-0.0.1-py3.10.egg-info
+[1.890s] running install_scripts
+[1.904s] Installing competition_node script to /home/parsa/main_robot_ws/install/competition_robot/lib/competition_robot
+[1.904s] writing list of installed files to '/home/parsa/main_robot_ws/build/competition_robot/install.log'
+[1.971s] Invoked command in '/home/parsa/main_robot_ws/src/competition_robot' returned '0': PYTHONPATH=/home/parsa/main_robot_ws/build/competition_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/competition_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/competition_robot build --build-base /home/parsa/main_robot_ws/build/competition_robot/build install --record /home/parsa/main_robot_ws/build/competition_robot/install.log --single-version-externally-managed install_data

@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <material name= "white">
+        <color rgba= "1 1 1 1"/>
+    </material>
+
+    <material name= "blue">
+        <color rgba= "0.2 0.2 1 1"/>
+    </material>
+
+    <material name= "orange">
+        <color rgba= "1 0.3 0.1 1"/>
+    </material>
+
+    <material name= "black">
+        <color rgba= "0 0 0 1"/>
+    </material>
+
+    <material name= "red">
+        <color rgba= "1 0 0 1"/>
+    </material>
+
+    <!--base_footprint link-->
+    <link name="odom">
+
+    </link>
+    
+    <!-- foot print joint-->
+
+    <joint name="odom_base_link_joint" type="fixed">
+        <parent link="odom"/>
+        <child link="base_link"/>
+        <origin xyz="0 0 0.07" rpy="0 0 0"/>
+    </joint>
+
+
+    <!--base link-->
+    <link name="base_link">
+        <visual>
+            <origin xyz="0 0 0"/>
+            <geometry>
+                <box size="0.5 0.3 0.10"/>
+            </geometry>
+            <material name="white"/>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0"/>
+            <geometry>
+                <box size="0.5 0.3 0.10"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <mass value="5.0"/>
+            <inertia ixx="0.0282916666667" ixy="0" ixz="0" iyy="0.0732916666667" iyz="0" izz="0.0963333333333"/>
+        </inertial>
+    </link>
+    
+    <!--left down wheel joint-->
+    <joint name="left_down_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="left_down_wheel_link"/>
+        <origin xyz="0.20 0.175 0" rpy="-${pi/2} 0 0"/>
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <!--left down wheel link-->
+    <link name="left_down_wheel_link">
+        <visual>
+            <origin xyz="0 0 0"/>
+            <geometry>
+                <cylinder radius="0.07" length="0.04"/>
+            </geometry>
+            <material name="blue"/> 
+        </visual>
+    </link>
+    
+    
+    <!--right down wheel joint-->
+    <joint name="right_down_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="right_down_wheel_link"/>
+        <origin xyz="0.20 -0.175 0" rpy="${pi/2} 0 0"/>
+        <axis xyz="0 0 -1"/>
+    </joint>
+
+    <!--right down wheel link-->
+    <link name="right_down_wheel_link">
+        <visual>
+            <origin xyz="0 0 0"/>
+            <geometry>
+                <cylinder radius="0.07" length="0.04"/>
+            </geometry>
+            <material name="blue"/> 
+        </visual>
+    </link>
+
+
+    <!--left up wheel joint-->
+    <joint name="left_up_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="left_up_wheel_link"/>
+        <origin xyz="-0.20 0.175 0" rpy="-${pi/2} 0 0"/>
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <!--left up wheel link-->
+    <link name="left_up_wheel_link">
+        <visual>
+            <origin xyz="0 0 0"/>
+            <geometry>
+                <cylinder radius="0.07" length="0.04"/>
+            </geometry>
+            <material name="blue"/> 
+        </visual>
+    </link>
+
+
+    <!--right up wheel joint-->
+    <joint name="right_up_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="right_up_wheel_link"/>
+        <origin xyz="-0.20 -0.175 0" rpy="${pi/2} 0 0"/>
+        <axis xyz="0 0 -1"/>
+    </joint>
+
+    <!--right up wheel link-->
+    <link name="right_up_wheel_link">
+        <visual>
+            <origin xyz="0 0 0"/>
+            <geometry>
+                <cylinder radius="0.07" length="0.04"/>
+            </geometry>
+            <material name="blue"/> 
+        </visual>
+    </link>
+
+    
+
+</robot>

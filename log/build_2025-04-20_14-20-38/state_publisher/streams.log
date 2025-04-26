@@ -1,0 +1,21 @@
+[1.762s] Invoking command in '/home/parsa/main_robot_ws/src/state_publisher': PYTHONPATH=/home/parsa/main_robot_ws/build/state_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/state_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/state_publisher build --build-base /home/parsa/main_robot_ws/build/state_publisher/build install --record /home/parsa/main_robot_ws/build/state_publisher/install.log --single-version-externally-managed install_data
+[1.960s] running egg_info
+[1.960s] writing ../../build/state_publisher/state_publisher.egg-info/PKG-INFO
+[1.960s] writing dependency_links to ../../build/state_publisher/state_publisher.egg-info/dependency_links.txt
+[1.960s] writing entry points to ../../build/state_publisher/state_publisher.egg-info/entry_points.txt
+[1.960s] writing requirements to ../../build/state_publisher/state_publisher.egg-info/requires.txt
+[1.960s] writing top-level names to ../../build/state_publisher/state_publisher.egg-info/top_level.txt
+[1.963s] reading manifest file '../../build/state_publisher/state_publisher.egg-info/SOURCES.txt'
+[1.963s] writing manifest file '../../build/state_publisher/state_publisher.egg-info/SOURCES.txt'
+[1.963s] running build
+[1.963s] running build_py
+[1.963s] running install
+[1.964s] running install_lib
+[1.965s] running install_data
+[1.967s] running install_egg_info
+[1.967s] removing '/home/parsa/main_robot_ws/install/state_publisher/lib/python3.10/site-packages/state_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[1.967s] Copying ../../build/state_publisher/state_publisher.egg-info to /home/parsa/main_robot_ws/install/state_publisher/lib/python3.10/site-packages/state_publisher-0.0.0-py3.10.egg-info
+[1.968s] running install_scripts
+[1.985s] Installing state_pub script to /home/parsa/main_robot_ws/install/state_publisher/lib/state_publisher
+[1.985s] writing list of installed files to '/home/parsa/main_robot_ws/build/state_publisher/install.log'
+[2.008s] Invoked command in '/home/parsa/main_robot_ws/src/state_publisher' returned '0': PYTHONPATH=/home/parsa/main_robot_ws/build/state_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/state_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/state_publisher build --build-base /home/parsa/main_robot_ws/build/state_publisher/build install --record /home/parsa/main_robot_ws/build/state_publisher/install.log --single-version-externally-managed install_data

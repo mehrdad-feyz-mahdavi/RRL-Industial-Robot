@@ -1,0 +1,4 @@
+Invoking command in '/home/parsa/main_robot_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/robot_description -- -j16 -l16
+Invoked command in '/home/parsa/main_robot_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/robot_description -- -j16 -l16
+Invoking command in '/home/parsa/main_robot_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/robot_description
+Invoked command in '/home/parsa/main_robot_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/robot_description

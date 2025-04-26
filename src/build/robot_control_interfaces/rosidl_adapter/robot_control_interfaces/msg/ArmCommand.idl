@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robot_control_interfaces/msg/ArmCommand.msg
+// generated code does not contain a copyright notice
+
+
+module robot_control_interfaces {
+  module msg {
+    struct ArmCommand {
+      @verbatim (language="comment", text=
+        "1-3 for joints, 4=base, 5=gripper_rotate, 6=gripper_claw")
+      uint8 joint_num;
+
+      @verbatim (language="comment", text=
+        "Target position")
+      int32 angle;
+
+      @verbatim (language="comment", text=
+        "Movement speed")
+      uint8 speed;
+    };
+  };
+};

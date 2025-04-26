@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from race_orchestrator/msg/RaceStatus.msg
+// generated code does not contain a copyright notice
+
+
+module race_orchestrator {
+  module msg {
+    @verbatim (language="comment", text=
+      "Race status information")
+    struct RaceStatus {
+      string race_id;
+
+      string robot_id;
+
+      float current_time;
+
+      float remaining_time;
+
+      @verbatim (language="comment", text=
+        "Current object being collected")
+      string current_object;
+
+      int32 objects_collected;
+
+      int32 total_objects;
+
+      sequence<float> current_position;
+
+      sequence<float> next_checkpoint;
+
+      boolean race_completed;
+
+      boolean race_failed;
+
+      string failure_reason;
+    };
+  };
+};

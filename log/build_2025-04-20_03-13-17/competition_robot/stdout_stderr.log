@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/competition_robot/competition_robot.egg-info
+writing ../../build/competition_robot/competition_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/competition_robot/competition_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/competition_robot/competition_robot.egg-info/entry_points.txt
+writing requirements to ../../build/competition_robot/competition_robot.egg-info/requires.txt
+writing top-level names to ../../build/competition_robot/competition_robot.egg-info/top_level.txt
+writing manifest file '../../build/competition_robot/competition_robot.egg-info/SOURCES.txt'
+reading manifest file '../../build/competition_robot/competition_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/competition_robot/competition_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/parsa/main_robot_ws/build/competition_robot/build
+creating /home/parsa/main_robot_ws/build/competition_robot/build/lib
+creating /home/parsa/main_robot_ws/build/competition_robot/build/lib/competition_robot
+copying competition_robot/__init__.py -> /home/parsa/main_robot_ws/build/competition_robot/build/lib/competition_robot
+copying competition_robot/competition_node.py -> /home/parsa/main_robot_ws/build/competition_robot/build/lib/competition_robot
+running install
+running install_lib
+creating /home/parsa/main_robot_ws/install/competition_robot/lib/python3.10/site-packages/competition_robot
+copying /home/parsa/main_robot_ws/build/competition_robot/build/lib/competition_robot/__init__.py -> /home/parsa/main_robot_ws/install/competition_robot/lib/python3.10/site-packages/competition_robot
+copying /home/parsa/main_robot_ws/build/competition_robot/build/lib/competition_robot/competition_node.py -> /home/parsa/main_robot_ws/install/competition_robot/lib/python3.10/site-packages/competition_robot
+byte-compiling /home/parsa/main_robot_ws/install/competition_robot/lib/python3.10/site-packages/competition_robot/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/parsa/main_robot_ws/install/competition_robot/lib/python3.10/site-packages/competition_robot/competition_node.py to competition_node.cpython-310.pyc
+running install_data
+creating /home/parsa/main_robot_ws/install/competition_robot/share/ament_index
+creating /home/parsa/main_robot_ws/install/competition_robot/share/ament_index/resource_index
+creating /home/parsa/main_robot_ws/install/competition_robot/share/ament_index/resource_index/packages
+copying resource/competition_robot -> /home/parsa/main_robot_ws/install/competition_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/parsa/main_robot_ws/install/competition_robot/share/competition_robot
+creating /home/parsa/main_robot_ws/install/competition_robot/share/competition_robot/config
+copying config/competition_params.yaml -> /home/parsa/main_robot_ws/install/competition_robot/share/competition_robot/config
+creating /home/parsa/main_robot_ws/install/competition_robot/share/competition_robot/launch
+copying launch/competition_launch.py -> /home/parsa/main_robot_ws/install/competition_robot/share/competition_robot/launch
+running install_egg_info
+Copying ../../build/competition_robot/competition_robot.egg-info to /home/parsa/main_robot_ws/install/competition_robot/lib/python3.10/site-packages/competition_robot-0.0.1-py3.10.egg-info
+running install_scripts
+Installing competition_node script to /home/parsa/main_robot_ws/install/competition_robot/lib/competition_robot
+writing list of installed files to '/home/parsa/main_robot_ws/build/competition_robot/install.log'

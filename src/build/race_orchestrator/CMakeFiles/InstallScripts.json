@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/parsa/main_robot_ws/src/build/race_orchestrator/cmake_install.cmake",
+		"/home/parsa/main_robot_ws/src/build/race_orchestrator/race_orchestrator__py/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,21 @@
+[1.848s] Invoking command in '/home/parsa/main_robot_ws/src/my_robot_camera': PYTHONPATH=/home/parsa/main_robot_ws/build/my_robot_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/my_robot_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_camera build --build-base /home/parsa/main_robot_ws/build/my_robot_camera/build install --record /home/parsa/main_robot_ws/build/my_robot_camera/install.log --single-version-externally-managed install_data
+[2.126s] running egg_info
+[2.127s] writing ../../build/my_robot_camera/my_robot_camera.egg-info/PKG-INFO
+[2.127s] writing dependency_links to ../../build/my_robot_camera/my_robot_camera.egg-info/dependency_links.txt
+[2.127s] writing entry points to ../../build/my_robot_camera/my_robot_camera.egg-info/entry_points.txt
+[2.127s] writing requirements to ../../build/my_robot_camera/my_robot_camera.egg-info/requires.txt
+[2.127s] writing top-level names to ../../build/my_robot_camera/my_robot_camera.egg-info/top_level.txt
+[2.130s] reading manifest file '../../build/my_robot_camera/my_robot_camera.egg-info/SOURCES.txt'
+[2.131s] writing manifest file '../../build/my_robot_camera/my_robot_camera.egg-info/SOURCES.txt'
+[2.131s] running build
+[2.131s] running build_py
+[2.131s] running install
+[2.132s] running install_lib
+[2.135s] running install_data
+[2.135s] running install_egg_info
+[2.136s] removing '/home/parsa/main_robot_ws/install/my_robot_camera/lib/python3.10/site-packages/my_robot_camera-0.0.0-py3.10.egg-info' (and everything under it)
+[2.136s] Copying ../../build/my_robot_camera/my_robot_camera.egg-info to /home/parsa/main_robot_ws/install/my_robot_camera/lib/python3.10/site-packages/my_robot_camera-0.0.0-py3.10.egg-info
+[2.137s] running install_scripts
+[2.161s] Installing camera_node script to /home/parsa/main_robot_ws/install/my_robot_camera/lib/my_robot_camera
+[2.162s] writing list of installed files to '/home/parsa/main_robot_ws/build/my_robot_camera/install.log'
+[2.199s] Invoked command in '/home/parsa/main_robot_ws/src/my_robot_camera' returned '0': PYTHONPATH=/home/parsa/main_robot_ws/build/my_robot_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/my_robot_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_camera build --build-base /home/parsa/main_robot_ws/build/my_robot_camera/build install --record /home/parsa/main_robot_ws/build/my_robot_camera/install.log --single-version-externally-managed install_data

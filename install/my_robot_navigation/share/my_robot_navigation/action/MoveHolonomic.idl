@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from my_robot_navigation/action/MoveHolonomic.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Pose.idl"
+
+module my_robot_navigation {
+  module action {
+    @verbatim (language="comment", text=
+      "Request")
+    struct MoveHolonomic_Goal {
+      geometry_msgs::msg::Point target_position;
+
+      float max_velocity;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct MoveHolonomic_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct MoveHolonomic_Feedback {
+      float distance_remaining;
+
+      geometry_msgs::msg::Pose current_pose;
+    };
+  };
+};

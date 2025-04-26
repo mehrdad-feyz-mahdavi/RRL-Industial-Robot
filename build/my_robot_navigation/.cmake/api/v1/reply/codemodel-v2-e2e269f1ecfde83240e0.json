@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-adb168157d236e176d90.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "my_robot_navigation__py",
+					"jsonFile" : "directory-my_robot_navigation__py-356dbcfb9d28fa6b08d5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/parsa/main_robot_ws/build/my_robot_navigation/my_robot_navigation__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "my_robot_navigation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_my_robot_navigation_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_my_robot_navigation_egg-6d69e79cba7eacc3aa99.json",
+					"name" : "ament_cmake_python_build_my_robot_navigation_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_my_robot_navigation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_my_robot_navigation-8c1d806b3a26b5be9b97.json",
+					"name" : "ament_cmake_python_copy_my_robot_navigation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_navigation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_navigation-41ef38486e00d36c4f13.json",
+					"name" : "my_robot_navigation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_navigation__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_navigation__cpp-6ace6449c6ea9d65d9dd.json",
+					"name" : "my_robot_navigation__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "my_robot_navigation__py::@ffba9446104f1ea6e175",
+					"jsonFile" : "target-my_robot_navigation__py-946572c943685c6b84b8.json",
+					"name" : "my_robot_navigation__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_navigation__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_navigation__rosidl_generator_c-957781ace5fc600eb604.json",
+					"name" : "my_robot_navigation__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_navigation__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_navigation__rosidl_generator_py-76789ea2b118a0469812.json",
+					"name" : "my_robot_navigation__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_navigation__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_navigation__rosidl_typesupport_c-dd1c48f01d9cd41f301b.json",
+					"name" : "my_robot_navigation__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_navigation__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_navigation__rosidl_typesupport_c__pyext-271e949fd1660bf2371a.json",
+					"name" : "my_robot_navigation__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_navigation__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_navigation__rosidl_typesupport_cpp-f613d3f9e9932b321937.json",
+					"name" : "my_robot_navigation__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_navigation__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_navigation__rosidl_typesupport_fastrtps_c-c29d1c0011ac280dcf35.json",
+					"name" : "my_robot_navigation__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_navigation__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_navigation__rosidl_typesupport_fastrtps_c__pyext-54b5a30488f8cca6817b.json",
+					"name" : "my_robot_navigation__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_navigation__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_navigation__rosidl_typesupport_fastrtps_cpp-a6918e7e65222296064d.json",
+					"name" : "my_robot_navigation__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_navigation__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_navigation__rosidl_typesupport_introspection_c-da4aaeb60163fac2ed4b.json",
+					"name" : "my_robot_navigation__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_navigation__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_navigation__rosidl_typesupport_introspection_c__pyext-22b1c6d3917ea9901724.json",
+					"name" : "my_robot_navigation__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_navigation__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_navigation__rosidl_typesupport_introspection_cpp-9fe5f34116f4d3b148d9.json",
+					"name" : "my_robot_navigation__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_navigation_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_navigation_uninstall-ca95b46053f2bfa4f2ff.json",
+					"name" : "my_robot_navigation_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4a5525bc16cde34994aa.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/parsa/main_robot_ws/build/my_robot_navigation",
+		"source" : "/home/parsa/main_robot_ws/src/my_robot_navigation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

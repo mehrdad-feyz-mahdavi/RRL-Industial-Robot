@@ -1,0 +1,44 @@
+running egg_info
+creating build/my_robot_camera/my_robot_camera.egg-info
+writing build/my_robot_camera/my_robot_camera.egg-info/PKG-INFO
+writing dependency_links to build/my_robot_camera/my_robot_camera.egg-info/dependency_links.txt
+writing entry points to build/my_robot_camera/my_robot_camera.egg-info/entry_points.txt
+writing requirements to build/my_robot_camera/my_robot_camera.egg-info/requires.txt
+writing top-level names to build/my_robot_camera/my_robot_camera.egg-info/top_level.txt
+writing manifest file 'build/my_robot_camera/my_robot_camera.egg-info/SOURCES.txt'
+reading manifest file 'build/my_robot_camera/my_robot_camera.egg-info/SOURCES.txt'
+writing manifest file 'build/my_robot_camera/my_robot_camera.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/parsa/main_robot_ws/src/my_robot_camera/build/my_robot_camera/build
+creating /home/parsa/main_robot_ws/src/my_robot_camera/build/my_robot_camera/build/lib
+creating /home/parsa/main_robot_ws/src/my_robot_camera/build/my_robot_camera/build/lib/my_robot_camera
+copying my_robot_camera/camera_node.py -> /home/parsa/main_robot_ws/src/my_robot_camera/build/my_robot_camera/build/lib/my_robot_camera
+copying my_robot_camera/qos_bridge_node.py -> /home/parsa/main_robot_ws/src/my_robot_camera/build/my_robot_camera/build/lib/my_robot_camera
+copying my_robot_camera/__init__.py -> /home/parsa/main_robot_ws/src/my_robot_camera/build/my_robot_camera/build/lib/my_robot_camera
+running install
+running install_lib
+creating /home/parsa/main_robot_ws/src/my_robot_camera/install/my_robot_camera/lib/python3.10/site-packages/my_robot_camera
+copying /home/parsa/main_robot_ws/src/my_robot_camera/build/my_robot_camera/build/lib/my_robot_camera/camera_node.py -> /home/parsa/main_robot_ws/src/my_robot_camera/install/my_robot_camera/lib/python3.10/site-packages/my_robot_camera
+copying /home/parsa/main_robot_ws/src/my_robot_camera/build/my_robot_camera/build/lib/my_robot_camera/qos_bridge_node.py -> /home/parsa/main_robot_ws/src/my_robot_camera/install/my_robot_camera/lib/python3.10/site-packages/my_robot_camera
+copying /home/parsa/main_robot_ws/src/my_robot_camera/build/my_robot_camera/build/lib/my_robot_camera/__init__.py -> /home/parsa/main_robot_ws/src/my_robot_camera/install/my_robot_camera/lib/python3.10/site-packages/my_robot_camera
+byte-compiling /home/parsa/main_robot_ws/src/my_robot_camera/install/my_robot_camera/lib/python3.10/site-packages/my_robot_camera/camera_node.py to camera_node.cpython-310.pyc
+byte-compiling /home/parsa/main_robot_ws/src/my_robot_camera/install/my_robot_camera/lib/python3.10/site-packages/my_robot_camera/qos_bridge_node.py to qos_bridge_node.cpython-310.pyc
+byte-compiling /home/parsa/main_robot_ws/src/my_robot_camera/install/my_robot_camera/lib/python3.10/site-packages/my_robot_camera/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/parsa/main_robot_ws/src/my_robot_camera/install/my_robot_camera/share/ament_index
+creating /home/parsa/main_robot_ws/src/my_robot_camera/install/my_robot_camera/share/ament_index/resource_index
+creating /home/parsa/main_robot_ws/src/my_robot_camera/install/my_robot_camera/share/ament_index/resource_index/packages
+copying resource/my_robot_camera -> /home/parsa/main_robot_ws/src/my_robot_camera/install/my_robot_camera/share/ament_index/resource_index/packages
+copying package.xml -> /home/parsa/main_robot_ws/src/my_robot_camera/install/my_robot_camera/share/my_robot_camera
+creating /home/parsa/main_robot_ws/src/my_robot_camera/install/my_robot_camera/share/my_robot_camera/launch
+copying launch/camera.launch.py -> /home/parsa/main_robot_ws/src/my_robot_camera/install/my_robot_camera/share/my_robot_camera/launch
+copying launch/camera_with_bridge.launch.py -> /home/parsa/main_robot_ws/src/my_robot_camera/install/my_robot_camera/share/my_robot_camera/launch
+creating /home/parsa/main_robot_ws/src/my_robot_camera/install/my_robot_camera/share/my_robot_camera/models
+copying models/best.pt -> /home/parsa/main_robot_ws/src/my_robot_camera/install/my_robot_camera/share/my_robot_camera/models
+creating /home/parsa/main_robot_ws/src/my_robot_camera/install/my_robot_camera/share/my_robot_camera/msg
+running install_egg_info
+Copying build/my_robot_camera/my_robot_camera.egg-info to /home/parsa/main_robot_ws/src/my_robot_camera/install/my_robot_camera/lib/python3.10/site-packages/my_robot_camera-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_node script to /home/parsa/main_robot_ws/src/my_robot_camera/install/my_robot_camera/lib/my_robot_camera
+writing list of installed files to '/home/parsa/main_robot_ws/src/my_robot_camera/build/my_robot_camera/install.log'

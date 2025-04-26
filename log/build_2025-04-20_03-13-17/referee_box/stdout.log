@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/referee_box/referee_box.egg-info
+writing ../../build/referee_box/referee_box.egg-info/PKG-INFO
+writing dependency_links to ../../build/referee_box/referee_box.egg-info/dependency_links.txt
+writing entry points to ../../build/referee_box/referee_box.egg-info/entry_points.txt
+writing requirements to ../../build/referee_box/referee_box.egg-info/requires.txt
+writing top-level names to ../../build/referee_box/referee_box.egg-info/top_level.txt
+writing manifest file '../../build/referee_box/referee_box.egg-info/SOURCES.txt'
+reading manifest file '../../build/referee_box/referee_box.egg-info/SOURCES.txt'
+writing manifest file '../../build/referee_box/referee_box.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/parsa/main_robot_ws/build/referee_box/build
+creating /home/parsa/main_robot_ws/build/referee_box/build/lib
+creating /home/parsa/main_robot_ws/build/referee_box/build/lib/referee_box
+copying referee_box/__init__.py -> /home/parsa/main_robot_ws/build/referee_box/build/lib/referee_box
+copying referee_box/referee_box_node.py -> /home/parsa/main_robot_ws/build/referee_box/build/lib/referee_box
+running install
+running install_lib
+creating /home/parsa/main_robot_ws/install/referee_box/lib/python3.10/site-packages/referee_box
+copying /home/parsa/main_robot_ws/build/referee_box/build/lib/referee_box/__init__.py -> /home/parsa/main_robot_ws/install/referee_box/lib/python3.10/site-packages/referee_box
+copying /home/parsa/main_robot_ws/build/referee_box/build/lib/referee_box/referee_box_node.py -> /home/parsa/main_robot_ws/install/referee_box/lib/python3.10/site-packages/referee_box
+byte-compiling /home/parsa/main_robot_ws/install/referee_box/lib/python3.10/site-packages/referee_box/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/parsa/main_robot_ws/install/referee_box/lib/python3.10/site-packages/referee_box/referee_box_node.py to referee_box_node.cpython-310.pyc
+running install_data
+creating /home/parsa/main_robot_ws/install/referee_box/share/ament_index
+creating /home/parsa/main_robot_ws/install/referee_box/share/ament_index/resource_index
+creating /home/parsa/main_robot_ws/install/referee_box/share/ament_index/resource_index/packages
+copying resource/referee_box -> /home/parsa/main_robot_ws/install/referee_box/share/ament_index/resource_index/packages
+copying package.xml -> /home/parsa/main_robot_ws/install/referee_box/share/referee_box
+creating /home/parsa/main_robot_ws/install/referee_box/share/referee_box/config
+copying referee_box/config/referee_config.yaml -> /home/parsa/main_robot_ws/install/referee_box/share/referee_box/config
+creating /home/parsa/main_robot_ws/install/referee_box/share/referee_box/launch
+copying launch/referee_box.launch.py -> /home/parsa/main_robot_ws/install/referee_box/share/referee_box/launch
+running install_egg_info
+Copying ../../build/referee_box/referee_box.egg-info to /home/parsa/main_robot_ws/install/referee_box/lib/python3.10/site-packages/referee_box-0.0.1-py3.10.egg-info
+running install_scripts
+Installing referee_box_node script to /home/parsa/main_robot_ws/install/referee_box/lib/referee_box
+writing list of installed files to '/home/parsa/main_robot_ws/build/referee_box/install.log'

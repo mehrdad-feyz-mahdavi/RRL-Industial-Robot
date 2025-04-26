@@ -1,0 +1,62 @@
+slam_toolbox:
+  ros__parameters:
+    # ========== فریم‌های ضروری ==========
+    frame_id: "base_laser"
+    map_frame: "map"
+    odom_frame: "odom"
+    base_frame: "base_link"
+    
+    # ========== تنظیمات پردازش ==========
+    resolution: 0.05             # دقت 1cm (پیشنهاد: 0.01-0.05 برای محیط‌های دقیق)
+    max_laser_range: 8.0           # محدوده مؤثر سنسور (متر)
+    minimum_time_interval: 0.25    # حداقل فاصله زمانی بین پردازش اسکن‌ها (ثانیه)
+    transform_publish_period: 0.05 # دوره انتشار تبدیل‌ها (ثانیه)
+    transform_timeout: 1.0         # زمان انتظار برای TF (ثانیه)
+    map_update_interval: 0.5       # فاصله به‌روزرسانی نقشه (ثانیه)
+    
+    # ========== تنظیمات اسکن ==========
+    scan_topic: "/scan"      # تاپیک لیزر
+    scan_rate: 10.0                # نرخ اسکن (Hz)
+    range_threshold: 10.0          # حداقل برد معتبر (متر)
+    scan_queue_size: 10            # اندازه صف اسکن‌ها
+    
+    # ========== تنظیمات ICP پیشرفته ==========
+    icp_max_iterations: 50         # حداکثر تکرار ICP
+    icp_max_correspondence_distance: 10.0  # حداکثر فاصله تطبیق نقاط (متر)
+    icp_transformation_epsilon: 1e-6       # حداقل تغییر برای توقف ICP
+    icp_euclidean_fitness_epsilon: 1e-6    # حداقل خطای مجاز
+    icp_use_point_to_plane: true   # فعال‌سازی الگوریتم Point-to-Plane برای دقت بالاتر
+    
+    # ========== بهینه‌سازی Ceres ==========
+    solver_plugin: "solver_plugins::CeresSolver"
+    ceres_linear_solver: "SPARSE_NORMAL_CHOLESKY"
+    ceres_max_num_iterations: 20   # حداکثر تکرارهای Ceres
+    ceres_function_tolerance: 1e-6 # حداقل تغییر تابع هزینه
+    ceres_gradient_tolerance: 1e-10 # حداقل تغییر گرادیان
+    
+    # ========== تنظیمات ذخیره‌سازی ==========
+    save_pose_rate: 0.5            # نرخ ذخیره‌سازی پوز (ثانیه)
+    save_dir: "~/slam_maps"        # مسیر ذخیره نقشه‌ها
+    
+    # ========== تنظیمات نویز و فیلتر ==========
+    outlier_threshold: 0.05        # آستانه رد نقاط پرت (متر)
+    minimum_travel_distance: 0.1   # حداقل جابجایی برای پردازش (متر)
+    minimum_travel_heading: 0.2    # حداقل چرخش برای پردازش (رادیان)
+    
+    # ========== دیباگ و مانیتورینگ ==========
+    debug_logging: false            # فعال‌سازی لاگ‌های دیباگ
+    publish_odom: true             # انتشار odometry
+    publish_pose_graph: true       # انتشار گراف پوز برای تجسم
+    publish_tf: true               # انتشار تبدیل‌های TF
+    
+    # ========== پارامترهای تخصصی ==========
+    use_scan_matching: true        # فعال‌سازی تطبیق اسکن
+    use_scan_barycenter: false     # غیرفعال برای دقت بالاتر
+    do_reverse_scan: false         # اسکن معکوس (برای سنسورهای خاص)
+    correlation_search_space: 0.3  # محدوده جستجوی همبستگی (متر)
+    
+    # ========== تنظیمات Thread ==========
+    processing_threads: 4          # تعداد threadهای پردازش (متناسب با CPU)
+    
+    # ========== پارامترهای آزمایشی ==========
+    enable_interactive_mode: false # حالت تعاملی (برای دیباگ)

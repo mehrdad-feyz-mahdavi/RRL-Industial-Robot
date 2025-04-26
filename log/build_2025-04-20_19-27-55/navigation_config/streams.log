@@ -1,0 +1,20 @@
+[2.291s] Invoking command in '/home/parsa/main_robot_ws/src/navigation_config': PYTHONPATH=/home/parsa/main_robot_ws/build/navigation_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/navigation_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigation_config build --build-base /home/parsa/main_robot_ws/build/navigation_config/build install --record /home/parsa/main_robot_ws/build/navigation_config/install.log --single-version-externally-managed install_data
+[2.518s] running egg_info
+[2.518s] writing ../../build/navigation_config/navigation_config.egg-info/PKG-INFO
+[2.518s] writing dependency_links to ../../build/navigation_config/navigation_config.egg-info/dependency_links.txt
+[2.519s] writing entry points to ../../build/navigation_config/navigation_config.egg-info/entry_points.txt
+[2.519s] writing requirements to ../../build/navigation_config/navigation_config.egg-info/requires.txt
+[2.519s] writing top-level names to ../../build/navigation_config/navigation_config.egg-info/top_level.txt
+[2.520s] reading manifest file '../../build/navigation_config/navigation_config.egg-info/SOURCES.txt'
+[2.521s] writing manifest file '../../build/navigation_config/navigation_config.egg-info/SOURCES.txt'
+[2.521s] running build
+[2.521s] running build_py
+[2.521s] running install
+[2.522s] running install_lib
+[2.523s] running install_data
+[2.523s] running install_egg_info
+[2.525s] removing '/home/parsa/main_robot_ws/install/navigation_config/lib/python3.10/site-packages/navigation_config-0.0.1-py3.10.egg-info' (and everything under it)
+[2.525s] Copying ../../build/navigation_config/navigation_config.egg-info to /home/parsa/main_robot_ws/install/navigation_config/lib/python3.10/site-packages/navigation_config-0.0.1-py3.10.egg-info
+[2.526s] running install_scripts
+[2.552s] writing list of installed files to '/home/parsa/main_robot_ws/build/navigation_config/install.log'
+[2.688s] Invoked command in '/home/parsa/main_robot_ws/src/navigation_config' returned '0': PYTHONPATH=/home/parsa/main_robot_ws/build/navigation_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/navigation_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigation_config build --build-base /home/parsa/main_robot_ws/build/navigation_config/build install --record /home/parsa/main_robot_ws/build/navigation_config/install.log --single-version-externally-managed install_data

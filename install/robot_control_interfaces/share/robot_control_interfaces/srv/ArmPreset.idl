@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_control_interfaces/srv/ArmPreset.srv
+// generated code does not contain a copyright notice
+
+
+module robot_control_interfaces {
+  module srv {
+    struct ArmPreset_Request {
+      @verbatim (language="comment", text=
+        "1=Home, 2=Extended, 3=Camera vertical")
+      uint8 preset_num;
+    };
+    struct ArmPreset_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

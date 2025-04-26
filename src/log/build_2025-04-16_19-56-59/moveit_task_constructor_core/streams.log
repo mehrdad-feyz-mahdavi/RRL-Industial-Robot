@@ -1,0 +1,137 @@
+[0.011s] Invoking command in '/home/parsa/main_robot_ws/src/build/moveit_task_constructor_core': AMENT_PREFIX_PATH=/home/parsa/main_robot_ws/src/install/rviz_marker_tools:/home/parsa/main_robot_ws/src/install/moveit_task_constructor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parsa/main_robot_ws/src/install/rviz_marker_tools:/home/parsa/main_robot_ws/src/install/moveit_task_constructor_msgs:/home/parsa/main_robot_ws/install/my_robot_moveit_config:/home/parsa/main_robot_ws/install/my_robot_bringup:/home/parsa/main_robot_ws/install/robot_description:/home/parsa/main_robot_ws/install/robot_control_interfaces:/home/parsa/main_robot_ws/install/race_orchestrator:/home/parsa/main_robot_ws/install/my_robot_navigation:/home/parsa/main_robot_ws/install/my_robot_camera_msgs:/home/parsa/main_robot_ws/install/ldlidar_stl_ros2:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/opt/ros/humble LD_LIBRARY_PATH=/home/parsa/main_robot_ws/src/install/rviz_marker_tools/lib:/home/parsa/main_robot_ws/src/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parsa/main_robot_ws/src/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/parsa/.local/bin/cmake /home/parsa/main_robot_ws/src/moveit_task_constructor/core -DCMAKE_INSTALL_PREFIX=/home/parsa/main_robot_ws/src/install/moveit_task_constructor_core
+[0.109s] -- The C compiler identification is GNU 11.4.0
+[0.160s] -- The CXX compiler identification is GNU 11.4.0
+[0.166s] -- Detecting C compiler ABI info
+[0.219s] -- Detecting C compiler ABI info - done
+[0.230s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.230s] -- Detecting C compile features
+[0.231s] -- Detecting C compile features - done
+[0.242s] -- Detecting CXX compiler ABI info
+[0.304s] -- Detecting CXX compiler ABI info - done
+[0.315s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.316s] -- Detecting CXX compile features
+[0.316s] -- Detecting CXX compile features - done
+[0.330s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.469s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.632s] [33mCMake Warning (dev) at CMakeLists.txt:6 (find_package):
+[0.632s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[0.632s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[0.632s]   set the policy and suppress this warning.
+[0.632s] 
+[0.632s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.632s] [0m
+[0.658s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")
+[0.674s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.758s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.773s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.793s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.813s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.842s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.892s] -- Found moveit_common: 2.5.8 (/opt/ros/humble/share/moveit_common/cmake)
+[0.940s] [0mmoveit_task_constructor_core: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.950s] -- Found moveit_core: 2.5.8 (/opt/ros/humble/share/moveit_core/cmake)
+[0.950s] [33mCMake Warning (dev) at /opt/ros/humble/share/moveit_core/cmake/ConfigExtras.cmake:3 (find_package):
+[0.950s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[0.950s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[0.950s]   set the policy and suppress this warning.
+[0.950s] 
+[0.951s] Call Stack (most recent call first):
+[0.951s]   /opt/ros/humble/share/moveit_core/cmake/moveit_coreConfig.cmake:41 (include)
+[0.951s]   CMakeLists.txt:11 (find_package)
+[0.951s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.951s] [0m
+[1.149s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread
+[1.291s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.403s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.414s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.588s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.667s] -- Found FastRTPS: /opt/ros/humble/include
+[1.805s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.833s] -- Found Threads: TRUE
+[1.925s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.968s] [33mCMake Warning (dev) at /opt/ros/humble/share/geometric_shapes/cmake/ConfigExtras.cmake:31 (find_package):
+[1.968s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[1.969s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[1.969s]   set the policy and suppress this warning.
+[1.969s] 
+[1.969s] Call Stack (most recent call first):
+[1.969s]   /opt/ros/humble/share/geometric_shapes/cmake/geometric_shapesConfig.cmake:41 (include)
+[1.969s]   /opt/ros/humble/share/moveit_core/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.969s]   /opt/ros/humble/share/moveit_core/cmake/moveit_coreConfig.cmake:41 (include)
+[1.969s]   CMakeLists.txt:11 (find_package)
+[1.969s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.969s] [0m
+[1.971s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem
+[2.164s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.270s] -- Found Eigen3: TRUE (found version "3.4.0")
+[2.270s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.733s] -- Found moveit_ros_planning: 2.5.8 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+[2.733s] [33mCMake Warning (dev) at /opt/ros/humble/share/moveit_ros_planning/cmake/ConfigExtras.cmake:3 (find_package):
+[2.733s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[2.733s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[2.733s]   set the policy and suppress this warning.
+[2.734s] 
+[2.734s] Call Stack (most recent call first):
+[2.734s]   /opt/ros/humble/share/moveit_ros_planning/cmake/moveit_ros_planningConfig.cmake:41 (include)
+[2.734s]   CMakeLists.txt:12 (find_package)
+[2.734s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.734s] [0m
+[2.737s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono
+[2.781s] -- Found moveit_ros_planning_interface: 2.5.8 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[2.781s] [33mCMake Warning (dev) at /opt/ros/humble/share/moveit_ros_planning_interface/cmake/ConfigExtras.cmake:9 (find_package):
+[2.781s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[2.782s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[2.782s]   set the policy and suppress this warning.
+[2.782s] 
+[2.782s] Call Stack (most recent call first):
+[2.782s]   /opt/ros/humble/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[2.782s]   CMakeLists.txt:13 (find_package)
+[2.782s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.782s] [0m
+[2.785s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread
+[2.802s] [33mCMake Warning (dev) at /opt/ros/humble/share/moveit_ros_warehouse/cmake/ConfigExtras.cmake:3 (find_package):
+[2.802s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[2.802s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[2.802s]   set the policy and suppress this warning.
+[2.802s] 
+[2.802s] Call Stack (most recent call first):
+[2.802s]   /opt/ros/humble/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake:41 (include)
+[2.802s]   /opt/ros/humble/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.802s]   /opt/ros/humble/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[2.802s]   CMakeLists.txt:13 (find_package)
+[2.802s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.802s] [0m
+[2.806s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options
+[2.839s] [33mCMake Warning (dev) at /opt/ros/humble/share/moveit_ros_move_group/cmake/ConfigExtras.cmake:3 (find_package):
+[2.839s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[2.839s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[2.839s]   set the policy and suppress this warning.
+[2.839s] 
+[2.839s] Call Stack (most recent call first):
+[2.839s]   /opt/ros/humble/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig.cmake:41 (include)
+[2.839s]   /opt/ros/humble/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.839s]   /opt/ros/humble/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake:41 (include)
+[2.839s]   CMakeLists.txt:13 (find_package)
+[2.840s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.840s] [0m
+[2.842s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread
+[2.880s] -- Found moveit_task_constructor_msgs: 0.1.3 (/home/parsa/main_robot_ws/src/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake)
+[2.961s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[2.961s]   By not providing "Findpy_binding_tools.cmake" in CMAKE_MODULE_PATH this
+[2.961s]   project has asked CMake to find a package configuration file provided by
+[2.961s]   "py_binding_tools", but CMake did not find one.
+[2.961s] 
+[2.961s]   Could not find a package configuration file provided by "py_binding_tools"
+[2.961s]   with any of the following names:
+[2.961s] 
+[2.961s]     py_binding_toolsConfig.cmake
+[2.961s]     py_binding_tools-config.cmake
+[2.961s] 
+[2.961s]   Add the installation prefix of "py_binding_tools" to CMAKE_PREFIX_PATH or
+[2.962s]   set "py_binding_tools_DIR" to a directory containing one of the above
+[2.962s]   files.  If "py_binding_tools" provides a separate development package or
+[2.962s]   SDK, be sure it has been installed.
+[2.962s] 
+[2.962s] [0m
+[2.962s] -- Configuring incomplete, errors occurred!
+[2.973s] Invoked command in '/home/parsa/main_robot_ws/src/build/moveit_task_constructor_core' returned '1': AMENT_PREFIX_PATH=/home/parsa/main_robot_ws/src/install/rviz_marker_tools:/home/parsa/main_robot_ws/src/install/moveit_task_constructor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parsa/main_robot_ws/src/install/rviz_marker_tools:/home/parsa/main_robot_ws/src/install/moveit_task_constructor_msgs:/home/parsa/main_robot_ws/install/my_robot_moveit_config:/home/parsa/main_robot_ws/install/my_robot_bringup:/home/parsa/main_robot_ws/install/robot_description:/home/parsa/main_robot_ws/install/robot_control_interfaces:/home/parsa/main_robot_ws/install/race_orchestrator:/home/parsa/main_robot_ws/install/my_robot_navigation:/home/parsa/main_robot_ws/install/my_robot_camera_msgs:/home/parsa/main_robot_ws/install/ldlidar_stl_ros2:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/opt/ros/humble LD_LIBRARY_PATH=/home/parsa/main_robot_ws/src/install/rviz_marker_tools/lib:/home/parsa/main_robot_ws/src/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/parsa/main_robot_ws/src/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/parsa/.local/bin/cmake /home/parsa/main_robot_ws/src/moveit_task_constructor/core -DCMAKE_INSTALL_PREFIX=/home/parsa/main_robot_ws/src/install/moveit_task_constructor_core

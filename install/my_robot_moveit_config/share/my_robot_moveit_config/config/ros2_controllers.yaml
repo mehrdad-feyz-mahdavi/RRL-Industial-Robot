@@ -1,0 +1,48 @@
+# This config file is used by ros2_control
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+
+    arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    gripper_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+arm_controller:
+  ros__parameters:
+    joints:
+      - arm_base_joint
+      - a2
+      - a3
+      - a4
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+    allow_nonzero_velocity_at_trajectory_end: false
+    use_deprecated_state_topic: false
+    state_publish_rate: 50.0
+    action_monitor_rate: 20.0
+    interpolation_method: splines
+
+gripper_controller:
+  ros__parameters:
+    joints:
+      - bg
+      - g1
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+    use_deprecated_state_topic: false
+    state_publish_rate: 50.0
+    action_monitor_rate: 20.0
+    interpolation_method: splines

@@ -1,0 +1,1 @@
+rclpy;nav2_bringup;nav2_amcl;nav2_map_server;nav2_lifecycle_manager;nav2_util;tf2_ros;geometry_msgs;sensor_msgs;action_msgs;launch;launch_ros;python3-yaml;rosidl_default_runtime;ament_lint_auto;ament_lint_common

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0285368cd7cac0eea502.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ldlidar_stl_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ldlidar_stl_ros2_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ldlidar_stl_ros2_node-e403aa965e9339b25925.json",
+					"name" : "ldlidar_stl_ros2_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ldlidar_stl_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ldlidar_stl_ros2_uninstall-91787b0eeae6f524c05e.json",
+					"name" : "ldlidar_stl_ros2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d40de7ffb2c2fd35b975.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/parsa/main_robot_ws/src/build/ldlidar_stl_ros2",
+		"source" : "/home/parsa/main_robot_ws/src/ldlidar_stl_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

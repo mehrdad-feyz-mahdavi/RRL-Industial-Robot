@@ -1,0 +1,27 @@
+[0.046s] Invoking command in '/home/parsa/main_robot_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/ldlidar_stl_ros2 -- -j16 -l16
+[1.065s] [100%] Built target ldlidar_stl_ros2_node
+[1.123s] Invoked command in '/home/parsa/main_robot_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/ldlidar_stl_ros2 -- -j16 -l16
+[1.124s] Invoking command in '/home/parsa/main_robot_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/ldlidar_stl_ros2
+[1.301s] -- Install configuration: ""
+[1.302s] -- Up-to-date: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/lib/ldlidar_stl_ros2/ldlidar_stl_ros2_node
+[1.302s] -- Up-to-date: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch
+[1.302s] -- Up-to-date: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ld19.launch.py
+[1.302s] -- Up-to-date: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ldlidar_launch.py
+[1.302s] -- Up-to-date: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//rviz2
+[1.302s] -- Up-to-date: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//rviz2/ldlidar.rviz
+[1.302s] -- Up-to-date: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_stl_ros2
+[1.302s] -- Up-to-date: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_stl_ros2
+[1.302s] -- Up-to-date: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.sh
+[1.302s] -- Up-to-date: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.dsv
+[1.302s] -- Up-to-date: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.sh
+[1.302s] -- Up-to-date: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.dsv
+[1.302s] -- Up-to-date: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.bash
+[1.302s] -- Up-to-date: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.sh
+[1.302s] -- Up-to-date: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.zsh
+[1.303s] -- Up-to-date: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.dsv
+[1.303s] -- Installing: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.dsv
+[1.303s] -- Up-to-date: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/packages/ldlidar_stl_ros2
+[1.303s] -- Up-to-date: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config.cmake
+[1.303s] -- Up-to-date: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config-version.cmake
+[1.303s] -- Up-to-date: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.xml
+[1.314s] Invoked command in '/home/parsa/main_robot_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/ldlidar_stl_ros2

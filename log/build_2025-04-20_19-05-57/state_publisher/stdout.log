@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/state_publisher/state_publisher.egg-info/PKG-INFO
+writing dependency_links to ../../build/state_publisher/state_publisher.egg-info/dependency_links.txt
+writing entry points to ../../build/state_publisher/state_publisher.egg-info/entry_points.txt
+writing requirements to ../../build/state_publisher/state_publisher.egg-info/requires.txt
+writing top-level names to ../../build/state_publisher/state_publisher.egg-info/top_level.txt
+reading manifest file '../../build/state_publisher/state_publisher.egg-info/SOURCES.txt'
+writing manifest file '../../build/state_publisher/state_publisher.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/parsa/main_robot_ws/install/state_publisher/lib/python3.10/site-packages/state_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/state_publisher/state_publisher.egg-info to /home/parsa/main_robot_ws/install/state_publisher/lib/python3.10/site-packages/state_publisher-0.0.0-py3.10.egg-info
+running install_scripts
+Installing state_pub script to /home/parsa/main_robot_ws/install/state_publisher/lib/state_publisher
+writing list of installed files to '/home/parsa/main_robot_ws/build/state_publisher/install.log'

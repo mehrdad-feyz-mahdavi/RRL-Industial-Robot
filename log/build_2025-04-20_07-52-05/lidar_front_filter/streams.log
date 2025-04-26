@@ -1,0 +1,21 @@
+[1.482s] Invoking command in '/home/parsa/main_robot_ws/src/lidar_front_filter': PYTHONPATH=/home/parsa/main_robot_ws/build/lidar_front_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/lidar_front_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_front_filter build --build-base /home/parsa/main_robot_ws/build/lidar_front_filter/build install --record /home/parsa/main_robot_ws/build/lidar_front_filter/install.log --single-version-externally-managed install_data
+[1.630s] running egg_info
+[1.630s] writing ../../build/lidar_front_filter/lidar_front_filter.egg-info/PKG-INFO
+[1.630s] writing dependency_links to ../../build/lidar_front_filter/lidar_front_filter.egg-info/dependency_links.txt
+[1.631s] writing entry points to ../../build/lidar_front_filter/lidar_front_filter.egg-info/entry_points.txt
+[1.631s] writing requirements to ../../build/lidar_front_filter/lidar_front_filter.egg-info/requires.txt
+[1.631s] writing top-level names to ../../build/lidar_front_filter/lidar_front_filter.egg-info/top_level.txt
+[1.632s] reading manifest file '../../build/lidar_front_filter/lidar_front_filter.egg-info/SOURCES.txt'
+[1.632s] writing manifest file '../../build/lidar_front_filter/lidar_front_filter.egg-info/SOURCES.txt'
+[1.633s] running build
+[1.633s] running build_py
+[1.633s] running install
+[1.633s] running install_lib
+[1.633s] running install_data
+[1.634s] running install_egg_info
+[1.634s] removing '/home/parsa/main_robot_ws/install/lidar_front_filter/lib/python3.10/site-packages/lidar_front_filter-0.0.0-py3.10.egg-info' (and everything under it)
+[1.635s] Copying ../../build/lidar_front_filter/lidar_front_filter.egg-info to /home/parsa/main_robot_ws/install/lidar_front_filter/lib/python3.10/site-packages/lidar_front_filter-0.0.0-py3.10.egg-info
+[1.635s] running install_scripts
+[1.647s] Installing lidar_front_filter script to /home/parsa/main_robot_ws/install/lidar_front_filter/lib/lidar_front_filter
+[1.647s] writing list of installed files to '/home/parsa/main_robot_ws/build/lidar_front_filter/install.log'
+[1.667s] Invoked command in '/home/parsa/main_robot_ws/src/lidar_front_filter' returned '0': PYTHONPATH=/home/parsa/main_robot_ws/build/lidar_front_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/lidar_front_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_front_filter build --build-base /home/parsa/main_robot_ws/build/lidar_front_filter/build install --record /home/parsa/main_robot_ws/build/lidar_front_filter/install.log --single-version-externally-managed install_data

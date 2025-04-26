@@ -1,0 +1,176 @@
+[0.540s] Invoking command in '/home/parsa/main_robot_ws/build/my_robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/my_robot_navigation -- -j16 -l16
+[1.043s] [  9%] Built target my_robot_navigation__rosidl_generator_c
+[1.043s] [ 12%] Built target my_robot_navigation__cpp
+[1.043s] [ 12%] Built target ament_cmake_python_copy_my_robot_navigation
+[1.043s] [ 22%] Built target my_robot_navigation__rosidl_typesupport_introspection_c
+[1.043s] [ 32%] Built target my_robot_navigation__rosidl_typesupport_c
+[1.043s] [ 41%] Built target my_robot_navigation__rosidl_typesupport_introspection_cpp
+[1.043s] [ 51%] Built target my_robot_navigation__rosidl_typesupport_cpp
+[1.043s] [ 61%] Built target my_robot_navigation__rosidl_typesupport_fastrtps_c
+[1.043s] [ 70%] Built target my_robot_navigation__rosidl_typesupport_fastrtps_cpp
+[1.043s] [ 70%] Built target my_robot_navigation
+[1.043s] [ 74%] Built target my_robot_navigation__py
+[1.043s] [ 80%] Built target my_robot_navigation__rosidl_generator_py
+[1.044s] [ 87%] Built target my_robot_navigation__rosidl_typesupport_introspection_c__pyext
+[1.044s] [ 93%] Built target my_robot_navigation__rosidl_typesupport_c__pyext
+[1.044s] [100%] Built target my_robot_navigation__rosidl_typesupport_fastrtps_c__pyext
+[1.044s] running egg_info
+[1.044s] writing my_robot_navigation.egg-info/PKG-INFO
+[1.044s] writing dependency_links to my_robot_navigation.egg-info/dependency_links.txt
+[1.044s] writing top-level names to my_robot_navigation.egg-info/top_level.txt
+[1.044s] reading manifest file 'my_robot_navigation.egg-info/SOURCES.txt'
+[1.044s] writing manifest file 'my_robot_navigation.egg-info/SOURCES.txt'
+[1.044s] [100%] Built target ament_cmake_python_build_my_robot_navigation_egg
+[1.095s] Invoked command in '/home/parsa/main_robot_ws/build/my_robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/my_robot_navigation -- -j16 -l16
+[1.096s] Invoking command in '/home/parsa/main_robot_ws/build/my_robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/my_robot_navigation
+[1.289s] -- Install configuration: ""
+[1.289s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/config
+[1.290s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/config/amcl_params.yaml
+[1.290s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/config/nav2_params.yaml
+[1.290s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/config/rqt_params
+[1.290s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/launch
+[1.290s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/launch/navigation_launch.py
+[1.290s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/launch/map_server.launch.py
+[1.290s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/launch/lifecycle_map_server.launch.py
+[1.290s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/launch/simple_map_server.launch.py
+[1.291s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/launch/localization.launch.py
+[1.291s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/behavior_trees
+[1.291s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/behavior_trees/navigate_w_recovery_advanced.xml
+[1.291s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/launch
+[1.291s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/launch/navigation_launch.py
+[1.291s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/launch/map_server.launch.py
+[1.291s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/launch/lifecycle_map_server.launch.py
+[1.291s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/launch/simple_map_server.launch.py
+[1.291s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/launch/localization.launch.py
+[1.291s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/config
+[1.291s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/config/amcl_params.yaml
+[1.291s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/config/nav2_params.yaml
+[1.291s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/config/rqt_params
+[1.291s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/behavior_trees/navigate_w_recovery_advanced.xml
+[1.291s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/lib/my_robot_navigation/holonomic_action.py
+[1.291s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/maps
+[1.291s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/maps/map.pgm
+[1.291s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/maps/map.yaml
+[1.291s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/ament_index/resource_index/rosidl_interfaces/my_robot_navigation
+[1.291s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation
+[1.291s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action
+[1.291s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action/move_holonomic.h
+[1.291s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action/detail
+[1.292s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action/detail/move_holonomic__struct.h
+[1.292s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action/detail/move_holonomic__type_support.h
+[1.292s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action/detail/move_holonomic__functions.c
+[1.292s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action/detail/move_holonomic__functions.h
+[1.292s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/msg
+[1.292s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/msg/rosidl_generator_c__visibility_control.h
+[1.292s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/environment/library_path.sh
+[1.292s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/environment/library_path.dsv
+[1.292s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/lib/libmy_robot_navigation__rosidl_generator_c.so
+[1.292s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation
+[1.292s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action
+[1.292s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action/detail
+[1.292s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action/detail/move_holonomic__rosidl_typesupport_fastrtps_c.h
+[1.292s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/msg
+[1.292s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.292s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/lib/libmy_robot_navigation__rosidl_typesupport_fastrtps_c.so
+[1.292s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation
+[1.292s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action
+[1.292s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action/detail
+[1.292s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action/detail/move_holonomic__traits.hpp
+[1.293s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action/detail/move_holonomic__struct.hpp
+[1.293s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action/detail/move_holonomic__builder.hpp
+[1.293s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action/detail/move_holonomic__type_support.hpp
+[1.293s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action/move_holonomic.hpp
+[1.293s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/msg
+[1.293s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.293s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation
+[1.294s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action
+[1.294s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action/detail
+[1.294s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action/detail/dds_fastrtps
+[1.294s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action/detail/move_holonomic__rosidl_typesupport_fastrtps_cpp.hpp
+[1.294s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/msg
+[1.294s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.294s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/lib/libmy_robot_navigation__rosidl_typesupport_fastrtps_cpp.so
+[1.294s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation
+[1.294s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action
+[1.294s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action/detail
+[1.294s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action/detail/move_holonomic__rosidl_typesupport_introspection_c.h
+[1.294s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action/detail/move_holonomic__type_support.c
+[1.294s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/msg
+[1.294s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.295s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/lib/libmy_robot_navigation__rosidl_typesupport_introspection_c.so
+[1.295s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/lib/libmy_robot_navigation__rosidl_typesupport_c.so
+[1.295s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation
+[1.295s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action
+[1.295s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action/detail
+[1.295s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action/detail/move_holonomic__rosidl_typesupport_introspection_cpp.hpp
+[1.295s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/include/my_robot_navigation/my_robot_navigation/action/detail/move_holonomic__type_support.cpp
+[1.295s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/lib/libmy_robot_navigation__rosidl_typesupport_introspection_cpp.so
+[1.296s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/lib/libmy_robot_navigation__rosidl_typesupport_cpp.so
+[1.296s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/environment/pythonpath.sh
+[1.296s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/environment/pythonpath.dsv
+[1.296s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/local/lib/python3.10/dist-packages/my_robot_navigation-0.0.0-py3.10.egg-info
+[1.296s] -- Installing: /home/parsa/main_robot_ws/install/my_robot_navigation/local/lib/python3.10/dist-packages/my_robot_navigation-0.0.0-py3.10.egg-info/top_level.txt
+[1.296s] -- Installing: /home/parsa/main_robot_ws/install/my_robot_navigation/local/lib/python3.10/dist-packages/my_robot_navigation-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.296s] -- Installing: /home/parsa/main_robot_ws/install/my_robot_navigation/local/lib/python3.10/dist-packages/my_robot_navigation-0.0.0-py3.10.egg-info/PKG-INFO
+[1.296s] -- Installing: /home/parsa/main_robot_ws/install/my_robot_navigation/local/lib/python3.10/dist-packages/my_robot_navigation-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.297s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/local/lib/python3.10/dist-packages/my_robot_navigation
+[1.297s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/local/lib/python3.10/dist-packages/my_robot_navigation/_my_robot_navigation_s.ep.rosidl_typesupport_c.c
+[1.297s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/local/lib/python3.10/dist-packages/my_robot_navigation/_my_robot_navigation_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.297s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/local/lib/python3.10/dist-packages/my_robot_navigation/libmy_robot_navigation__rosidl_generator_py.so
+[1.297s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/local/lib/python3.10/dist-packages/my_robot_navigation/_my_robot_navigation_s.ep.rosidl_typesupport_introspection_c.c
+[1.297s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/local/lib/python3.10/dist-packages/my_robot_navigation/__init__.py
+[1.297s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/local/lib/python3.10/dist-packages/my_robot_navigation/action
+[1.297s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/local/lib/python3.10/dist-packages/my_robot_navigation/action/_move_holonomic.py
+[1.297s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/local/lib/python3.10/dist-packages/my_robot_navigation/action/_move_holonomic_s.c
+[1.297s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/local/lib/python3.10/dist-packages/my_robot_navigation/action/__init__.py
+[1.297s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/local/lib/python3.10/dist-packages/my_robot_navigation/my_robot_navigation_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.297s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/local/lib/python3.10/dist-packages/my_robot_navigation/my_robot_navigation_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.298s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/local/lib/python3.10/dist-packages/my_robot_navigation/my_robot_navigation_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.298s] Listing '/home/parsa/main_robot_ws/install/my_robot_navigation/local/lib/python3.10/dist-packages/my_robot_navigation'...
+[1.298s] Listing '/home/parsa/main_robot_ws/install/my_robot_navigation/local/lib/python3.10/dist-packages/my_robot_navigation/action'...
+[1.298s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/local/lib/python3.10/dist-packages/my_robot_navigation/my_robot_navigation_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.298s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/local/lib/python3.10/dist-packages/my_robot_navigation/my_robot_navigation_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.298s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/local/lib/python3.10/dist-packages/my_robot_navigation/my_robot_navigation_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.299s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/lib/libmy_robot_navigation__rosidl_generator_py.so
+[1.299s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/action/MoveHolonomic.idl
+[1.299s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/action/MoveHolonomic.action
+[1.299s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/ament_index/resource_index/package_run_dependencies/my_robot_navigation
+[1.299s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/ament_index/resource_index/parent_prefix_path/my_robot_navigation
+[1.299s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/environment/ament_prefix_path.sh
+[1.299s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/environment/ament_prefix_path.dsv
+[1.299s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/environment/path.sh
+[1.299s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/environment/path.dsv
+[1.299s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/local_setup.bash
+[1.299s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/local_setup.sh
+[1.300s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/local_setup.zsh
+[1.300s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/local_setup.dsv
+[1.300s] -- Installing: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/package.dsv
+[1.300s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/ament_index/resource_index/packages/my_robot_navigation
+[1.300s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/export_my_robot_navigation__rosidl_generator_cExport.cmake
+[1.300s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/export_my_robot_navigation__rosidl_generator_cExport-noconfig.cmake
+[1.300s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/export_my_robot_navigation__rosidl_typesupport_fastrtps_cExport.cmake
+[1.300s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/export_my_robot_navigation__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.300s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/export_my_robot_navigation__rosidl_generator_cppExport.cmake
+[1.300s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/export_my_robot_navigation__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.300s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/export_my_robot_navigation__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.300s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/my_robot_navigation__rosidl_typesupport_introspection_cExport.cmake
+[1.300s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/my_robot_navigation__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.300s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/my_robot_navigation__rosidl_typesupport_cExport.cmake
+[1.300s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/my_robot_navigation__rosidl_typesupport_cExport-noconfig.cmake
+[1.300s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/my_robot_navigation__rosidl_typesupport_introspection_cppExport.cmake
+[1.301s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/my_robot_navigation__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.301s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/my_robot_navigation__rosidl_typesupport_cppExport.cmake
+[1.302s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/my_robot_navigation__rosidl_typesupport_cppExport-noconfig.cmake
+[1.302s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/export_my_robot_navigation__rosidl_generator_pyExport.cmake
+[1.302s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/export_my_robot_navigation__rosidl_generator_pyExport-noconfig.cmake
+[1.303s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/rosidl_cmake-extras.cmake
+[1.303s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.303s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.303s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/ament_cmake_export_libraries-extras.cmake
+[1.303s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/ament_cmake_export_targets-extras.cmake
+[1.303s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.303s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.303s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/my_robot_navigationConfig.cmake
+[1.303s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/cmake/my_robot_navigationConfig-version.cmake
+[1.303s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/package.xml
+[1.333s] Invoked command in '/home/parsa/main_robot_ws/build/my_robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/my_robot_navigation

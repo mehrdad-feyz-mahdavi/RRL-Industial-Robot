@@ -1,0 +1,63 @@
+ <?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <!-- Arm Control Configuration -->
+    <ros2_control name="robot_arm" type="system">
+        <hardware>
+            <plugin>ros2_control_demo_example_2/RRBotSystemPositionOnlyHardware</plugin>
+        </hardware>
+        <joint name="arm_base_joint">
+            <command_interface name="position">
+                <param name="min">-3.14159265358979</param>
+                <param name="max">0.0</param>
+            </command_interface>
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+            <state_interface name="effort"/>
+        </joint>
+        <joint name="a2">
+            <command_interface name="position">
+                <param name="min">-2.30383484871392</param>
+                <param name="max">0.0</param>
+            </command_interface>
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+            <state_interface name="effort"/>
+        </joint>
+        <joint name="a3">
+            <command_interface name="position">
+                <param name="min">-1.74532925199433</param>
+                <param name="max">0.0</param>
+            </command_interface>
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+            <state_interface name="effort"/>
+        </joint>
+        <joint name="a4">
+            <command_interface name="position">
+                <param name="min">-0.6457718232379</param>
+                <param name="max">1.5707963267949</param>
+            </command_interface>
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+            <state_interface name="effort"/>
+        </joint>
+        <joint name="bg">
+            <command_interface name="position">
+                <param name="min">-3.1415</param>
+                <param name="max">0.0</param>
+            </command_interface>
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+            <state_interface name="effort"/>
+        </joint>
+        <joint name="g1">
+            <command_interface name="position">
+                <param name="min">-0.288</param>
+                <param name="max">0.134</param>
+            </command_interface>
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+            <state_interface name="effort"/>
+        </joint>
+    </ros2_control>
+</robot>

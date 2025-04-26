@@ -1,0 +1,240 @@
+/**:
+  ros__parameters:
+    # Robot frame settings
+    odom_frame: odom
+    map_frame: map
+    base_frame: base_link
+    scan_topic: /scan
+    mode: mapping  # options: mapping, localization, offline
+
+    # SLAM settings
+    use_scan_matching: true
+    use_scan_barycenter: true
+    minimum_travel_distance: 0.5
+    minimum_travel_heading: 0.5
+    scan_buffer_size: 10
+    scan_buffer_maximum_scan_distance: 10.0
+    link_match_minimum_response_fine: 0.1
+    link_scan_maximum_distance: 1.5
+    loop_search_maximum_distance: 3.0
+    do_loop_closing: true
+    loop_match_minimum_chain_size: 10
+    loop_match_maximum_variance_coarse: 3.0
+    loop_match_minimum_response_coarse: 0.35
+    loop_match_minimum_response_fine: 0.45
+
+    # Map settings
+    resolution: 0.05
+    map_start_pose: [0.0, 0.0, 0.0]
+    map_start_at_dock: false
+    map_file_name: ""
+    map_update_interval: 5.0
+    
+    # Advanced settings
+    transform_timeout: 0.2
+    tf_buffer_duration: 30.0
+    use_sim_time: false
+    debug_logging: false
+    solver_plugin: solver_plugins::CeresSolver
+    ceres_linear_solver: SPARSE_NORMAL_CHOLESKY
+    ceres_preconditioner: SCHUR_JACOBI
+    ceres_trust_strategy: LEVENBERG_MARQUARDT
+    ceres_dogleg_type: TRADITIONAL_DOGLEG
+    ceres_loss_function: None
+
+    # SLAM tool settings
+    angle_variance_penalty: 1.0
+    coarse_angle_resolution: 0.0349
+    coarse_search_angle_offset: 0.349
+    correlation_search_space_dimension: 0.5
+    correlation_search_space_resolution: 0.01
+    correlation_search_space_smear_deviation: 0.1
+    distance_variance_penalty: 0.5
+    enable_interactive_mode: true
+    fine_search_angle_offset: 0.00349
+    interactive_mode: false
+    loop_search_space_dimension: 8.0
+    loop_search_space_resolution: 0.05
+    loop_search_space_smear_deviation: 0.03
+    map_name: /map
+    minimum_angle_penalty: 0.9
+    minimum_distance_penalty: 0.5
+    minimum_time_interval: 0.5
+    paused_new_measurements: false
+    paused_processing: false
+    throttle_scans: 1
+    transform_publish_period: 0.02
+    tf_publish_rate: 0.0
+    unite_imu_method: 0
+
+    # Camera settings
+    accel_fps: 63
+    accel_info_qos: DEFAULT
+    accel_qos: SENSOR_DATA
+    align_depth:
+      enable: false
+      frames_queue_size: 16
+    angular_velocity_cov: 0.01
+    base_frame_id: link
+    camera_name: camera
+    clip_distance: -2.0
+    color_info_qos: DEFAULT
+    color_qos: SYSTEM_DEFAULT
+    colorizer:
+      color_scheme: 0
+      enable: false
+      frames_queue_size: 16
+      histogram_equalization_enabled: true
+      max_distance: 6.0
+      min_distance: 0.0
+      stream_filter: 1
+      stream_format_filter: 1
+      stream_index_filter: -1
+      visual_preset: 0
+    decimation_filter:
+      enable: false
+      filter_magnitude: 2
+      frames_queue_size: 16
+      stream_filter: 1
+      stream_format_filter: 1
+      stream_index_filter: -1
+    depth_info_qos: DEFAULT
+    depth_module:
+      auto_exposure_limit: 200000
+      auto_exposure_limit_toggle: false
+      auto_exposure_roi:
+        bottom: 479
+        left: 0
+        right: 847
+        top: 0
+      auto_gain_limit: 248
+      auto_gain_limit_toggle: false
+      emitter_always_on: false
+      emitter_enabled: 1
+      emitter_on_off: false
+      enable_auto_exposure: true
+      error_polling_enabled: true
+      exposure: 8500
+      frames_queue_size: 16
+      gain: 16
+      global_time_enabled: true
+      hdr_enabled: false
+      inter_cam_sync_mode: 0
+      laser_power: 150.0
+      output_trigger_enabled: false
+      profile: 848x480x30
+      sequence_id: 0
+      sequence_name: 0
+      sequence_size: 2
+      visual_preset: 0
+    depth_qos: SYSTEM_DEFAULT
+    device_type: ''
+    diagnostics_period: 0.0
+    disparity_filter:
+      enable: false
+    disparity_to_depth:
+      enable: false
+    enable_accel: true
+    enable_color: true
+    enable_depth: true
+    enable_gyro: true
+    enable_infra1: false
+    enable_infra2: false
+    enable_sync: false
+    filter_by_sequence_id:
+      enable: false
+      frames_queue_size: 16
+      sequence_id: 1
+    gyro_fps: 200
+    gyro_info_qos: DEFAULT
+    gyro_qos: SENSOR_DATA
+    hdr_merge:
+      enable: false
+      frames_queue_size: 16
+    hold_back_imu_for_frames: false
+    hole_filling_filter:
+      enable: false
+      frames_queue_size: 16
+      holes_fill: 1
+      stream_filter: 1
+      stream_format_filter: 1
+      stream_index_filter: -1
+    infra1_info_qos: DEFAULT
+    infra1_qos: SYSTEM_DEFAULT
+    infra2_info_qos: DEFAULT
+    infra2_qos: SYSTEM_DEFAULT
+    initial_reset: true
+    json_file_path: ''
+    linear_accel_cov: 0.01
+    motion_module:
+      enable_motion_correction: true
+      frames_queue_size: 16
+      global_time_enabled: true
+    pointcloud:
+      allow_no_texture_points: false
+      enable: false
+      filter_magnitude: 2
+      frames_queue_size: 16
+      ordered_pc: false
+      pointcloud_qos: DEFAULT
+      stream_filter: 2
+      stream_format_filter: 0
+      stream_index_filter: 0
+    publish_odom_tf: true
+    publish_tf: true
+    reconnect_timeout: 6.0
+    rgb_camera:
+      auto_exposure_priority: false
+      auto_exposure_roi:
+        bottom: 719
+        left: 0
+        right: 1279
+        top: 0
+      backlight_compensation: false
+      brightness: 0
+      contrast: 50
+      enable_auto_exposure: true
+      enable_auto_white_balance: true
+      exposure: 166
+      frames_queue_size: 16
+      gain: 64
+      gamma: 300
+      global_time_enabled: true
+      hue: 0
+      power_line_frequency: null
+      profile: 1280x720x30
+      saturation: 64
+      sharpness: 50
+      white_balance: 4600.0
+    rosbag_filename: ''
+    serial_no: ''
+    spatial_filter:
+      enable: false
+      filter_magnitude: 2
+      filter_smooth_alpha: 0.5
+      filter_smooth_delta: 20
+      frames_queue_size: 16
+      holes_fill: 0
+      stream_filter: 1
+      stream_format_filter: 1
+      stream_index_filter: -1
+    temporal_filter:
+      enable: false
+      filter_smooth_alpha: 0.4000000059604645
+      filter_smooth_delta: 20
+      frames_queue_size: 16
+      holes_fill: 3
+      stream_filter: 1
+      stream_format_filter: 1
+      stream_index_filter: -1
+    usb_port_id: ''
+    wait_for_device_timeout: -1.0
+
+/depthimage_to_laserscan_node:
+  ros__parameters:
+    output_frame: camera_depth_frame
+    range_max: 10.0
+    range_min: 0.45
+    scan_height: 1
+    scan_time: 0.033
+    use_sim_time: false

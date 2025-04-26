@@ -1,0 +1,7 @@
+{
+  "package_name": "my_robot_camera_msgs",
+  "non_idl_tuples": [
+    "/home/parsa/main_robot_ws/src/my_robot_camera_msgs:msg/Detection.msg",
+    "/home/parsa/main_robot_ws/src/my_robot_camera_msgs:msg/DetectionArray.msg"
+  ]
+}

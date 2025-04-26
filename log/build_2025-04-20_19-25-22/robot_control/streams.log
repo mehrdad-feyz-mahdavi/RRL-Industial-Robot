@@ -1,0 +1,29 @@
+[1.970s] Invoking command in '/home/parsa/main_robot_ws/src/robot_control': PYTHONPATH=/home/parsa/main_robot_ws/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/parsa/main_robot_ws/build/robot_control/build install --record /home/parsa/main_robot_ws/build/robot_control/install.log --single-version-externally-managed install_data
+[2.165s] running egg_info
+[2.166s] writing ../../build/robot_control/robot_control.egg-info/PKG-INFO
+[2.166s] writing dependency_links to ../../build/robot_control/robot_control.egg-info/dependency_links.txt
+[2.166s] writing entry points to ../../build/robot_control/robot_control.egg-info/entry_points.txt
+[2.167s] writing requirements to ../../build/robot_control/robot_control.egg-info/requires.txt
+[2.167s] writing top-level names to ../../build/robot_control/robot_control.egg-info/top_level.txt
+[2.169s] reading manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[2.170s] writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[2.170s] running build
+[2.170s] running build_py
+[2.170s] copying robot_control/robot_server.py -> /home/parsa/main_robot_ws/build/robot_control/build/lib/robot_control
+[2.171s] running install
+[2.171s] running install_lib
+[2.172s] copying /home/parsa/main_robot_ws/build/robot_control/build/lib/robot_control/robot_server.py -> /home/parsa/main_robot_ws/install/robot_control/lib/python3.10/site-packages/robot_control
+[2.173s] byte-compiling /home/parsa/main_robot_ws/install/robot_control/lib/python3.10/site-packages/robot_control/robot_server.py to robot_server.cpython-310.pyc
+[2.176s] running install_data
+[2.176s] running install_egg_info
+[2.179s] removing '/home/parsa/main_robot_ws/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.0-py3.10.egg-info' (and everything under it)
+[2.179s] Copying ../../build/robot_control/robot_control.egg-info to /home/parsa/main_robot_ws/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.0-py3.10.egg-info
+[2.180s] running install_scripts
+[2.207s] Installing arm_controller_node script to /home/parsa/main_robot_ws/install/robot_control/lib/robot_control
+[2.208s] Installing arm_driver_node script to /home/parsa/main_robot_ws/install/robot_control/lib/robot_control
+[2.208s] Installing arm_gui script to /home/parsa/main_robot_ws/install/robot_control/lib/robot_control
+[2.208s] Installing arm_server script to /home/parsa/main_robot_ws/install/robot_control/lib/robot_control
+[2.208s] Installing old_robot_server script to /home/parsa/main_robot_ws/install/robot_control/lib/robot_control
+[2.208s] Installing robot_server script to /home/parsa/main_robot_ws/install/robot_control/lib/robot_control
+[2.209s] writing list of installed files to '/home/parsa/main_robot_ws/build/robot_control/install.log'
+[2.302s] Invoked command in '/home/parsa/main_robot_ws/src/robot_control' returned '0': PYTHONPATH=/home/parsa/main_robot_ws/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/parsa/main_robot_ws/build/robot_control/build install --record /home/parsa/main_robot_ws/build/robot_control/install.log --single-version-externally-managed install_data

@@ -1,0 +1,9 @@
+setup.py
+my_robot_camera_msgs/__init__.py
+my_robot_camera_msgs.egg-info/PKG-INFO
+my_robot_camera_msgs.egg-info/SOURCES.txt
+my_robot_camera_msgs.egg-info/dependency_links.txt
+my_robot_camera_msgs.egg-info/top_level.txt
+my_robot_camera_msgs/msg/__init__.py
+my_robot_camera_msgs/msg/_detection.py
+my_robot_camera_msgs/msg/_detection_array.py

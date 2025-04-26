@@ -1,0 +1,7 @@
+{
+  "package_name": "race_orchestrator",
+  "non_idl_tuples": [
+    "/home/parsa/main_robot_ws/src/race_orchestrator:msg/RaceParameters.msg",
+    "/home/parsa/main_robot_ws/src/race_orchestrator:msg/RaceStatus.msg"
+  ]
+}

@@ -1,0 +1,3 @@
+[console_scripts]
+state_pub = state_publisher.state_publisher:main
+

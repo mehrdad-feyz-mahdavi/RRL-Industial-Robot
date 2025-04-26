@@ -1,0 +1,6 @@
+msg/ArmCommand.idl
+msg/ArmCommand.msg
+srv/ArmPreset.idl
+srv/ArmPreset.srv
+srv/ArmPreset_Request.msg
+srv/ArmPreset_Response.msg

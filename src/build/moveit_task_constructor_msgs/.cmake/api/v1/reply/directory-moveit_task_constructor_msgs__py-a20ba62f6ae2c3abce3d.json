@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "moveit_task_constructor_msgs__py",
+		"source" : "/home/parsa/main_robot_ws/src/build/moveit_task_constructor_msgs/moveit_task_constructor_msgs__py"
+	}
+}

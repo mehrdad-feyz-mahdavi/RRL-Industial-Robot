@@ -1,0 +1,62 @@
+[0.031s] Invoking command in '/home/parsa/main_robot_ws/src/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/parsa/main_robot_ws/src/install/ldlidar_stl_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parsa/main_robot_ws/src/install/ldlidar_stl_ros2:/home/parsa/main_robot_ws/install/my_robot_moveit_config:/home/parsa/main_robot_ws/install/my_robot_bringup:/home/parsa/main_robot_ws/install/robot_description:/home/parsa/main_robot_ws/install/robot_control_interfaces:/home/parsa/main_robot_ws/install/race_orchestrator:/home/parsa/main_robot_ws/install/my_robot_navigation:/home/parsa/main_robot_ws/install/my_robot_camera_msgs:/home/parsa/main_robot_ws/install/ldlidar_stl_ros2:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/opt/ros/humble /home/parsa/.local/bin/cmake /home/parsa/main_robot_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/parsa/main_robot_ws/src/install/my_robot_bringup
+[0.262s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.262s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.262s]   CMake.
+[0.262s] 
+[0.262s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.262s]   to tell CMake that the project requires at least <min> but has been updated
+[0.262s]   to work with policies introduced by <max> or earlier.
+[0.262s] 
+[0.262s] [0m
+[0.379s] -- The C compiler identification is GNU 11.4.0
+[0.619s] -- The CXX compiler identification is GNU 11.4.0
+[0.639s] -- Detecting C compiler ABI info
+[0.811s] -- Detecting C compiler ABI info - done
+[0.872s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.873s] -- Detecting C compile features
+[0.873s] -- Detecting C compile features - done
+[0.926s] -- Detecting CXX compiler ABI info
+[1.137s] -- Detecting CXX compiler ABI info - done
+[1.207s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.207s] -- Detecting CXX compile features
+[1.208s] -- Detecting CXX compile features - done
+[1.230s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.584s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.961s] -- Configuring done (1.7s)
+[1.966s] -- Generating done (0.0s)
+[1.967s] -- Build files have been written to: /home/parsa/main_robot_ws/src/build/my_robot_bringup
+[1.974s] Invoked command in '/home/parsa/main_robot_ws/src/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/parsa/main_robot_ws/src/install/ldlidar_stl_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parsa/main_robot_ws/src/install/ldlidar_stl_ros2:/home/parsa/main_robot_ws/install/my_robot_moveit_config:/home/parsa/main_robot_ws/install/my_robot_bringup:/home/parsa/main_robot_ws/install/robot_description:/home/parsa/main_robot_ws/install/robot_control_interfaces:/home/parsa/main_robot_ws/install/race_orchestrator:/home/parsa/main_robot_ws/install/my_robot_navigation:/home/parsa/main_robot_ws/install/my_robot_camera_msgs:/home/parsa/main_robot_ws/install/ldlidar_stl_ros2:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/opt/ros/humble /home/parsa/.local/bin/cmake /home/parsa/main_robot_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/parsa/main_robot_ws/src/install/my_robot_bringup
+[1.976s] Invoking command in '/home/parsa/main_robot_ws/src/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/parsa/main_robot_ws/src/install/ldlidar_stl_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parsa/main_robot_ws/src/install/ldlidar_stl_ros2:/home/parsa/main_robot_ws/install/my_robot_moveit_config:/home/parsa/main_robot_ws/install/my_robot_bringup:/home/parsa/main_robot_ws/install/robot_description:/home/parsa/main_robot_ws/install/robot_control_interfaces:/home/parsa/main_robot_ws/install/race_orchestrator:/home/parsa/main_robot_ws/install/my_robot_navigation:/home/parsa/main_robot_ws/install/my_robot_camera_msgs:/home/parsa/main_robot_ws/install/ldlidar_stl_ros2:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/src/build/my_robot_bringup -- -j16 -l16
+[2.076s] Invoked command in '/home/parsa/main_robot_ws/src/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/parsa/main_robot_ws/src/install/ldlidar_stl_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parsa/main_robot_ws/src/install/ldlidar_stl_ros2:/home/parsa/main_robot_ws/install/my_robot_moveit_config:/home/parsa/main_robot_ws/install/my_robot_bringup:/home/parsa/main_robot_ws/install/robot_description:/home/parsa/main_robot_ws/install/robot_control_interfaces:/home/parsa/main_robot_ws/install/race_orchestrator:/home/parsa/main_robot_ws/install/my_robot_navigation:/home/parsa/main_robot_ws/install/my_robot_camera_msgs:/home/parsa/main_robot_ws/install/ldlidar_stl_ros2:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/src/build/my_robot_bringup -- -j16 -l16
+[2.077s] Invoking command in '/home/parsa/main_robot_ws/src/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/parsa/main_robot_ws/src/install/ldlidar_stl_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parsa/main_robot_ws/src/install/ldlidar_stl_ros2:/home/parsa/main_robot_ws/install/my_robot_moveit_config:/home/parsa/main_robot_ws/install/my_robot_bringup:/home/parsa/main_robot_ws/install/robot_description:/home/parsa/main_robot_ws/install/robot_control_interfaces:/home/parsa/main_robot_ws/install/race_orchestrator:/home/parsa/main_robot_ws/install/my_robot_navigation:/home/parsa/main_robot_ws/install/my_robot_camera_msgs:/home/parsa/main_robot_ws/install/ldlidar_stl_ros2:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/src/build/my_robot_bringup
+[2.157s] -- Install configuration: ""
+[2.157s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/launch
+[2.157s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/launch/sensors.launch.py
+[2.157s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/launch/core.launch.py
+[2.157s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/launch/test_tf.launch.py
+[2.157s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/launch/robot.launch.py
+[2.157s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/config
+[2.157s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/config/lidar_config.yaml
+[2.157s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/config/slam_config.yaml
+[2.157s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/maps
+[2.157s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/maps/map.data
+[2.157s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/maps/map.posegraph
+[2.157s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/scripts
+[2.157s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/rviz
+[2.158s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/rviz/robot.rviz
+[2.158s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+[2.158s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+[2.158s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+[2.158s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+[2.158s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+[2.158s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+[2.158s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+[2.159s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+[2.159s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+[2.159s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+[2.159s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+[2.159s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+[2.159s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+[2.159s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+[2.159s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_bringup/share/my_robot_bringup/package.xml
+[2.161s] Invoked command in '/home/parsa/main_robot_ws/src/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/parsa/main_robot_ws/src/install/ldlidar_stl_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parsa/main_robot_ws/src/install/ldlidar_stl_ros2:/home/parsa/main_robot_ws/install/my_robot_moveit_config:/home/parsa/main_robot_ws/install/my_robot_bringup:/home/parsa/main_robot_ws/install/robot_description:/home/parsa/main_robot_ws/install/robot_control_interfaces:/home/parsa/main_robot_ws/install/race_orchestrator:/home/parsa/main_robot_ws/install/my_robot_navigation:/home/parsa/main_robot_ws/install/my_robot_camera_msgs:/home/parsa/main_robot_ws/install/ldlidar_stl_ros2:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/src/build/my_robot_bringup

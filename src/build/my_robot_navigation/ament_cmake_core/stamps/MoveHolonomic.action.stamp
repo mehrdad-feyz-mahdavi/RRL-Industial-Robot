@@ -1,0 +1,11 @@
+# Request
+geometry_msgs/Point target_position
+float32 max_velocity
+---
+# Result
+bool success
+string message
+---
+# Feedback
+float32 distance_remaining
+geometry_msgs/Pose current_pose

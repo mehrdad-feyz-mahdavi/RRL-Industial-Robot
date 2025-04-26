@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "my_robot_navigation__py",
+		"source" : "/home/parsa/main_robot_ws/build/my_robot_navigation/my_robot_navigation__py"
+	}
+}

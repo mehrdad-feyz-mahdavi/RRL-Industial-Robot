@@ -1,0 +1,14 @@
+source;share/race_orchestrator/hook/cmake_prefix_path.ps1
+source;share/race_orchestrator/hook/cmake_prefix_path.dsv
+source;share/race_orchestrator/hook/cmake_prefix_path.sh
+source;share/race_orchestrator/hook/ld_library_path_lib.ps1
+source;share/race_orchestrator/hook/ld_library_path_lib.dsv
+source;share/race_orchestrator/hook/ld_library_path_lib.sh
+source;share/race_orchestrator/hook/pythonpath.ps1
+source;share/race_orchestrator/hook/pythonpath.dsv
+source;share/race_orchestrator/hook/pythonpath.sh
+source;share/race_orchestrator/local_setup.bash
+source;share/race_orchestrator/local_setup.dsv
+source;share/race_orchestrator/local_setup.ps1
+source;share/race_orchestrator/local_setup.sh
+source;share/race_orchestrator/local_setup.zsh

@@ -1,0 +1,41 @@
+[1.649s] Invoking command in '/home/parsa/main_robot_ws/src/referee_box': PYTHONPATH=/home/parsa/main_robot_ws/build/referee_box/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/referee_box/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/referee_box build --build-base /home/parsa/main_robot_ws/build/referee_box/build install --record /home/parsa/main_robot_ws/build/referee_box/install.log --single-version-externally-managed install_data
+[1.850s] running egg_info
+[1.850s] creating ../../build/referee_box/referee_box.egg-info
+[1.850s] writing ../../build/referee_box/referee_box.egg-info/PKG-INFO
+[1.850s] writing dependency_links to ../../build/referee_box/referee_box.egg-info/dependency_links.txt
+[1.851s] writing entry points to ../../build/referee_box/referee_box.egg-info/entry_points.txt
+[1.851s] writing requirements to ../../build/referee_box/referee_box.egg-info/requires.txt
+[1.851s] writing top-level names to ../../build/referee_box/referee_box.egg-info/top_level.txt
+[1.851s] writing manifest file '../../build/referee_box/referee_box.egg-info/SOURCES.txt'
+[1.853s] reading manifest file '../../build/referee_box/referee_box.egg-info/SOURCES.txt'
+[1.853s] writing manifest file '../../build/referee_box/referee_box.egg-info/SOURCES.txt'
+[1.853s] running build
+[1.854s] running build_py
+[1.854s] creating /home/parsa/main_robot_ws/build/referee_box/build
+[1.854s] creating /home/parsa/main_robot_ws/build/referee_box/build/lib
+[1.854s] creating /home/parsa/main_robot_ws/build/referee_box/build/lib/referee_box
+[1.854s] copying referee_box/__init__.py -> /home/parsa/main_robot_ws/build/referee_box/build/lib/referee_box
+[1.854s] copying referee_box/referee_box_node.py -> /home/parsa/main_robot_ws/build/referee_box/build/lib/referee_box
+[1.854s] running install
+[1.854s] running install_lib
+[1.855s] creating /home/parsa/main_robot_ws/install/referee_box/lib/python3.10/site-packages/referee_box
+[1.855s] copying /home/parsa/main_robot_ws/build/referee_box/build/lib/referee_box/__init__.py -> /home/parsa/main_robot_ws/install/referee_box/lib/python3.10/site-packages/referee_box
+[1.855s] copying /home/parsa/main_robot_ws/build/referee_box/build/lib/referee_box/referee_box_node.py -> /home/parsa/main_robot_ws/install/referee_box/lib/python3.10/site-packages/referee_box
+[1.856s] byte-compiling /home/parsa/main_robot_ws/install/referee_box/lib/python3.10/site-packages/referee_box/__init__.py to __init__.cpython-310.pyc
+[1.856s] byte-compiling /home/parsa/main_robot_ws/install/referee_box/lib/python3.10/site-packages/referee_box/referee_box_node.py to referee_box_node.cpython-310.pyc
+[1.858s] running install_data
+[1.858s] creating /home/parsa/main_robot_ws/install/referee_box/share/ament_index
+[1.858s] creating /home/parsa/main_robot_ws/install/referee_box/share/ament_index/resource_index
+[1.858s] creating /home/parsa/main_robot_ws/install/referee_box/share/ament_index/resource_index/packages
+[1.858s] copying resource/referee_box -> /home/parsa/main_robot_ws/install/referee_box/share/ament_index/resource_index/packages
+[1.858s] copying package.xml -> /home/parsa/main_robot_ws/install/referee_box/share/referee_box
+[1.859s] creating /home/parsa/main_robot_ws/install/referee_box/share/referee_box/config
+[1.859s] copying referee_box/config/referee_config.yaml -> /home/parsa/main_robot_ws/install/referee_box/share/referee_box/config
+[1.859s] creating /home/parsa/main_robot_ws/install/referee_box/share/referee_box/launch
+[1.859s] copying launch/referee_box.launch.py -> /home/parsa/main_robot_ws/install/referee_box/share/referee_box/launch
+[1.859s] running install_egg_info
+[1.860s] Copying ../../build/referee_box/referee_box.egg-info to /home/parsa/main_robot_ws/install/referee_box/lib/python3.10/site-packages/referee_box-0.0.1-py3.10.egg-info
+[1.861s] running install_scripts
+[1.881s] Installing referee_box_node script to /home/parsa/main_robot_ws/install/referee_box/lib/referee_box
+[1.882s] writing list of installed files to '/home/parsa/main_robot_ws/build/referee_box/install.log'
+[1.932s] Invoked command in '/home/parsa/main_robot_ws/src/referee_box' returned '0': PYTHONPATH=/home/parsa/main_robot_ws/build/referee_box/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/referee_box/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/referee_box build --build-base /home/parsa/main_robot_ws/build/referee_box/build install --record /home/parsa/main_robot_ws/build/referee_box/install.log --single-version-externally-managed install_data

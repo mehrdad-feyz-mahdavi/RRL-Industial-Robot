@@ -1,0 +1,27 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/parsa/main_robot_ws/build/inverse_kinematics",
+        "/home/parsa/main_robot_ws/install/inverse_kinematics/lib/python3.10/site-packages",
+        "/home/parsa/main_robot_ws/install/vel_generator/lib/python3.10/site-packages",
+        "/home/parsa/main_robot_ws/install/serial_motor_demo/lib/python3.10/site-packages",
+        "/home/parsa/main_robot_ws/install/my_nodee/lib/python3.10/site-packages",
+        "/home/parsa/main_robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages",
+        "/home/parsa/main_robot_ws/install/odometry/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/parsa/main_robot_ws/build/inverse_kinematics",
+        "/home/parsa/main_robot_ws/install/inverse_kinematics/lib/python3.10/site-packages",
+        "/home/parsa/main_robot_ws/install/vel_generator/lib/python3.10/site-packages",
+        "/home/parsa/main_robot_ws/install/serial_motor_demo/lib/python3.10/site-packages",
+        "/home/parsa/main_robot_ws/install/my_nodee/lib/python3.10/site-packages",
+        "/home/parsa/main_robot_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages",
+        "/home/parsa/main_robot_ws/install/odometry/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "files.associations": {
+        "*.ipp": "cpp"
+    }
+}

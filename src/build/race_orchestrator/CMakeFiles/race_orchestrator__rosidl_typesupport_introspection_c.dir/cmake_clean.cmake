@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/race_orchestrator__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/race_orchestrator/msg/detail/race_parameters__type_support.c.o"
+  "CMakeFiles/race_orchestrator__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/race_orchestrator/msg/detail/race_parameters__type_support.c.o.d"
+  "CMakeFiles/race_orchestrator__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/race_orchestrator/msg/detail/race_status__type_support.c.o"
+  "CMakeFiles/race_orchestrator__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/race_orchestrator/msg/detail/race_status__type_support.c.o.d"
+  "librace_orchestrator__rosidl_typesupport_introspection_c.pdb"
+  "librace_orchestrator__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/race_orchestrator/msg/detail/race_parameters__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/race_orchestrator/msg/detail/race_parameters__type_support.c"
+  "rosidl_typesupport_introspection_c/race_orchestrator/msg/detail/race_status__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/race_orchestrator/msg/detail/race_status__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/race_orchestrator__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,34 @@
+[0.012s] Invoking command in '/home/parsa/main_robot_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/parsa/main_robot_ws/install/ldlidar_stl_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parsa/main_robot_ws/install/ldlidar_stl_ros2:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/my_robot_bringup -- -j16 -l16
+[0.106s] Invoked command in '/home/parsa/main_robot_ws/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/parsa/main_robot_ws/install/ldlidar_stl_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parsa/main_robot_ws/install/ldlidar_stl_ros2:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/my_robot_bringup -- -j16 -l16
+[0.107s] Invoking command in '/home/parsa/main_robot_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/parsa/main_robot_ws/install/ldlidar_stl_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parsa/main_robot_ws/install/ldlidar_stl_ros2:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/my_robot_bringup
+[0.163s] -- Install configuration: ""
+[0.163s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/launch
+[0.163s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/launch/sensors.launch.py
+[0.163s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/launch/core.launch.py
+[0.163s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/launch/test_tf.launch.py
+[0.163s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/launch/robot.launch.py
+[0.163s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/config
+[0.163s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/config/lidar_config.yaml
+[0.164s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/config/slam_config.yaml
+[0.164s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/maps
+[0.164s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/maps/map.data
+[0.164s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/maps/map.posegraph
+[0.164s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/scripts
+[0.164s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/rviz
+[0.164s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/rviz/robot.rviz
+[0.164s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+[0.164s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+[0.164s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+[0.164s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+[0.164s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+[0.165s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+[0.165s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+[0.165s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+[0.165s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+[0.165s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+[0.165s] -- Installing: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+[0.165s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+[0.165s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+[0.165s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+[0.165s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/package.xml
+[0.166s] Invoked command in '/home/parsa/main_robot_ws/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/parsa/main_robot_ws/install/ldlidar_stl_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parsa/main_robot_ws/install/ldlidar_stl_ros2:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/my_robot_bringup

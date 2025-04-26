@@ -1,0 +1,21 @@
+[1.760s] Invoking command in '/home/parsa/main_robot_ws/src/referee_box': PYTHONPATH=/home/parsa/main_robot_ws/build/referee_box/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/referee_box/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/referee_box build --build-base /home/parsa/main_robot_ws/build/referee_box/build install --record /home/parsa/main_robot_ws/build/referee_box/install.log --single-version-externally-managed install_data
+[1.954s] running egg_info
+[1.955s] writing ../../build/referee_box/referee_box.egg-info/PKG-INFO
+[1.955s] writing dependency_links to ../../build/referee_box/referee_box.egg-info/dependency_links.txt
+[1.955s] writing entry points to ../../build/referee_box/referee_box.egg-info/entry_points.txt
+[1.955s] writing requirements to ../../build/referee_box/referee_box.egg-info/requires.txt
+[1.956s] writing top-level names to ../../build/referee_box/referee_box.egg-info/top_level.txt
+[1.956s] reading manifest file '../../build/referee_box/referee_box.egg-info/SOURCES.txt'
+[1.957s] writing manifest file '../../build/referee_box/referee_box.egg-info/SOURCES.txt'
+[1.957s] running build
+[1.957s] running build_py
+[1.957s] running install
+[1.957s] running install_lib
+[1.958s] running install_data
+[1.959s] running install_egg_info
+[1.960s] removing '/home/parsa/main_robot_ws/install/referee_box/lib/python3.10/site-packages/referee_box-0.0.1-py3.10.egg-info' (and everything under it)
+[1.960s] Copying ../../build/referee_box/referee_box.egg-info to /home/parsa/main_robot_ws/install/referee_box/lib/python3.10/site-packages/referee_box-0.0.1-py3.10.egg-info
+[1.961s] running install_scripts
+[1.976s] Installing referee_box_node script to /home/parsa/main_robot_ws/install/referee_box/lib/referee_box
+[1.977s] writing list of installed files to '/home/parsa/main_robot_ws/build/referee_box/install.log'
+[2.030s] Invoked command in '/home/parsa/main_robot_ws/src/referee_box' returned '0': PYTHONPATH=/home/parsa/main_robot_ws/build/referee_box/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/referee_box/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/referee_box build --build-base /home/parsa/main_robot_ws/build/referee_box/build install --record /home/parsa/main_robot_ws/build/referee_box/install.log --single-version-externally-managed install_data

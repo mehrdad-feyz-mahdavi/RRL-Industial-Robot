@@ -1,0 +1,3 @@
+[console_scripts]
+referee_box_node = referee_box.referee_box_node:main
+

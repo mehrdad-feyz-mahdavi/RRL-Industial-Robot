@@ -1,0 +1,314 @@
+[0.663s] Invoking command in '/home/parsa/main_robot_ws/src/build/race_orchestrator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/opt/ros/humble /home/parsa/.local/bin/cmake /home/parsa/main_robot_ws/src/race_orchestrator -DCMAKE_INSTALL_PREFIX=/home/parsa/main_robot_ws/src/install/race_orchestrator
+[0.732s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.732s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.732s]   CMake.
+[0.732s] 
+[0.732s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.732s]   to tell CMake that the project requires at least <min> but has been updated
+[0.732s]   to work with policies introduced by <max> or earlier.
+[0.732s] 
+[0.732s] [0m
+[0.776s] -- The C compiler identification is GNU 11.4.0
+[0.827s] -- The CXX compiler identification is GNU 11.4.0
+[0.834s] -- Detecting C compiler ABI info
+[0.886s] -- Detecting C compiler ABI info - done
+[0.903s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.903s] -- Detecting C compile features
+[0.903s] -- Detecting C compile features - done
+[0.916s] -- Detecting CXX compiler ABI info
+[1.001s] -- Detecting CXX compiler ABI info - done
+[1.018s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.018s] -- Detecting CXX compile features
+[1.018s] -- Detecting CXX compile features - done
+[1.036s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.200s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.421s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[1.431s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[1.546s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.571s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.600s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.625s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.667s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.727s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.756s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.792s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.821s] -- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.853s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.575s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.912s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.464s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.467s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[4.467s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[4.467s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[4.467s]   the cmake_policy command to set the policy and suppress this warning.
+[4.467s] 
+[4.467s] Call Stack (most recent call first):
+[4.467s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[4.467s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[4.467s]   CMakeLists.txt:20 (rosidl_generate_interfaces)
+[4.467s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.467s] [0m
+[4.490s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")
+[4.504s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.506s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[4.506s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[4.506s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[4.506s]   the cmake_policy command to set the policy and suppress this warning.
+[4.506s] 
+[4.506s] Call Stack (most recent call first):
+[4.506s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[4.506s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[4.506s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[4.506s]   CMakeLists.txt:20 (rosidl_generate_interfaces)
+[4.506s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.506s] [0m
+[4.533s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[4.533s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[4.533s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[4.533s]   the cmake_policy command to set the policy and suppress this warning.
+[4.533s] 
+[4.533s] Call Stack (most recent call first):
+[4.533s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[4.533s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[4.534s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[4.534s]   CMakeLists.txt:20 (rosidl_generate_interfaces)
+[4.534s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.534s] [0m
+[4.545s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")
+[4.546s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.546s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.546s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.574s] -- Found PythonExtra: .so
+[4.672s] -- Configuring done (3.9s)
+[4.732s] -- Generating done (0.1s)
+[4.740s] -- Build files have been written to: /home/parsa/main_robot_ws/src/build/race_orchestrator
+[4.756s] Invoked command in '/home/parsa/main_robot_ws/src/build/race_orchestrator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/opt/ros/humble /home/parsa/.local/bin/cmake /home/parsa/main_robot_ws/src/race_orchestrator -DCMAKE_INSTALL_PREFIX=/home/parsa/main_robot_ws/src/install/race_orchestrator
+[4.756s] Invoking command in '/home/parsa/main_robot_ws/src/build/race_orchestrator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/src/build/race_orchestrator -- -j16 -l16
+[4.926s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.938s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.978s] [  5%] Built target ament_cmake_python_copy_race_orchestrator
+[5.536s] running egg_info
+[5.537s] creating race_orchestrator.egg-info
+[5.538s] writing race_orchestrator.egg-info/PKG-INFO
+[5.538s] writing dependency_links to race_orchestrator.egg-info/dependency_links.txt
+[5.538s] writing top-level names to race_orchestrator.egg-info/top_level.txt
+[5.538s] writing manifest file 'race_orchestrator.egg-info/SOURCES.txt'
+[5.544s] reading manifest file 'race_orchestrator.egg-info/SOURCES.txt'
+[5.544s] writing manifest file 'race_orchestrator.egg-info/SOURCES.txt'
+[5.551s] [  7%] [32mBuilding C object CMakeFiles/race_orchestrator__rosidl_generator_c.dir/rosidl_generator_c/race_orchestrator/msg/detail/race_status__functions.c.o[0m
+[5.553s] [ 10%] [32mBuilding C object CMakeFiles/race_orchestrator__rosidl_generator_c.dir/rosidl_generator_c/race_orchestrator/msg/detail/race_parameters__functions.c.o[0m
+[5.646s] [ 10%] Built target ament_cmake_python_build_race_orchestrator_egg
+[5.670s] [ 12%] [32m[1mLinking C shared library librace_orchestrator__rosidl_generator_c.so[0m
+[5.747s] [ 12%] Built target race_orchestrator__rosidl_generator_c
+[5.750s] [ 12%] Built target race_orchestrator__cpp
+[5.758s] [ 15%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.763s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.765s] [ 23%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.765s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.227s] [ 25%] [32mBuilding CXX object CMakeFiles/race_orchestrator__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/race_orchestrator/msg/detail/race_parameters__type_support_c.cpp.o[0m
+[6.234s] [ 28%] [32mBuilding CXX object CMakeFiles/race_orchestrator__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/race_orchestrator/msg/detail/race_status__type_support_c.cpp.o[0m
+[6.275s] [ 30%] [32mBuilding C object CMakeFiles/race_orchestrator__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/race_orchestrator/msg/detail/race_parameters__type_support.c.o[0m
+[6.278s] [ 33%] [32mBuilding C object CMakeFiles/race_orchestrator__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/race_orchestrator/msg/detail/race_status__type_support.c.o[0m
+[6.294s] [ 35%] [32mBuilding CXX object CMakeFiles/race_orchestrator__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/race_orchestrator/msg/detail/race_parameters__type_support.cpp.o[0m
+[6.295s] [ 38%] [32mBuilding CXX object CMakeFiles/race_orchestrator__rosidl_typesupport_c.dir/rosidl_typesupport_c/race_orchestrator/msg/race_parameters__type_support.cpp.o[0m
+[6.298s] [ 43%] [32mBuilding CXX object CMakeFiles/race_orchestrator__rosidl_typesupport_c.dir/rosidl_typesupport_c/race_orchestrator/msg/race_status__type_support.cpp.o[0m
+[6.298s] [ 43%] [32mBuilding CXX object CMakeFiles/race_orchestrator__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/race_orchestrator/msg/detail/race_status__type_support.cpp.o[0m
+[6.344s] [ 46%] [32m[1mLinking C shared library librace_orchestrator__rosidl_typesupport_introspection_c.so[0m
+[6.355s] [ 48%] [32m[1mLinking CXX shared library librace_orchestrator__rosidl_typesupport_c.so[0m
+[6.381s] [ 48%] Built target race_orchestrator__rosidl_typesupport_introspection_c
+[6.396s] [ 51%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.402s] [ 53%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.412s] [ 53%] Built target race_orchestrator__rosidl_typesupport_c
+[6.737s] [ 56%] [32m[1mLinking CXX shared library librace_orchestrator__rosidl_typesupport_fastrtps_c.so[0m
+[6.899s] [ 58%] [32mBuilding CXX object CMakeFiles/race_orchestrator__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/race_orchestrator/msg/race_status__type_support.cpp.o[0m
+[6.909s] [ 61%] [32mBuilding CXX object CMakeFiles/race_orchestrator__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/race_orchestrator/msg/race_parameters__type_support.cpp.o[0m
+[6.954s] [ 61%] Built target race_orchestrator__rosidl_typesupport_fastrtps_c
+[7.018s] [ 64%] [32m[1mLinking CXX shared library librace_orchestrator__rosidl_typesupport_introspection_cpp.so[0m
+[7.137s] [ 66%] [32mBuilding CXX object CMakeFiles/race_orchestrator__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/race_orchestrator/msg/detail/dds_fastrtps/race_parameters__type_support.cpp.o[0m
+[7.142s] [ 69%] [32mBuilding CXX object CMakeFiles/race_orchestrator__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/race_orchestrator/msg/detail/dds_fastrtps/race_status__type_support.cpp.o[0m
+[7.176s] [ 69%] Built target race_orchestrator__rosidl_typesupport_introspection_cpp
+[7.388s] [ 71%] [32m[1mLinking CXX shared library librace_orchestrator__rosidl_typesupport_cpp.so[0m
+[7.470s] [ 71%] Built target race_orchestrator__rosidl_typesupport_cpp
+[7.890s] [ 74%] [32m[1mLinking CXX shared library librace_orchestrator__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.045s] [ 74%] Built target race_orchestrator__rosidl_typesupport_fastrtps_cpp
+[8.063s] [ 74%] Built target race_orchestrator
+[8.084s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.841s] [ 76%] Built target race_orchestrator__py
+[8.871s] [ 79%] [32mBuilding C object CMakeFiles/race_orchestrator__rosidl_generator_py.dir/rosidl_generator_py/race_orchestrator/msg/_race_parameters_s.c.o[0m
+[8.872s] [ 82%] [32mBuilding C object CMakeFiles/race_orchestrator__rosidl_generator_py.dir/rosidl_generator_py/race_orchestrator/msg/_race_status_s.c.o[0m
+[9.228s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/race_orchestrator/librace_orchestrator__rosidl_generator_py.so[0m
+[9.293s] [ 84%] Built target race_orchestrator__rosidl_generator_py
+[9.314s] [ 87%] [32mBuilding C object CMakeFiles/race_orchestrator__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/race_orchestrator/_race_orchestrator_s.ep.rosidl_typesupport_c.c.o[0m
+[9.317s] [ 89%] [32mBuilding C object CMakeFiles/race_orchestrator__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/race_orchestrator/_race_orchestrator_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.320s] [ 92%] [32mBuilding C object CMakeFiles/race_orchestrator__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/race_orchestrator/_race_orchestrator_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.445s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/race_orchestrator/race_orchestrator_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.518s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/race_orchestrator/race_orchestrator_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.520s] [100%] [32m[1mLinking C shared library rosidl_generator_py/race_orchestrator/race_orchestrator_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.554s] [100%] Built target race_orchestrator__rosidl_typesupport_c__pyext
+[9.578s] [100%] Built target race_orchestrator__rosidl_typesupport_introspection_c__pyext
+[9.598s] [100%] Built target race_orchestrator__rosidl_typesupport_fastrtps_c__pyext
+[9.629s] Invoked command in '/home/parsa/main_robot_ws/src/build/race_orchestrator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/src/build/race_orchestrator -- -j16 -l16
+[9.634s] Invoking command in '/home/parsa/main_robot_ws/src/build/race_orchestrator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/src/build/race_orchestrator
+[9.869s] -- Install configuration: ""
+[9.869s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/ament_index/resource_index/rosidl_interfaces/race_orchestrator
+[9.869s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator
+[9.869s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg
+[9.870s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/race_parameters.h
+[9.870s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail
+[9.870s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_parameters__functions.h
+[9.870s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_parameters__functions.c
+[9.870s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_parameters__struct.h
+[9.870s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_parameters__type_support.h
+[9.870s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_status__struct.h
+[9.870s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_status__type_support.h
+[9.871s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_status__functions.c
+[9.871s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_status__functions.h
+[9.871s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/race_status.h
+[9.871s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/rosidl_generator_c__visibility_control.h
+[9.871s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/environment/library_path.sh
+[9.872s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/environment/library_path.dsv
+[9.872s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/lib/librace_orchestrator__rosidl_generator_c.so
+[9.872s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/src/install/race_orchestrator/lib/librace_orchestrator__rosidl_generator_c.so" to ""
+[9.872s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator
+[9.873s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg
+[9.873s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail
+[9.873s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_parameters__rosidl_typesupport_fastrtps_c.h
+[9.873s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_status__rosidl_typesupport_fastrtps_c.h
+[9.873s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.873s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/lib/librace_orchestrator__rosidl_typesupport_fastrtps_c.so
+[9.879s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/src/install/race_orchestrator/lib/librace_orchestrator__rosidl_typesupport_fastrtps_c.so" to ""
+[9.879s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator
+[9.879s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg
+[9.879s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail
+[9.879s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_status__builder.hpp
+[9.879s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_status__type_support.hpp
+[9.879s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_parameters__traits.hpp
+[9.880s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_status__struct.hpp
+[9.880s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_parameters__builder.hpp
+[9.880s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_parameters__struct.hpp
+[9.880s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_status__traits.hpp
+[9.880s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_parameters__type_support.hpp
+[9.880s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/race_parameters.hpp
+[9.880s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.880s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/race_status.hpp
+[9.880s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator
+[9.880s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg
+[9.880s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail
+[9.880s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_status__rosidl_typesupport_fastrtps_cpp.hpp
+[9.880s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/dds_fastrtps
+[9.880s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_parameters__rosidl_typesupport_fastrtps_cpp.hpp
+[9.881s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.881s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/lib/librace_orchestrator__rosidl_typesupport_fastrtps_cpp.so
+[9.881s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/src/install/race_orchestrator/lib/librace_orchestrator__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.881s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator
+[9.881s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg
+[9.881s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail
+[9.881s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_status__rosidl_typesupport_introspection_c.h
+[9.881s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_parameters__type_support.c
+[9.881s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_parameters__rosidl_typesupport_introspection_c.h
+[9.881s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_status__type_support.c
+[9.881s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.881s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/lib/librace_orchestrator__rosidl_typesupport_introspection_c.so
+[9.881s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/src/install/race_orchestrator/lib/librace_orchestrator__rosidl_typesupport_introspection_c.so" to ""
+[9.881s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/lib/librace_orchestrator__rosidl_typesupport_c.so
+[9.881s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/src/install/race_orchestrator/lib/librace_orchestrator__rosidl_typesupport_c.so" to ""
+[9.881s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator
+[9.881s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg
+[9.882s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail
+[9.882s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_status__type_support.cpp
+[9.882s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_parameters__rosidl_typesupport_introspection_cpp.hpp
+[9.882s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_status__rosidl_typesupport_introspection_cpp.hpp
+[9.882s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/include/race_orchestrator/race_orchestrator/msg/detail/race_parameters__type_support.cpp
+[9.882s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/lib/librace_orchestrator__rosidl_typesupport_introspection_cpp.so
+[9.882s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/src/install/race_orchestrator/lib/librace_orchestrator__rosidl_typesupport_introspection_cpp.so" to ""
+[9.882s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/lib/librace_orchestrator__rosidl_typesupport_cpp.so
+[9.882s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/src/install/race_orchestrator/lib/librace_orchestrator__rosidl_typesupport_cpp.so" to ""
+[9.882s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/environment/pythonpath.sh
+[9.888s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/environment/pythonpath.dsv
+[9.888s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator-0.0.0-py3.10.egg-info
+[9.888s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator-0.0.0-py3.10.egg-info/top_level.txt
+[9.888s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.889s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator-0.0.0-py3.10.egg-info/PKG-INFO
+[9.889s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.889s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator
+[9.889s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator/race_orchestrator_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.889s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator/race_orchestrator_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.889s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator/_race_orchestrator_s.ep.rosidl_typesupport_introspection_c.c
+[9.889s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator/librace_orchestrator__rosidl_generator_py.so
+[9.889s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator/race_orchestrator_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.889s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator/_race_orchestrator_s.ep.rosidl_typesupport_c.c
+[9.889s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator/__init__.py
+[9.889s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator/msg
+[9.889s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator/msg/_race_parameters.py
+[9.889s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator/msg/_race_status.py
+[9.889s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator/msg/_race_parameters_s.c
+[9.889s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator/msg/__init__.py
+[9.889s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator/msg/_race_status_s.c
+[9.889s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator/_race_orchestrator_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.033s] Listing '/home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator'...
+[10.034s] Compiling '/home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator/__init__.py'...
+[10.035s] Listing '/home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator/msg'...
+[10.035s] Compiling '/home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator/msg/__init__.py'...
+[10.035s] Compiling '/home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator/msg/_race_parameters.py'...
+[10.035s] Compiling '/home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator/msg/_race_status.py'...
+[10.061s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator/race_orchestrator_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.061s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator/race_orchestrator_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.061s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator/race_orchestrator_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.062s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator/race_orchestrator_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.062s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator/race_orchestrator_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.062s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/src/install/race_orchestrator/local/lib/python3.10/dist-packages/race_orchestrator/race_orchestrator_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.063s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/lib/librace_orchestrator__rosidl_generator_py.so
+[10.064s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/src/install/race_orchestrator/lib/librace_orchestrator__rosidl_generator_py.so" to ""
+[10.064s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/msg/RaceParameters.idl
+[10.065s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/msg/RaceStatus.idl
+[10.065s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/msg/RaceParameters.msg
+[10.065s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/msg/RaceStatus.msg
+[10.066s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/lib/python3.10/site-packages/race_orchestrator/__init__.py
+[10.068s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/lib/python3.10/site-packages/race_orchestrator/race_manager.py
+[10.068s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/lib/python3.10/site-packages/race_orchestrator/web_interface.py
+[10.069s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/lib/race_orchestrator/race_manager
+[10.073s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/lib/race_orchestrator/web_interface
+[10.074s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/launch
+[10.074s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/launch/race_orchestrator.launch.py
+[10.077s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/templates
+[10.077s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/templates/index.html
+[10.078s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/ament_index/resource_index/package_run_dependencies/race_orchestrator
+[10.078s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/ament_index/resource_index/parent_prefix_path/race_orchestrator
+[10.078s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/environment/ament_prefix_path.sh
+[10.078s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/environment/ament_prefix_path.dsv
+[10.078s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/environment/path.sh
+[10.078s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/environment/path.dsv
+[10.078s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/local_setup.bash
+[10.079s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/local_setup.sh
+[10.079s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/local_setup.zsh
+[10.079s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/local_setup.dsv
+[10.079s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/package.dsv
+[10.079s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/ament_index/resource_index/packages/race_orchestrator
+[10.080s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/export_race_orchestrator__rosidl_generator_cExport.cmake
+[10.080s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/export_race_orchestrator__rosidl_generator_cExport-noconfig.cmake
+[10.081s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/export_race_orchestrator__rosidl_typesupport_fastrtps_cExport.cmake
+[10.081s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/export_race_orchestrator__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.081s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/export_race_orchestrator__rosidl_generator_cppExport.cmake
+[10.082s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/export_race_orchestrator__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.082s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/export_race_orchestrator__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.082s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/race_orchestrator__rosidl_typesupport_introspection_cExport.cmake
+[10.083s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/race_orchestrator__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.083s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/race_orchestrator__rosidl_typesupport_cExport.cmake
+[10.084s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/race_orchestrator__rosidl_typesupport_cExport-noconfig.cmake
+[10.084s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/race_orchestrator__rosidl_typesupport_introspection_cppExport.cmake
+[10.087s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/race_orchestrator__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.087s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/race_orchestrator__rosidl_typesupport_cppExport.cmake
+[10.087s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/race_orchestrator__rosidl_typesupport_cppExport-noconfig.cmake
+[10.087s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/export_race_orchestrator__rosidl_generator_pyExport.cmake
+[10.088s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/export_race_orchestrator__rosidl_generator_pyExport-noconfig.cmake
+[10.088s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/rosidl_cmake-extras.cmake
+[10.088s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.088s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.088s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/ament_cmake_export_libraries-extras.cmake
+[10.088s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/ament_cmake_export_targets-extras.cmake
+[10.088s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.088s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.088s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/race_orchestratorConfig.cmake
+[10.088s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/cmake/race_orchestratorConfig-version.cmake
+[10.088s] -- Installing: /home/parsa/main_robot_ws/src/install/race_orchestrator/share/race_orchestrator/package.xml
+[10.091s] Invoked command in '/home/parsa/main_robot_ws/src/build/race_orchestrator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/src/build/race_orchestrator

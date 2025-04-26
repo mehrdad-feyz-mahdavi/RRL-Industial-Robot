@@ -1,0 +1,12 @@
+ldlidar_published:
+  ros__parameters:
+    product_name: "LDLiDAR_STL27L"
+    topic_name: "scan"
+    frame_id: "laser"
+    port_name: "/dev/ttyUSB1"
+    port_baudrate: 921600
+    laser_scan_dir: false  # false for Clockwise
+    enable_angle_crop_func: false
+    angle_crop_min: 0.0
+    angle_crop_max: 0.0
+    read_timeout: 200  # milliseconds 

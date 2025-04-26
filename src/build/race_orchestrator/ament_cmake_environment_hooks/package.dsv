@@ -1,0 +1,4 @@
+source;share/race_orchestrator/local_setup.bash
+source;share/race_orchestrator/local_setup.dsv
+source;share/race_orchestrator/local_setup.sh
+source;share/race_orchestrator/local_setup.zsh

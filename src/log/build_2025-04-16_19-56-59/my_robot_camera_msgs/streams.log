@@ -1,0 +1,303 @@
+[0.422s] Invoking command in '/home/parsa/main_robot_ws/src/build/my_robot_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/opt/ros/humble /home/parsa/.local/bin/cmake /home/parsa/main_robot_ws/src/my_robot_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/parsa/main_robot_ws/src/install/my_robot_camera_msgs
+[0.684s] -- The C compiler identification is GNU 11.4.0
+[0.684s] -- The CXX compiler identification is GNU 11.4.0
+[0.684s] -- Detecting C compiler ABI info
+[0.684s] -- Detecting C compiler ABI info - done
+[0.684s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.684s] -- Detecting C compile features
+[0.684s] -- Detecting C compile features - done
+[0.684s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.684s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.684s]   CMake.
+[0.684s] 
+[0.684s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.684s]   to tell CMake that the project requires at least <min> but has been updated
+[0.684s]   to work with policies introduced by <max> or earlier.
+[0.684s] 
+[0.684s] [0m
+[0.685s] -- Detecting CXX compiler ABI info
+[0.745s] -- Detecting CXX compiler ABI info - done
+[0.759s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.760s] -- Detecting CXX compile features
+[0.760s] -- Detecting CXX compile features - done
+[0.773s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.922s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.149s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.162s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.195s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.321s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.418s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[1.958s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.782s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.650s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.654s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[3.654s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.654s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.654s]   the cmake_policy command to set the policy and suppress this warning.
+[3.654s] 
+[3.654s] Call Stack (most recent call first):
+[3.654s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.654s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.654s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[3.654s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.654s] [0m
+[3.701s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")
+[3.713s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.714s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[3.714s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.714s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.714s]   the cmake_policy command to set the policy and suppress this warning.
+[3.714s] 
+[3.715s] Call Stack (most recent call first):
+[3.715s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[3.715s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.715s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.715s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[3.715s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.715s] [0m
+[3.739s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[3.739s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.739s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.739s]   the cmake_policy command to set the policy and suppress this warning.
+[3.740s] 
+[3.740s] Call Stack (most recent call first):
+[3.740s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[3.740s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.740s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.740s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[3.740s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.740s] [0m
+[3.750s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")
+[3.750s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.750s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.750s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.777s] -- Found PythonExtra: .so
+[3.880s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.976s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.977s] -- Added test 'lint_cmake' to check CMake code style
+[3.978s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.979s] -- Added test 'xmllint' to check XML markup files
+[3.985s] -- Configuring done (3.5s)
+[4.153s] -- Generating done (0.2s)
+[4.165s] -- Build files have been written to: /home/parsa/main_robot_ws/src/build/my_robot_camera_msgs
+[4.178s] Invoked command in '/home/parsa/main_robot_ws/src/build/my_robot_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/opt/ros/humble /home/parsa/.local/bin/cmake /home/parsa/main_robot_ws/src/my_robot_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/parsa/main_robot_ws/src/install/my_robot_camera_msgs
+[4.179s] Invoking command in '/home/parsa/main_robot_ws/src/build/my_robot_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/src/build/my_robot_camera_msgs -- -j16 -l16
+[4.307s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.320s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.323s] [  5%] Built target ament_cmake_python_copy_my_robot_camera_msgs
+[4.625s] running egg_info
+[4.625s] creating my_robot_camera_msgs.egg-info
+[4.626s] writing my_robot_camera_msgs.egg-info/PKG-INFO
+[4.626s] writing dependency_links to my_robot_camera_msgs.egg-info/dependency_links.txt
+[4.626s] writing top-level names to my_robot_camera_msgs.egg-info/top_level.txt
+[4.626s] writing manifest file 'my_robot_camera_msgs.egg-info/SOURCES.txt'
+[4.629s] reading manifest file 'my_robot_camera_msgs.egg-info/SOURCES.txt'
+[4.629s] writing manifest file 'my_robot_camera_msgs.egg-info/SOURCES.txt'
+[4.666s] [  5%] Built target my_robot_camera_msgs__cpp
+[4.672s] [ 12%] [32mBuilding C object CMakeFiles/my_robot_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_robot_camera_msgs/msg/detail/detection_array__functions.c.o[0m
+[4.672s] [ 12%] Built target ament_cmake_python_build_my_robot_camera_msgs_egg
+[4.672s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.673s] [ 17%] [32mBuilding C object CMakeFiles/my_robot_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_robot_camera_msgs/msg/detail/detection__functions.c.o[0m
+[4.673s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.673s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.728s] [ 20%] [32m[1mLinking C shared library libmy_robot_camera_msgs__rosidl_generator_c.so[0m
+[4.766s] [ 20%] Built target my_robot_camera_msgs__rosidl_generator_c
+[4.776s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.776s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.776s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.942s] [ 30%] [32mBuilding CXX object CMakeFiles/my_robot_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_camera_msgs/msg/detection__type_support.cpp.o[0m
+[4.950s] [ 33%] [32mBuilding CXX object CMakeFiles/my_robot_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_camera_msgs/msg/detection_array__type_support.cpp.o[0m
+[5.004s] [ 35%] [32mBuilding CXX object CMakeFiles/my_robot_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_camera_msgs/msg/detail/detection__type_support.cpp.o[0m
+[5.006s] [ 38%] [32mBuilding CXX object CMakeFiles/my_robot_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_camera_msgs/msg/detail/detection_array__type_support.cpp.o[0m
+[5.098s] [ 41%] [32mBuilding CXX object CMakeFiles/my_robot_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_camera_msgs/msg/detection__type_support.cpp.o[0m
+[5.105s] [ 46%] [32mBuilding CXX object CMakeFiles/my_robot_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_camera_msgs/msg/detail/dds_fastrtps/detection__type_support.cpp.o[0m
+[5.105s] [ 46%] [32mBuilding CXX object CMakeFiles/my_robot_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_camera_msgs/msg/detection_array__type_support.cpp.o[0m
+[5.106s] [ 48%] [32mBuilding CXX object CMakeFiles/my_robot_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_camera_msgs/msg/detail/dds_fastrtps/detection_array__type_support.cpp.o[0m
+[5.111s] [ 51%] [32mBuilding C object CMakeFiles/my_robot_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_camera_msgs/msg/detail/detection__type_support.c.o[0m
+[5.120s] [ 53%] [32mBuilding C object CMakeFiles/my_robot_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_camera_msgs/msg/detail/detection_array__type_support.c.o[0m
+[5.206s] [ 56%] [32m[1mLinking CXX shared library libmy_robot_camera_msgs__rosidl_typesupport_c.so[0m
+[5.218s] [ 58%] [32m[1mLinking C shared library libmy_robot_camera_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.281s] [ 58%] Built target my_robot_camera_msgs__rosidl_typesupport_introspection_c
+[5.281s] [ 58%] Built target my_robot_camera_msgs__rosidl_typesupport_c
+[5.386s] [ 61%] [32mBuilding CXX object CMakeFiles/my_robot_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_camera_msgs/msg/detail/detection__type_support_c.cpp.o[0m
+[5.392s] [ 64%] [32mBuilding CXX object CMakeFiles/my_robot_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_camera_msgs/msg/detail/detection_array__type_support_c.cpp.o[0m
+[5.511s] [ 66%] [32m[1mLinking CXX shared library libmy_robot_camera_msgs__rosidl_typesupport_cpp.so[0m
+[5.575s] [ 66%] Built target my_robot_camera_msgs__rosidl_typesupport_cpp
+[5.815s] [ 69%] [32m[1mLinking CXX shared library libmy_robot_camera_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.841s] [ 71%] [32m[1mLinking CXX shared library libmy_robot_camera_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.962s] [ 71%] Built target my_robot_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[5.980s] [ 74%] [32m[1mLinking CXX shared library libmy_robot_camera_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[6.023s] [ 74%] Built target my_robot_camera_msgs__rosidl_typesupport_introspection_cpp
+[6.104s] [ 74%] Built target my_robot_camera_msgs__rosidl_typesupport_fastrtps_c
+[6.131s] [ 74%] Built target my_robot_camera_msgs
+[6.177s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.761s] [ 76%] Built target my_robot_camera_msgs__py
+[6.788s] [ 79%] [32mBuilding C object CMakeFiles/my_robot_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/my_robot_camera_msgs/msg/_detection_s.c.o[0m
+[6.794s] [ 82%] [32mBuilding C object CMakeFiles/my_robot_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/my_robot_camera_msgs/msg/_detection_array_s.c.o[0m
+[7.019s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_camera_msgs/libmy_robot_camera_msgs__rosidl_generator_py.so[0m
+[7.148s] [ 84%] Built target my_robot_camera_msgs__rosidl_generator_py
+[7.174s] [ 87%] [32mBuilding C object CMakeFiles/my_robot_camera_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_robot_camera_msgs/_my_robot_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.174s] [ 89%] [32mBuilding C object CMakeFiles/my_robot_camera_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_robot_camera_msgs/_my_robot_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.176s] [ 92%] [32mBuilding C object CMakeFiles/my_robot_camera_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_robot_camera_msgs/_my_robot_camera_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[7.310s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_camera_msgs/my_robot_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.319s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_camera_msgs/my_robot_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.327s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_camera_msgs/my_robot_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.391s] [100%] Built target my_robot_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[7.392s] [100%] Built target my_robot_camera_msgs__rosidl_typesupport_c__pyext
+[7.425s] [100%] Built target my_robot_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[7.455s] Invoked command in '/home/parsa/main_robot_ws/src/build/my_robot_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/src/build/my_robot_camera_msgs -- -j16 -l16
+[7.456s] Invoking command in '/home/parsa/main_robot_ws/src/build/my_robot_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/src/build/my_robot_camera_msgs
+[7.619s] -- Install configuration: ""
+[7.620s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/my_robot_camera_msgs
+[7.620s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs
+[7.620s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg
+[7.620s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail
+[7.623s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection_array__type_support.h
+[7.623s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection__functions.c
+[7.624s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection_array__functions.h
+[7.624s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection__functions.h
+[7.624s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection_array__functions.c
+[7.624s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection__struct.h
+[7.624s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection__type_support.h
+[7.624s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection_array__struct.h
+[7.624s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detection.h
+[7.625s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.625s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detection_array.h
+[7.625s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/environment/library_path.sh
+[7.626s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/environment/library_path.dsv
+[7.626s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/lib/libmy_robot_camera_msgs__rosidl_generator_c.so
+[7.629s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/lib/libmy_robot_camera_msgs__rosidl_generator_c.so" to ""
+[7.629s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs
+[7.629s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg
+[7.629s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail
+[7.629s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_c.h
+[7.629s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_c.h
+[7.629s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.630s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/lib/libmy_robot_camera_msgs__rosidl_typesupport_fastrtps_c.so
+[7.632s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/lib/libmy_robot_camera_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[7.632s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs
+[7.632s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg
+[7.632s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail
+[7.632s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection__rosidl_typesupport_introspection_c.h
+[7.632s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection_array__type_support.c
+[7.632s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection__type_support.c
+[7.632s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_c.h
+[7.633s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.635s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/lib/libmy_robot_camera_msgs__rosidl_typesupport_introspection_c.so
+[7.635s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/lib/libmy_robot_camera_msgs__rosidl_typesupport_introspection_c.so" to ""
+[7.635s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/lib/libmy_robot_camera_msgs__rosidl_typesupport_c.so
+[7.637s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/lib/libmy_robot_camera_msgs__rosidl_typesupport_c.so" to ""
+[7.637s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs
+[7.637s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg
+[7.638s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail
+[7.638s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection__struct.hpp
+[7.638s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection_array__traits.hpp
+[7.638s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection__type_support.hpp
+[7.638s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection__builder.hpp
+[7.638s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection__traits.hpp
+[7.638s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection_array__type_support.hpp
+[7.638s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection_array__builder.hpp
+[7.638s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection_array__struct.hpp
+[7.638s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detection_array.hpp
+[7.639s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.640s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detection.hpp
+[7.641s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs
+[7.641s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg
+[7.641s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail
+[7.641s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp
+[7.641s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/dds_fastrtps
+[7.641s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[7.641s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.641s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/lib/libmy_robot_camera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.645s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/lib/libmy_robot_camera_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.645s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs
+[7.645s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg
+[7.645s] -- Up-to-date: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail
+[7.645s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection__type_support.cpp
+[7.646s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection_array__type_support.cpp
+[7.646s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp
+[7.646s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/include/my_robot_camera_msgs/my_robot_camera_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_cpp.hpp
+[7.648s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/lib/libmy_robot_camera_msgs__rosidl_typesupport_introspection_cpp.so
+[7.650s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/lib/libmy_robot_camera_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[7.650s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/lib/libmy_robot_camera_msgs__rosidl_typesupport_cpp.so
+[7.653s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/lib/libmy_robot_camera_msgs__rosidl_typesupport_cpp.so" to ""
+[7.653s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/environment/pythonpath.sh
+[7.653s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/environment/pythonpath.dsv
+[7.653s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs-0.0.0-py3.10.egg-info
+[7.654s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[7.659s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.660s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[7.660s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.660s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs
+[7.660s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs/_my_robot_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.660s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs/my_robot_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.661s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs/my_robot_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.661s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs/libmy_robot_camera_msgs__rosidl_generator_py.so
+[7.661s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs/__init__.py
+[7.661s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs/my_robot_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.663s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs/msg
+[7.663s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs/msg/_detection_s.c
+[7.665s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs/msg/_detection_array.py
+[7.666s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs/msg/__init__.py
+[7.667s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs/msg/_detection.py
+[7.667s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs/msg/_detection_array_s.c
+[7.668s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs/_my_robot_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.668s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs/_my_robot_camera_msgs_s.ep.rosidl_typesupport_c.c
+[7.799s] Listing '/home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs'...
+[7.799s] Compiling '/home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs/__init__.py'...
+[7.799s] Listing '/home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs/msg'...
+[7.800s] Compiling '/home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs/msg/__init__.py'...
+[7.800s] Compiling '/home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs/msg/_detection.py'...
+[7.800s] Compiling '/home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs/msg/_detection_array.py'...
+[7.821s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs/my_robot_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.824s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs/my_robot_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.824s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs/my_robot_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.825s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs/my_robot_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.825s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs/my_robot_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.825s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/local/lib/python3.10/dist-packages/my_robot_camera_msgs/my_robot_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.826s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/lib/libmy_robot_camera_msgs__rosidl_generator_py.so
+[7.837s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/lib/libmy_robot_camera_msgs__rosidl_generator_py.so" to ""
+[7.837s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/msg/Detection.idl
+[7.837s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/msg/DetectionArray.idl
+[7.838s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/msg/Detection.msg
+[7.838s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/msg/DetectionArray.msg
+[7.838s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/ament_index/resource_index/package_run_dependencies/my_robot_camera_msgs
+[7.838s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/ament_index/resource_index/parent_prefix_path/my_robot_camera_msgs
+[7.838s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/environment/ament_prefix_path.sh
+[7.839s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/environment/ament_prefix_path.dsv
+[7.839s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/environment/path.sh
+[7.839s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/environment/path.dsv
+[7.839s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/local_setup.bash
+[7.840s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/local_setup.sh
+[7.844s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/local_setup.zsh
+[7.844s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/local_setup.dsv
+[7.844s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/package.dsv
+[7.844s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/ament_index/resource_index/packages/my_robot_camera_msgs
+[7.845s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/export_my_robot_camera_msgs__rosidl_generator_cExport.cmake
+[7.845s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/export_my_robot_camera_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.845s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/export_my_robot_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.846s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/export_my_robot_camera_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.846s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/my_robot_camera_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.846s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/my_robot_camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.846s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/my_robot_camera_msgs__rosidl_typesupport_cExport.cmake
+[7.847s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/my_robot_camera_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.847s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/export_my_robot_camera_msgs__rosidl_generator_cppExport.cmake
+[7.847s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/export_my_robot_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.847s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/export_my_robot_camera_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.847s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/my_robot_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.849s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/my_robot_camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.849s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/my_robot_camera_msgs__rosidl_typesupport_cppExport.cmake
+[7.850s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/my_robot_camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.851s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/export_my_robot_camera_msgs__rosidl_generator_pyExport.cmake
+[7.851s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/export_my_robot_camera_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.852s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/rosidl_cmake-extras.cmake
+[7.852s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.852s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.852s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.852s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.852s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.852s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.853s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/my_robot_camera_msgsConfig.cmake
+[7.853s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/cmake/my_robot_camera_msgsConfig-version.cmake
+[7.853s] -- Installing: /home/parsa/main_robot_ws/src/install/my_robot_camera_msgs/share/my_robot_camera_msgs/package.xml
+[7.862s] Invoked command in '/home/parsa/main_robot_ws/src/build/my_robot_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/src/build/my_robot_camera_msgs

@@ -1,0 +1,2 @@
+/home/parsa/main_robot_ws/src/build/robot_control_interfaces/rosidl_adapter/robot_control_interfaces:msg/ArmCommand.idl
+/home/parsa/main_robot_ws/src/build/robot_control_interfaces/rosidl_adapter/robot_control_interfaces:srv/ArmPreset.idl

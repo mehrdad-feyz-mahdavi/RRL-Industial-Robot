@@ -1,0 +1,42 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from race_orchestrator/msg/RaceParameters.msg
+// generated code does not contain a copyright notice
+
+
+module race_orchestrator {
+  module msg {
+    @verbatim (language="comment", text=
+      "Race configuration parameters")
+    struct RaceParameters {
+      string race_id;
+
+      @verbatim (language="comment", text=
+        "Ordered list of objects to collect")
+      sequence<string> object_sequence;
+
+      @verbatim (language="comment", text=
+        "Maximum time allowed for the race")
+      float time_limit;
+
+      @verbatim (language="comment", text=
+        "Array of checkpoint positions [x1,y1,z1, x2,y2,z2, ...]")
+      sequence<float> checkpoints;
+
+      @verbatim (language="comment", text=
+        "Whether to enable dynamic obstacles")
+      boolean enable_obstacles;
+
+      @verbatim (language="comment", text=
+        "Density of obstacles (0.0 to 1.0)")
+      float obstacle_density;
+
+      @verbatim (language="comment", text=
+        "[x,y,z] starting position")
+      sequence<float> start_position;
+
+      @verbatim (language="comment", text=
+        "[x,y,z] goal position")
+      sequence<float> goal_position;
+    };
+  };
+};

@@ -1,0 +1,66 @@
+running egg_info
+creating ../build/robot_control/robot_control.egg-info
+writing ../build/robot_control/robot_control.egg-info/PKG-INFO
+writing dependency_links to ../build/robot_control/robot_control.egg-info/dependency_links.txt
+writing entry points to ../build/robot_control/robot_control.egg-info/entry_points.txt
+writing requirements to ../build/robot_control/robot_control.egg-info/requires.txt
+writing top-level names to ../build/robot_control/robot_control.egg-info/top_level.txt
+writing manifest file '../build/robot_control/robot_control.egg-info/SOURCES.txt'
+reading manifest file '../build/robot_control/robot_control.egg-info/SOURCES.txt'
+writing manifest file '../build/robot_control/robot_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/parsa/main_robot_ws/src/build/robot_control/build
+creating /home/parsa/main_robot_ws/src/build/robot_control/build/lib
+creating /home/parsa/main_robot_ws/src/build/robot_control/build/lib/robot_control
+copying robot_control/arm_controller_node.py -> /home/parsa/main_robot_ws/src/build/robot_control/build/lib/robot_control
+copying robot_control/example_tasks.py -> /home/parsa/main_robot_ws/src/build/robot_control/build/lib/robot_control
+copying robot_control/task_manager.py -> /home/parsa/main_robot_ws/src/build/robot_control/build/lib/robot_control
+copying robot_control/arm_hardware_interface.py -> /home/parsa/main_robot_ws/src/build/robot_control/build/lib/robot_control
+copying robot_control/arm_server.py -> /home/parsa/main_robot_ws/src/build/robot_control/build/lib/robot_control
+copying robot_control/__init__.py -> /home/parsa/main_robot_ws/src/build/robot_control/build/lib/robot_control
+copying robot_control/old_robot_server.py -> /home/parsa/main_robot_ws/src/build/robot_control/build/lib/robot_control
+copying robot_control/arm_gui.py -> /home/parsa/main_robot_ws/src/build/robot_control/build/lib/robot_control
+copying robot_control/robot_server.py -> /home/parsa/main_robot_ws/src/build/robot_control/build/lib/robot_control
+running install
+running install_lib
+creating /home/parsa/main_robot_ws/src/install/robot_control/lib/python3.10/site-packages/robot_control
+copying /home/parsa/main_robot_ws/src/build/robot_control/build/lib/robot_control/arm_controller_node.py -> /home/parsa/main_robot_ws/src/install/robot_control/lib/python3.10/site-packages/robot_control
+copying /home/parsa/main_robot_ws/src/build/robot_control/build/lib/robot_control/example_tasks.py -> /home/parsa/main_robot_ws/src/install/robot_control/lib/python3.10/site-packages/robot_control
+copying /home/parsa/main_robot_ws/src/build/robot_control/build/lib/robot_control/task_manager.py -> /home/parsa/main_robot_ws/src/install/robot_control/lib/python3.10/site-packages/robot_control
+copying /home/parsa/main_robot_ws/src/build/robot_control/build/lib/robot_control/arm_hardware_interface.py -> /home/parsa/main_robot_ws/src/install/robot_control/lib/python3.10/site-packages/robot_control
+copying /home/parsa/main_robot_ws/src/build/robot_control/build/lib/robot_control/arm_server.py -> /home/parsa/main_robot_ws/src/install/robot_control/lib/python3.10/site-packages/robot_control
+copying /home/parsa/main_robot_ws/src/build/robot_control/build/lib/robot_control/__init__.py -> /home/parsa/main_robot_ws/src/install/robot_control/lib/python3.10/site-packages/robot_control
+copying /home/parsa/main_robot_ws/src/build/robot_control/build/lib/robot_control/old_robot_server.py -> /home/parsa/main_robot_ws/src/install/robot_control/lib/python3.10/site-packages/robot_control
+copying /home/parsa/main_robot_ws/src/build/robot_control/build/lib/robot_control/arm_gui.py -> /home/parsa/main_robot_ws/src/install/robot_control/lib/python3.10/site-packages/robot_control
+copying /home/parsa/main_robot_ws/src/build/robot_control/build/lib/robot_control/robot_server.py -> /home/parsa/main_robot_ws/src/install/robot_control/lib/python3.10/site-packages/robot_control
+byte-compiling /home/parsa/main_robot_ws/src/install/robot_control/lib/python3.10/site-packages/robot_control/arm_controller_node.py to arm_controller_node.cpython-310.pyc
+byte-compiling /home/parsa/main_robot_ws/src/install/robot_control/lib/python3.10/site-packages/robot_control/example_tasks.py to example_tasks.cpython-310.pyc
+byte-compiling /home/parsa/main_robot_ws/src/install/robot_control/lib/python3.10/site-packages/robot_control/task_manager.py to task_manager.cpython-310.pyc
+byte-compiling /home/parsa/main_robot_ws/src/install/robot_control/lib/python3.10/site-packages/robot_control/arm_hardware_interface.py to arm_hardware_interface.cpython-310.pyc
+byte-compiling /home/parsa/main_robot_ws/src/install/robot_control/lib/python3.10/site-packages/robot_control/arm_server.py to arm_server.cpython-310.pyc
+byte-compiling /home/parsa/main_robot_ws/src/install/robot_control/lib/python3.10/site-packages/robot_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/parsa/main_robot_ws/src/install/robot_control/lib/python3.10/site-packages/robot_control/old_robot_server.py to old_robot_server.cpython-310.pyc
+byte-compiling /home/parsa/main_robot_ws/src/install/robot_control/lib/python3.10/site-packages/robot_control/arm_gui.py to arm_gui.cpython-310.pyc
+byte-compiling /home/parsa/main_robot_ws/src/install/robot_control/lib/python3.10/site-packages/robot_control/robot_server.py to robot_server.cpython-310.pyc
+running install_data
+creating /home/parsa/main_robot_ws/src/install/robot_control/share/ament_index
+creating /home/parsa/main_robot_ws/src/install/robot_control/share/ament_index/resource_index
+creating /home/parsa/main_robot_ws/src/install/robot_control/share/ament_index/resource_index/packages
+copying resource/robot_control -> /home/parsa/main_robot_ws/src/install/robot_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/parsa/main_robot_ws/src/install/robot_control/share/robot_control
+creating /home/parsa/main_robot_ws/src/install/robot_control/share/robot_control/launch
+copying robot_control/launch/arm_controller.launch.py -> /home/parsa/main_robot_ws/src/install/robot_control/share/robot_control/launch
+copying robot_control/launch/joint_state_publisher.launch.py -> /home/parsa/main_robot_ws/src/install/robot_control/share/robot_control/launch
+creating /home/parsa/main_robot_ws/src/install/robot_control/share/robot_control/config
+copying robot_control/config/arm_controller_params.yaml -> /home/parsa/main_robot_ws/src/install/robot_control/share/robot_control/config
+running install_egg_info
+Copying ../build/robot_control/robot_control.egg-info to /home/parsa/main_robot_ws/src/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing arm_controller_node script to /home/parsa/main_robot_ws/src/install/robot_control/lib/robot_control
+Installing arm_driver_node script to /home/parsa/main_robot_ws/src/install/robot_control/lib/robot_control
+Installing arm_gui script to /home/parsa/main_robot_ws/src/install/robot_control/lib/robot_control
+Installing arm_server script to /home/parsa/main_robot_ws/src/install/robot_control/lib/robot_control
+Installing old_robot_server script to /home/parsa/main_robot_ws/src/install/robot_control/lib/robot_control
+Installing robot_server script to /home/parsa/main_robot_ws/src/install/robot_control/lib/robot_control
+writing list of installed files to '/home/parsa/main_robot_ws/src/build/robot_control/install.log'

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/parsa/main_robot_ws/build/my_robot_bringup/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

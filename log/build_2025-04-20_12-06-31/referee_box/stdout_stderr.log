@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/referee_box/referee_box.egg-info/PKG-INFO
+writing dependency_links to ../../build/referee_box/referee_box.egg-info/dependency_links.txt
+writing entry points to ../../build/referee_box/referee_box.egg-info/entry_points.txt
+writing requirements to ../../build/referee_box/referee_box.egg-info/requires.txt
+writing top-level names to ../../build/referee_box/referee_box.egg-info/top_level.txt
+reading manifest file '../../build/referee_box/referee_box.egg-info/SOURCES.txt'
+writing manifest file '../../build/referee_box/referee_box.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/parsa/main_robot_ws/install/referee_box/lib/python3.10/site-packages/referee_box-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/referee_box/referee_box.egg-info to /home/parsa/main_robot_ws/install/referee_box/lib/python3.10/site-packages/referee_box-0.0.1-py3.10.egg-info
+running install_scripts
+Installing referee_box_node script to /home/parsa/main_robot_ws/install/referee_box/lib/referee_box
+writing list of installed files to '/home/parsa/main_robot_ws/build/referee_box/install.log'

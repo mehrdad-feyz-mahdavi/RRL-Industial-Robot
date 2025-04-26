@@ -1,0 +1,3 @@
+[console_scripts]
+competition_node = competition_robot.competition_node:main
+

@@ -1,0 +1,317 @@
+[1.097s] Invoking command in '/home/parsa/main_robot_ws/build/robot_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/parsa/.local/bin/cmake /home/parsa/main_robot_ws/src/robot_control_interfaces -DCMAKE_INSTALL_PREFIX=/home/parsa/main_robot_ws/install/robot_control_interfaces
+[1.316s] -- The C compiler identification is GNU 11.4.0
+[1.316s] -- The CXX compiler identification is GNU 11.4.0
+[1.316s] -- Detecting C compiler ABI info
+[1.317s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[1.317s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[1.317s]   CMake.
+[1.317s] 
+[1.317s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[1.317s]   to tell CMake that the project requires at least <min> but has been updated
+[1.317s]   to work with policies introduced by <max> or earlier.
+[1.317s] 
+[1.317s] [0m
+[1.409s] -- Detecting C compiler ABI info - done
+[1.429s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.430s] -- Detecting C compile features
+[1.430s] -- Detecting C compile features - done
+[1.450s] -- Detecting CXX compiler ABI info
+[1.589s] -- Detecting CXX compiler ABI info - done
+[1.606s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.607s] -- Detecting CXX compile features
+[1.607s] -- Detecting CXX compile features - done
+[1.635s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.819s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[2.018s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.027s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.050s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.138s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.756s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.253s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.760s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.761s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[3.761s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.761s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.761s]   the cmake_policy command to set the policy and suppress this warning.
+[3.761s] 
+[3.761s] Call Stack (most recent call first):
+[3.762s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.762s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.762s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[3.762s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.762s] [0m
+[3.779s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")
+[3.789s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.789s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[3.790s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.790s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.790s]   the cmake_policy command to set the policy and suppress this warning.
+[3.790s] 
+[3.790s] Call Stack (most recent call first):
+[3.790s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[3.790s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.790s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.790s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[3.790s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.790s] [0m
+[3.806s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[3.807s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.807s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.807s]   the cmake_policy command to set the policy and suppress this warning.
+[3.807s] 
+[3.807s] Call Stack (most recent call first):
+[3.807s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[3.807s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.807s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.807s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[3.807s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.807s] [0m
+[3.814s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")
+[3.815s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.815s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.815s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.832s] -- Found PythonExtra: .so
+[3.868s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.873s] -- Configuring done (2.7s)
+[3.907s] -- Generating done (0.0s)
+[3.914s] -- Build files have been written to: /home/parsa/main_robot_ws/build/robot_control_interfaces
+[3.924s] Invoked command in '/home/parsa/main_robot_ws/build/robot_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/parsa/.local/bin/cmake /home/parsa/main_robot_ws/src/robot_control_interfaces -DCMAKE_INSTALL_PREFIX=/home/parsa/main_robot_ws/install/robot_control_interfaces
+[3.926s] Invoking command in '/home/parsa/main_robot_ws/build/robot_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/robot_control_interfaces -- -j16 -l16
+[4.055s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.072s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.077s] [  5%] Built target ament_cmake_python_copy_robot_control_interfaces
+[4.336s] running egg_info
+[4.336s] creating robot_control_interfaces.egg-info
+[4.337s] writing robot_control_interfaces.egg-info/PKG-INFO
+[4.337s] writing dependency_links to robot_control_interfaces.egg-info/dependency_links.txt
+[4.338s] writing top-level names to robot_control_interfaces.egg-info/top_level.txt
+[4.338s] writing manifest file 'robot_control_interfaces.egg-info/SOURCES.txt'
+[4.344s] reading manifest file 'robot_control_interfaces.egg-info/SOURCES.txt'
+[4.347s] writing manifest file 'robot_control_interfaces.egg-info/SOURCES.txt'
+[4.538s] [  5%] Built target ament_cmake_python_build_robot_control_interfaces_egg
+[4.563s] [  5%] Built target robot_control_interfaces__cpp
+[4.606s] [  7%] [32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_control_interfaces/srv/detail/arm_preset__functions.c.o[0m
+[4.611s] [ 10%] [32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_control_interfaces/msg/detail/arm_command__functions.c.o[0m
+[4.630s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.632s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.640s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.743s] [ 20%] [32m[1mLinking C shared library librobot_control_interfaces__rosidl_generator_c.so[0m
+[4.826s] [ 20%] Built target robot_control_interfaces__rosidl_generator_c
+[4.856s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.865s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.868s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.078s] [ 30%] [32mBuilding CXX object CMakeFiles/robot_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_control_interfaces/msg/arm_command__type_support.cpp.o[0m
+[5.081s] [ 33%] [32mBuilding CXX object CMakeFiles/robot_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_control_interfaces/srv/arm_preset__type_support.cpp.o[0m
+[5.097s] [ 35%] [32mBuilding CXX object CMakeFiles/robot_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_control_interfaces/srv/detail/dds_fastrtps/arm_preset__type_support.cpp.o[0m
+[5.105s] [ 38%] [32mBuilding CXX object CMakeFiles/robot_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_control_interfaces/msg/detail/dds_fastrtps/arm_command__type_support.cpp.o[0m
+[5.107s] [ 41%] [32mBuilding CXX object CMakeFiles/robot_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_control_interfaces/msg/detail/arm_command__type_support.cpp.o[0m
+[5.118s] [ 43%] [32mBuilding CXX object CMakeFiles/robot_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_control_interfaces/srv/detail/arm_preset__type_support.cpp.o[0m
+[5.323s] [ 46%] [32mBuilding CXX object CMakeFiles/robot_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_control_interfaces/srv/detail/arm_preset__type_support_c.cpp.o[0m
+[5.331s] [ 48%] [32mBuilding CXX object CMakeFiles/robot_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_control_interfaces/msg/arm_command__type_support.cpp.o[0m
+[5.340s] [ 51%] [32mBuilding CXX object CMakeFiles/robot_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_control_interfaces/msg/detail/arm_command__type_support_c.cpp.o[0m
+[5.366s] [ 53%] [32mBuilding CXX object CMakeFiles/robot_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_control_interfaces/srv/arm_preset__type_support.cpp.o[0m
+[5.457s] [ 56%] [32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_control_interfaces/msg/detail/arm_command__type_support.c.o[0m
+[5.461s] [ 58%] [32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_control_interfaces/srv/detail/arm_preset__type_support.c.o[0m
+[5.512s] [ 61%] [32m[1mLinking CXX shared library librobot_control_interfaces__rosidl_typesupport_cpp.so[0m
+[5.573s] [ 64%] [32m[1mLinking CXX shared library librobot_control_interfaces__rosidl_typesupport_c.so[0m
+[5.608s] [ 66%] [32m[1mLinking C shared library librobot_control_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.608s] [ 69%] [32m[1mLinking CXX shared library librobot_control_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.626s] [ 71%] [32m[1mLinking CXX shared library librobot_control_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.641s] [ 71%] Built target robot_control_interfaces__rosidl_typesupport_cpp
+[5.665s] [ 71%] Built target robot_control_interfaces__rosidl_typesupport_c
+[5.674s] [ 71%] Built target robot_control_interfaces__rosidl_typesupport_introspection_c
+[5.737s] [ 74%] [32m[1mLinking CXX shared library librobot_control_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.745s] [ 74%] Built target robot_control_interfaces__rosidl_typesupport_introspection_cpp
+[5.764s] [ 74%] Built target robot_control_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.813s] [ 74%] Built target robot_control_interfaces__rosidl_typesupport_fastrtps_c
+[5.844s] [ 74%] Built target robot_control_interfaces
+[5.872s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.292s] [ 76%] Built target robot_control_interfaces__py
+[6.327s] [ 79%] [32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_control_interfaces/srv/_arm_preset_s.c.o[0m
+[6.331s] [ 82%] [32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_control_interfaces/msg/_arm_command_s.c.o[0m
+[6.420s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/robot_control_interfaces/librobot_control_interfaces__rosidl_generator_py.so[0m
+[6.470s] [ 84%] Built target robot_control_interfaces__rosidl_generator_py
+[6.505s] [ 87%] [32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_control_interfaces/_robot_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.506s] [ 89%] [32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_control_interfaces/_robot_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.525s] [ 92%] [32mBuilding C object CMakeFiles/robot_control_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_control_interfaces/_robot_control_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.597s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.599s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.608s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.641s] [100%] Built target robot_control_interfaces__rosidl_typesupport_introspection_c__pyext
+[6.649s] [100%] Built target robot_control_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.655s] [100%] Built target robot_control_interfaces__rosidl_typesupport_c__pyext
+[6.665s] Invoked command in '/home/parsa/main_robot_ws/build/robot_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/robot_control_interfaces -- -j16 -l16
+[6.667s] Invoking command in '/home/parsa/main_robot_ws/build/robot_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/robot_control_interfaces
+[6.734s] -- Install configuration: ""
+[6.734s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_control_interfaces
+[6.734s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces
+[6.734s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv
+[6.734s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv/detail
+[6.734s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv/detail/arm_preset__type_support.h
+[6.734s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv/detail/arm_preset__functions.h
+[6.734s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv/detail/arm_preset__struct.h
+[6.734s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv/detail/arm_preset__functions.c
+[6.735s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv/arm_preset.h
+[6.735s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg
+[6.735s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/detail
+[6.735s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/detail/arm_command__struct.h
+[6.735s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/detail/arm_command__type_support.h
+[6.735s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/detail/arm_command__functions.c
+[6.735s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/detail/arm_command__functions.h
+[6.735s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/arm_command.h
+[6.735s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.735s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/library_path.sh
+[6.735s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/library_path.dsv
+[6.735s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_generator_c.so
+[6.735s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_generator_c.so" to ""
+[6.735s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces
+[6.735s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv
+[6.736s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv/detail
+[6.736s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv/detail/arm_preset__rosidl_typesupport_fastrtps_c.h
+[6.736s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg
+[6.736s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/detail
+[6.736s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/detail/arm_command__rosidl_typesupport_fastrtps_c.h
+[6.736s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.736s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_fastrtps_c.so
+[6.736s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[6.736s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces
+[6.736s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv
+[6.736s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv/detail
+[6.736s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv/detail/arm_preset__type_support.c
+[6.736s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv/detail/arm_preset__rosidl_typesupport_introspection_c.h
+[6.736s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg
+[6.736s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/detail
+[6.736s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/detail/arm_command__rosidl_typesupport_introspection_c.h
+[6.736s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/detail/arm_command__type_support.c
+[6.737s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.737s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_introspection_c.so
+[6.737s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[6.737s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_c.so
+[6.737s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_c.so" to ""
+[6.737s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces
+[6.737s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv
+[6.737s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv/detail
+[6.737s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv/detail/arm_preset__traits.hpp
+[6.737s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv/detail/arm_preset__builder.hpp
+[6.737s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv/detail/arm_preset__struct.hpp
+[6.737s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv/detail/arm_preset__type_support.hpp
+[6.738s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv/arm_preset.hpp
+[6.738s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg
+[6.738s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/detail
+[6.738s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/detail/arm_command__builder.hpp
+[6.738s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/detail/arm_command__traits.hpp
+[6.738s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/detail/arm_command__struct.hpp
+[6.738s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/detail/arm_command__type_support.hpp
+[6.738s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.738s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/arm_command.hpp
+[6.738s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces
+[6.738s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv
+[6.738s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv/detail
+[6.738s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv/detail/dds_fastrtps
+[6.738s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv/detail/arm_preset__rosidl_typesupport_fastrtps_cpp.hpp
+[6.738s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg
+[6.739s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/detail
+[6.739s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/detail/dds_fastrtps
+[6.739s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/detail/arm_command__rosidl_typesupport_fastrtps_cpp.hpp
+[6.739s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.739s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[6.739s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.739s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces
+[6.739s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv
+[6.739s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv/detail
+[6.739s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv/detail/arm_preset__rosidl_typesupport_introspection_cpp.hpp
+[6.739s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/srv/detail/arm_preset__type_support.cpp
+[6.739s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg
+[6.739s] -- Up-to-date: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/detail
+[6.739s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/detail/arm_command__type_support.cpp
+[6.739s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/include/robot_control_interfaces/robot_control_interfaces/msg/detail/arm_command__rosidl_typesupport_introspection_cpp.hpp
+[6.740s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.740s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[6.740s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_cpp.so
+[6.740s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_typesupport_cpp.so" to ""
+[6.740s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/pythonpath.sh
+[6.740s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/pythonpath.dsv
+[6.740s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces-0.0.0-py3.10.egg-info
+[6.740s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[6.740s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.741s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[6.741s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.741s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces
+[6.741s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.741s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.741s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/_robot_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.741s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/_robot_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[6.741s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/_robot_control_interfaces_s.ep.rosidl_typesupport_c.c
+[6.741s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.741s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/__init__.py
+[6.741s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/srv
+[6.741s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/srv/_arm_preset.py
+[6.742s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/srv/_arm_preset_s.c
+[6.742s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/srv/__init__.py
+[6.742s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/msg
+[6.742s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/msg/_arm_command.py
+[6.742s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/msg/_arm_command_s.c
+[6.742s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/msg/__init__.py
+[6.742s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/librobot_control_interfaces__rosidl_generator_py.so
+[6.766s] Listing '/home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces'...
+[6.766s] Compiling '/home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/__init__.py'...
+[6.766s] Listing '/home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/msg'...
+[6.767s] Compiling '/home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/msg/__init__.py'...
+[6.767s] Compiling '/home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/msg/_arm_command.py'...
+[6.767s] Listing '/home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/srv'...
+[6.767s] Compiling '/home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/srv/__init__.py'...
+[6.767s] Compiling '/home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/srv/_arm_preset.py'...
+[6.769s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.770s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.770s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.771s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.771s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.771s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/install/robot_control_interfaces/local/lib/python3.10/dist-packages/robot_control_interfaces/robot_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.771s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_generator_py.so
+[6.771s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/install/robot_control_interfaces/lib/librobot_control_interfaces__rosidl_generator_py.so" to ""
+[6.771s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/msg/ArmCommand.idl
+[6.771s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/srv/ArmPreset.idl
+[6.771s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/msg/ArmCommand.msg
+[6.772s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/srv/ArmPreset.srv
+[6.772s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/srv/ArmPreset_Request.msg
+[6.772s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/srv/ArmPreset_Response.msg
+[6.772s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_control_interfaces
+[6.772s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_control_interfaces
+[6.772s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/ament_prefix_path.sh
+[6.772s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/ament_prefix_path.dsv
+[6.772s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/path.sh
+[6.772s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/environment/path.dsv
+[6.772s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/local_setup.bash
+[6.772s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/local_setup.sh
+[6.773s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/local_setup.zsh
+[6.773s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/local_setup.dsv
+[6.773s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/package.dsv
+[6.773s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/ament_index/resource_index/packages/robot_control_interfaces
+[6.773s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_generator_cExport.cmake
+[6.773s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_generator_cExport-noconfig.cmake
+[6.773s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[6.773s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.773s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[6.773s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.773s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_cExport.cmake
+[6.774s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[6.774s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_generator_cppExport.cmake
+[6.774s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.774s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.774s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[6.774s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.774s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_cppExport.cmake
+[6.774s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[6.774s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_generator_pyExport.cmake
+[6.774s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/export_robot_control_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[6.774s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/rosidl_cmake-extras.cmake
+[6.775s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.775s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.775s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[6.775s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.775s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.775s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.775s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfacesConfig.cmake
+[6.775s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake/robot_control_interfacesConfig-version.cmake
+[6.775s] -- Installing: /home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/package.xml
+[6.777s] Invoked command in '/home/parsa/main_robot_ws/build/robot_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/robot_control_interfaces

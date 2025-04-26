@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/parsa/main_robot_ws/build/robot_control_interfaces/cmake_install.cmake",
+		"/home/parsa/main_robot_ws/build/robot_control_interfaces/robot_control_interfaces__py/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

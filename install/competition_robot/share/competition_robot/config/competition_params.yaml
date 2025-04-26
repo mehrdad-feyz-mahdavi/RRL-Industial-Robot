@@ -1,0 +1,301 @@
+# Competition Robot Parameters
+
+# General Parameters
+robot_name: "competition_robot"
+max_linear_velocity: 0.5
+max_angular_velocity: 1.0
+goal_tolerance: 0.1
+waypoint_timeout: 30.0
+
+# Camera Parameters
+camera_frame: "camera_link"
+image_width: 640
+image_height: 480
+fov: 60.0
+
+# Arm Parameters
+arm:
+  # Joint Configuration
+  joint_names: ["joint1", "joint2", "joint3", "joint4", "joint5", "joint6"]
+  joint_limits:
+    joint1: [-3.14, 3.14]  # radians
+    joint2: [-3.14, 3.14]
+    joint3: [-3.14, 3.14]
+    joint4: [-3.14, 3.14]
+    joint5: [-3.14, 3.14]
+    joint6: [-3.14, 3.14]
+  
+  # Home Positions
+  home_position: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  
+  # Gripper Configuration
+  gripper:
+    open_position: 0.1
+    close_position: 0.0
+    max_force: 100.0  # Newtons
+    speed: 0.5  # m/s
+  
+  # Predefined Poses
+  predefined_poses:
+    home: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    ready: [0.0, -1.57, 1.57, 0.0, 0.0, 0.0]
+    pickup: [0.0, -1.57, 1.57, 0.0, 0.0, 0.0]
+    place: [0.0, -1.57, 1.57, 0.0, 0.0, 0.0]
+  
+  # Control Parameters
+  control:
+    position_tolerance: 0.01  # radians
+    velocity_tolerance: 0.1   # rad/s
+    acceleration_limit: 1.0   # rad/s^2
+    velocity_limit: 1.0       # rad/s
+  
+  # Safety Parameters
+  safety:
+    collision_checking: true
+    self_collision_checking: true
+    max_velocity: 1.0  # rad/s
+    max_acceleration: 1.0  # rad/s^2
+    max_jerk: 2.0  # rad/s^3
+
+# Scenario-specific waypoints
+waypoints:
+  BMT:
+    - name: "start"
+      position: [0.0, 0.0, 0.0]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+    - name: "pickup"
+      position: [1.0, 0.0, 0.0]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+    - name: "dropoff"
+      position: [2.0, 0.0, 0.0]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+
+  BTT1:
+    - name: "start"
+      position: [0.0, 0.0, 0.0]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+    - name: "checkpoint1"
+      position: [1.0, 1.0, 0.0]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+    - name: "checkpoint2"
+      position: [2.0, 0.0, 0.0]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+
+  BTT2:
+    - name: "start"
+      position: [0.0, 0.0, 0.0]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+    - name: "checkpoint1"
+      position: [1.0, -1.0, 0.0]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+    - name: "checkpoint2"
+      position: [2.0, 0.0, 0.0]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+
+  ATT1:
+    - name: "start"
+      position: [0.0, 0.0, 0.0]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+    - name: "pickup1"
+      position: [1.0, 1.0, 0.0]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+    - name: "dropoff1"
+      position: [2.0, 0.0, 0.0]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+
+  ATT2:
+    - name: "start"
+      position: [0.0, 0.0, 0.0]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+    - name: "pickup1"
+      position: [1.0, -1.0, 0.0]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+    - name: "dropoff1"
+      position: [2.0, 0.0, 0.0]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+
+  Final:
+    - name: "start"
+      position: [0.0, 0.0, 0.0]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+    - name: "checkpoint1"
+      position: [1.0, 1.0, 0.0]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+    - name: "pickup"
+      position: [2.0, 0.0, 0.0]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+    - name: "dropoff"
+      position: [3.0, 0.0, 0.0]
+      orientation: [0.0, 0.0, 0.0, 1.0]
+
+# Table and object parameters
+table_height: 0.75
+object_heights:
+  cube: 0.05
+  cylinder: 0.1
+  sphere: 0.08
+
+# Detection parameters
+detection_confidence: 0.5
+
+# Navigation parameters
+navigation_timeout: 60.0
+
+# Movement parameters
+holonomic_speed: 0.1
+holonomic_duration: 3.0
+
+# Scenario configurations
+scenarios:
+  BMT:
+    waypoints:
+      - name: "start"
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        yaw: 0.0
+      - name: "pickup"
+        x: 1.0
+        y: 0.5
+        z: 0.0
+        yaw: 0.0
+      - name: "assembly"
+        x: 2.0
+        y: 0.0
+        z: 0.0
+        yaw: 0.0
+  
+  BTT1:
+    waypoints:
+      - name: "start"
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        yaw: 0.0
+      - name: "pickup1"
+        x: 1.0
+        y: 0.5
+        z: 0.0
+        yaw: 0.0
+      - name: "assembly1"
+        x: 2.0
+        y: 1.0
+        z: 0.0
+        yaw: 0.0
+      - name: "pickup2"
+        x: 1.0
+        y: -0.5
+        z: 0.0
+        yaw: 0.0
+      - name: "assembly2"
+        x: 2.0
+        y: -1.0
+        z: 0.0
+        yaw: 0.0
+  
+  BTT2:
+    waypoints:
+      - name: "start"
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        yaw: 0.0
+      - name: "pickup1"
+        x: 1.0
+        y: 0.5
+        z: 0.0
+        yaw: 0.0
+      - name: "pickup2"
+        x: 1.0
+        y: -0.5
+        z: 0.0
+        yaw: 0.0
+      - name: "assembly"
+        x: 2.0
+        y: 0.0
+        z: 0.0
+        yaw: 0.0
+  
+  ATT1:
+    waypoints:
+      - name: "start"
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        yaw: 0.0
+      - name: "pickup"
+        x: 1.0
+        y: 0.0
+        z: 0.0
+        yaw: 0.0
+      - name: "assembly1"
+        x: 2.0
+        y: 1.0
+        z: 0.0
+        yaw: 0.0
+      - name: "assembly2"
+        x: 2.0
+        y: -1.0
+        z: 0.0
+        yaw: 0.0
+  
+  ATT2:
+    waypoints:
+      - name: "start"
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        yaw: 0.0
+      - name: "pickup1"
+        x: 1.0
+        y: 0.5
+        z: 0.0
+        yaw: 0.0
+      - name: "pickup2"
+        x: 1.0
+        y: -0.5
+        z: 0.0
+        yaw: 0.0
+      - name: "assembly1"
+        x: 2.0
+        y: 1.0
+        z: 0.0
+        yaw: 0.0
+      - name: "assembly2"
+        x: 2.0
+        y: -1.0
+        z: 0.0
+        yaw: 0.0
+  
+  Final:
+    waypoints:
+      - name: "start"
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        yaw: 0.0
+      - name: "pickup1"
+        x: 1.0
+        y: 0.5
+        z: 0.0
+        yaw: 0.0
+      - name: "pickup2"
+        x: 1.0
+        y: -0.5
+        z: 0.0
+        yaw: 0.0
+      - name: "assembly1"
+        x: 2.0
+        y: 1.0
+        z: 0.0
+        yaw: 0.0
+      - name: "assembly2"
+        x: 2.0
+        y: -1.0
+        z: 0.0
+        yaw: 0.0
+      - name: "final"
+        x: 3.0
+        y: 0.0
+        z: 0.0
+        yaw: 0.0 

@@ -1,0 +1,21 @@
+[1.597s] Invoking command in '/home/parsa/main_robot_ws/src/competition_robot': PYTHONPATH=/home/parsa/main_robot_ws/build/competition_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/competition_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/competition_robot build --build-base /home/parsa/main_robot_ws/build/competition_robot/build install --record /home/parsa/main_robot_ws/build/competition_robot/install.log --single-version-externally-managed install_data
+[1.767s] running egg_info
+[1.768s] writing ../../build/competition_robot/competition_robot.egg-info/PKG-INFO
+[1.768s] writing dependency_links to ../../build/competition_robot/competition_robot.egg-info/dependency_links.txt
+[1.768s] writing entry points to ../../build/competition_robot/competition_robot.egg-info/entry_points.txt
+[1.768s] writing requirements to ../../build/competition_robot/competition_robot.egg-info/requires.txt
+[1.768s] writing top-level names to ../../build/competition_robot/competition_robot.egg-info/top_level.txt
+[1.770s] reading manifest file '../../build/competition_robot/competition_robot.egg-info/SOURCES.txt'
+[1.770s] writing manifest file '../../build/competition_robot/competition_robot.egg-info/SOURCES.txt'
+[1.770s] running build
+[1.770s] running build_py
+[1.770s] running install
+[1.770s] running install_lib
+[1.771s] running install_data
+[1.772s] running install_egg_info
+[1.773s] removing '/home/parsa/main_robot_ws/install/competition_robot/lib/python3.10/site-packages/competition_robot-0.0.1-py3.10.egg-info' (and everything under it)
+[1.773s] Copying ../../build/competition_robot/competition_robot.egg-info to /home/parsa/main_robot_ws/install/competition_robot/lib/python3.10/site-packages/competition_robot-0.0.1-py3.10.egg-info
+[1.774s] running install_scripts
+[1.789s] Installing competition_node script to /home/parsa/main_robot_ws/install/competition_robot/lib/competition_robot
+[1.789s] writing list of installed files to '/home/parsa/main_robot_ws/build/competition_robot/install.log'
+[1.820s] Invoked command in '/home/parsa/main_robot_ws/src/competition_robot' returned '0': PYTHONPATH=/home/parsa/main_robot_ws/build/competition_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/competition_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/competition_robot build --build-base /home/parsa/main_robot_ws/build/competition_robot/build install --record /home/parsa/main_robot_ws/build/competition_robot/install.log --single-version-externally-managed install_data

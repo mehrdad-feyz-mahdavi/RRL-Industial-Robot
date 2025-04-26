@@ -1,0 +1,24 @@
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <Sequence name="MainSequence">
+      <!-- فاز ۱: ناوبری به سمت جسم اول -->
+      <RecoveryNode number_of_retries="3" name="NavigateToFirstObject">
+        <Sequence name="NavigateWithReplanning">
+          <ComputePathToPose goal="{goal_first}" path="{path}" planner_id="GridBased"/>
+          <FollowPath path="{path}" controller_id="FollowPath"/>
+        </Sequence>
+        
+        <RecoveryNode number_of_retries="1" name="RecoveryActionsPhase1">
+          <Sequence name="RecoverySequence">
+            <ClearEntireCostmap service_name="local_costmap/clear_entirely_local_costmap"/>
+            <BackUp backup_dist="0.3" backup_speed="0.2"/>
+            <Spin spin_dist="1.57"/> <!-- 90 degrees -->
+          </Sequence>
+        </RecoveryNode>
+      </RecoveryNode>
+
+      <!-- فاز ۲: حرکت هولونومیک به سمت جسم دوم -->
+      <Action ID="MoveHolonomicToSecondObject" goal="{goal_second}" max_velocity="0.5"/>
+    </Sequence>
+  </BehaviorTree>
+</root>

@@ -1,0 +1,46 @@
+[1.741s] Invoking command in '/home/parsa/main_robot_ws/src/my_robot_camera': PYTHONPATH=/home/parsa/main_robot_ws/build/my_robot_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/my_robot_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_camera build --build-base /home/parsa/main_robot_ws/build/my_robot_camera/build install --record /home/parsa/main_robot_ws/build/my_robot_camera/install.log --single-version-externally-managed install_data
+[1.950s] running egg_info
+[1.951s] creating ../../build/my_robot_camera/my_robot_camera.egg-info
+[1.951s] writing ../../build/my_robot_camera/my_robot_camera.egg-info/PKG-INFO
+[1.951s] writing dependency_links to ../../build/my_robot_camera/my_robot_camera.egg-info/dependency_links.txt
+[1.953s] writing entry points to ../../build/my_robot_camera/my_robot_camera.egg-info/entry_points.txt
+[1.953s] writing requirements to ../../build/my_robot_camera/my_robot_camera.egg-info/requires.txt
+[1.953s] writing top-level names to ../../build/my_robot_camera/my_robot_camera.egg-info/top_level.txt
+[1.953s] writing manifest file '../../build/my_robot_camera/my_robot_camera.egg-info/SOURCES.txt'
+[1.953s] reading manifest file '../../build/my_robot_camera/my_robot_camera.egg-info/SOURCES.txt'
+[1.954s] writing manifest file '../../build/my_robot_camera/my_robot_camera.egg-info/SOURCES.txt'
+[1.955s] running build
+[1.955s] running build_py
+[1.955s] creating /home/parsa/main_robot_ws/build/my_robot_camera/build
+[1.955s] creating /home/parsa/main_robot_ws/build/my_robot_camera/build/lib
+[1.955s] creating /home/parsa/main_robot_ws/build/my_robot_camera/build/lib/my_robot_camera
+[1.955s] copying my_robot_camera/camera_node.py -> /home/parsa/main_robot_ws/build/my_robot_camera/build/lib/my_robot_camera
+[1.955s] copying my_robot_camera/qos_bridge_node.py -> /home/parsa/main_robot_ws/build/my_robot_camera/build/lib/my_robot_camera
+[1.955s] copying my_robot_camera/__init__.py -> /home/parsa/main_robot_ws/build/my_robot_camera/build/lib/my_robot_camera
+[1.955s] running install
+[1.957s] running install_lib
+[1.958s] creating /home/parsa/main_robot_ws/install/my_robot_camera/lib/python3.10/site-packages/my_robot_camera
+[1.959s] copying /home/parsa/main_robot_ws/build/my_robot_camera/build/lib/my_robot_camera/camera_node.py -> /home/parsa/main_robot_ws/install/my_robot_camera/lib/python3.10/site-packages/my_robot_camera
+[1.959s] copying /home/parsa/main_robot_ws/build/my_robot_camera/build/lib/my_robot_camera/qos_bridge_node.py -> /home/parsa/main_robot_ws/install/my_robot_camera/lib/python3.10/site-packages/my_robot_camera
+[1.959s] copying /home/parsa/main_robot_ws/build/my_robot_camera/build/lib/my_robot_camera/__init__.py -> /home/parsa/main_robot_ws/install/my_robot_camera/lib/python3.10/site-packages/my_robot_camera
+[1.959s] byte-compiling /home/parsa/main_robot_ws/install/my_robot_camera/lib/python3.10/site-packages/my_robot_camera/camera_node.py to camera_node.cpython-310.pyc
+[1.961s] byte-compiling /home/parsa/main_robot_ws/install/my_robot_camera/lib/python3.10/site-packages/my_robot_camera/qos_bridge_node.py to qos_bridge_node.cpython-310.pyc
+[1.961s] byte-compiling /home/parsa/main_robot_ws/install/my_robot_camera/lib/python3.10/site-packages/my_robot_camera/__init__.py to __init__.cpython-310.pyc
+[1.961s] running install_data
+[1.961s] creating /home/parsa/main_robot_ws/install/my_robot_camera/share/ament_index
+[1.961s] creating /home/parsa/main_robot_ws/install/my_robot_camera/share/ament_index/resource_index
+[1.961s] creating /home/parsa/main_robot_ws/install/my_robot_camera/share/ament_index/resource_index/packages
+[1.961s] copying resource/my_robot_camera -> /home/parsa/main_robot_ws/install/my_robot_camera/share/ament_index/resource_index/packages
+[1.962s] copying package.xml -> /home/parsa/main_robot_ws/install/my_robot_camera/share/my_robot_camera
+[1.962s] creating /home/parsa/main_robot_ws/install/my_robot_camera/share/my_robot_camera/launch
+[1.963s] copying launch/camera_with_bridge.launch.py -> /home/parsa/main_robot_ws/install/my_robot_camera/share/my_robot_camera/launch
+[1.963s] copying launch/camera.launch.py -> /home/parsa/main_robot_ws/install/my_robot_camera/share/my_robot_camera/launch
+[1.963s] creating /home/parsa/main_robot_ws/install/my_robot_camera/share/my_robot_camera/models
+[1.963s] copying models/best.pt -> /home/parsa/main_robot_ws/install/my_robot_camera/share/my_robot_camera/models
+[2.057s] creating /home/parsa/main_robot_ws/install/my_robot_camera/share/my_robot_camera/msg
+[2.057s] running install_egg_info
+[2.058s] Copying ../../build/my_robot_camera/my_robot_camera.egg-info to /home/parsa/main_robot_ws/install/my_robot_camera/lib/python3.10/site-packages/my_robot_camera-0.0.0-py3.10.egg-info
+[2.059s] running install_scripts
+[2.073s] Installing camera_node script to /home/parsa/main_robot_ws/install/my_robot_camera/lib/my_robot_camera
+[2.073s] writing list of installed files to '/home/parsa/main_robot_ws/build/my_robot_camera/install.log'
+[2.098s] Invoked command in '/home/parsa/main_robot_ws/src/my_robot_camera' returned '0': PYTHONPATH=/home/parsa/main_robot_ws/build/my_robot_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/my_robot_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_camera build --build-base /home/parsa/main_robot_ws/build/my_robot_camera/build install --record /home/parsa/main_robot_ws/build/my_robot_camera/install.log --single-version-externally-managed install_data

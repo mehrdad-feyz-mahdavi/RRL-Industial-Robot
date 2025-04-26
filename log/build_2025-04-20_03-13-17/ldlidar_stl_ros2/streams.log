@@ -1,0 +1,92 @@
+[0.047s] Invoking command in '/home/parsa/main_robot_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/parsa/.local/bin/cmake /home/parsa/main_robot_ws/src/ldlidar_stl_ros2 -DCMAKE_INSTALL_PREFIX=/home/parsa/main_robot_ws/install/ldlidar_stl_ros2
+[1.063s] -- The C compiler identification is GNU 11.4.0
+[1.063s] -- The CXX compiler identification is GNU 11.4.0
+[1.064s] -- Detecting C compiler ABI info
+[1.064s] -- Detecting C compiler ABI info - done
+[1.064s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.064s] -- Detecting C compile features
+[1.064s] -- Detecting C compile features - done
+[1.064s] -- Detecting CXX compiler ABI info
+[1.064s] -- Detecting CXX compiler ABI info - done
+[1.064s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.064s] -- Detecting CXX compile features
+[1.064s] -- Detecting CXX compile features - done
+[1.064s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.064s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.064s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.064s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.064s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.064s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.064s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.064s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.064s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.064s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.064s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[1.064s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[1.064s]   CMake.
+[1.064s] 
+[1.064s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[1.064s]   to tell CMake that the project requires at least <min> but has been updated
+[1.064s]   to work with policies introduced by <max> or earlier.
+[1.065s] 
+[1.065s] [0m
+[1.252s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.320s] -- Found FastRTPS: /opt/ros/humble/include
+[1.477s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.514s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.637s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.638s] -- Found Threads: TRUE
+[1.762s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.826s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.977s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.985s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.985s] -- Configured cppcheck include dirs: /home/parsa/main_robot_ws/src/ldlidar_stl_ros2/include;/home/parsa/main_robot_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/core;/home/parsa/main_robot_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/dataprocess;/home/parsa/main_robot_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/filter;/home/parsa/main_robot_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/logger;/home/parsa/main_robot_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/networkcom;/home/parsa/main_robot_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/serialcom
+[1.985s] -- Configured cppcheck exclude dirs and/or files: 
+[1.991s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.991s] -- Configured cpplint exclude dirs and/or files: 
+[1.992s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.994s] -- Added test 'lint_cmake' to check CMake code style
+[1.996s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.005s] -- Added test 'uncrustify' to check C / C++ code style
+[2.005s] -- Configured uncrustify additional arguments: 
+[2.006s] -- Added test 'xmllint' to check XML markup files
+[2.008s] -- Configuring done (1.9s)
+[2.027s] -- Generating done (0.0s)
+[2.030s] -- Build files have been written to: /home/parsa/main_robot_ws/build/ldlidar_stl_ros2
+[2.059s] Invoked command in '/home/parsa/main_robot_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/parsa/.local/bin/cmake /home/parsa/main_robot_ws/src/ldlidar_stl_ros2 -DCMAKE_INSTALL_PREFIX=/home/parsa/main_robot_ws/install/ldlidar_stl_ros2
+[2.062s] Invoking command in '/home/parsa/main_robot_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/ldlidar_stl_ros2 -- -j16 -l16
+[2.179s] [ 12%] [32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/core/ldlidar_driver.cpp.o[0m
+[2.185s] [ 37%] [32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/dataprocess/lipkg.cpp.o[0m
+[2.185s] [ 37%] [32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/filter/tofbf.cpp.o[0m
+[2.191s] [ 62%] [32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/logger/log_module.cpp.o[0m
+[2.191s] [ 62%] [32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/networkcom/network_socket_interface_linux.cpp.o[0m
+[2.200s] [ 75%] [32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/serialcom/serial_interface_linux.cpp.o[0m
+[2.200s] [ 87%] [32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/src/demo.cpp.o[0m
+[6.667s] [100%] [32m[1mLinking CXX executable ldlidar_stl_ros2_node[0m
+[6.866s] [100%] Built target ldlidar_stl_ros2_node
+[6.873s] Invoked command in '/home/parsa/main_robot_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/ldlidar_stl_ros2 -- -j16 -l16
+[6.875s] Invoking command in '/home/parsa/main_robot_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/ldlidar_stl_ros2
+[6.928s] -- Install configuration: ""
+[6.928s] -- Installing: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/lib/ldlidar_stl_ros2/ldlidar_stl_ros2_node
+[6.929s] -- Set non-toolchain portion of runtime path of "/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/lib/ldlidar_stl_ros2/ldlidar_stl_ros2_node" to ""
+[6.929s] -- Installing: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch
+[6.929s] -- Installing: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ld19.launch.py
+[6.929s] -- Installing: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ldlidar_launch.py
+[6.929s] -- Installing: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//rviz2
+[6.929s] -- Installing: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//rviz2/ldlidar.rviz
+[6.930s] -- Installing: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_stl_ros2
+[6.930s] -- Installing: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_stl_ros2
+[6.930s] -- Installing: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.sh
+[6.930s] -- Installing: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.dsv
+[6.930s] -- Installing: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.sh
+[6.930s] -- Installing: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.dsv
+[6.930s] -- Installing: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.bash
+[6.930s] -- Installing: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.sh
+[6.930s] -- Installing: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.zsh
+[6.930s] -- Installing: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.dsv
+[6.930s] -- Installing: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.dsv
+[6.930s] -- Installing: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/packages/ldlidar_stl_ros2
+[6.931s] -- Installing: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config.cmake
+[6.931s] -- Installing: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config-version.cmake
+[6.931s] -- Installing: /home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.xml
+[6.934s] Invoked command in '/home/parsa/main_robot_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/ldlidar_stl_ros2

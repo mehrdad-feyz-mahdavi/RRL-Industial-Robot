@@ -1,0 +1,1059 @@
+[0.063s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.063s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x6ffefa3752d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x6ffefa303040>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x6ffefa303040>>, mixin_verb=('build',))
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.160s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/parsa/main_robot_ws'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'.': Error(s) in package './package.xml':
+The manifest contains invalid XML:
+no element found: line 1, column 1
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(competition_log) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(competition_log) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(competition_log) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(competition_log) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(competition_log) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(competition_log) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(competition_log) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(competition_log) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(competition_log) by extension 'ros'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(competition_log) by extensions ['cmake', 'python']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(competition_log) by extension 'cmake'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(competition_log) by extension 'python'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(competition_log) by extensions ['python_setup_py']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(competition_log) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(detection_results) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(detection_results) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(detection_results) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(detection_results) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(detection_results) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(detection_results) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(detection_results) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(detection_results) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(detection_results) by extension 'ros'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(detection_results) by extensions ['cmake', 'python']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(detection_results) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(detection_results) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(detection_results) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(detection_results) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(msg) by extension 'python_setup_py'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/competition_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/competition_robot) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/competition_robot) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/competition_robot) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/competition_robot) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/competition_robot) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/competition_robot) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/competition_robot) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/competition_robot) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/competition_robot' with type 'ros.ament_python' and name 'competition_robot'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_stl_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_stl_ros2) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_stl_ros2) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_stl_ros2) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_stl_ros2) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_stl_ros2) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_stl_ros2) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_stl_ros2) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_stl_ros2) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ldlidar_stl_ros2' with type 'ros.ament_cmake' and name 'ldlidar_stl_ros2'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_front_filter) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_front_filter) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_front_filter) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_front_filter) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_front_filter) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_front_filter) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_front_filter) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_front_filter) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_front_filter) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_front_filter' with type 'ros.ament_python' and name 'lidar_front_filter'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_camera) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_camera) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_camera) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_camera) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_camera) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_camera) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_camera) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_camera) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_camera' with type 'ros.ament_python' and name 'my_robot_camera'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_camera_msgs) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_camera_msgs) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_camera_msgs) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_camera_msgs) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_camera_msgs) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_camera_msgs) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_camera_msgs) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_camera_msgs) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_camera_msgs' with type 'ros.ament_cmake' and name 'my_robot_camera_msgs'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_moveit_config) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_moveit_config) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_moveit_config) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_moveit_config) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_moveit_config) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_moveit_config) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_moveit_config) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_moveit_config) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_moveit_config' with type 'ros.ament_cmake' and name 'my_robot_moveit_config'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_navigation) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_navigation' with type 'ros.ament_cmake' and name 'my_robot_navigation'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_config) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_config) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_config) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_config) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_config) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_config) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_config) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_config) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_config) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation_config' with type 'ros.ament_python' and name 'navigation_config'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/referee_box) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/referee_box) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/referee_box) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/referee_box) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/referee_box) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/referee_box) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/referee_box) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/referee_box) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/referee_box) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/referee_box' with type 'ros.ament_python' and name 'referee_box'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_control' with type 'ros.ament_python' and name 'robot_control'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_interfaces) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_interfaces) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_interfaces) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_interfaces) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_interfaces) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_interfaces) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_interfaces) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control_interfaces) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_control_interfaces' with type 'ros.ament_cmake' and name 'robot_control_interfaces'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_description' with type 'ros.ament_cmake' and name 'robot_description'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'ros'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['cmake', 'python']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['python_setup_py']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'python_setup_py'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox/config) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox/config) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox/config) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox/config) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox/config) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox/config) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox/config) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox/config) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox/config) by extension 'ros'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox/config) by extensions ['cmake', 'python']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox/config) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox/config) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox/config) by extensions ['python_setup_py']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox/config) by extension 'python_setup_py'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'ros'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extensions ['cmake', 'python']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extensions ['python_setup_py']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src) by extension 'python_setup_py'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot) by extension 'ros'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot) by extensions ['cmake', 'python']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot) by extensions ['python_setup_py']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot) by extension 'python_setup_py'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/config) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/config) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/config) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/config) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/config) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/config) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/config) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/config) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/config) by extension 'ros'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/config) by extensions ['cmake', 'python']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/config) by extension 'cmake'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/config) by extension 'python'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/config) by extensions ['python_setup_py']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/config) by extension 'python_setup_py'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/launch) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/launch) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/launch) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/launch) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/launch) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/launch) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/launch) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/launch) by extension 'ros'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/launch) by extensions ['cmake', 'python']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/launch) by extension 'cmake'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/launch) by extension 'python'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/launch) by extensions ['python_setup_py']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/src/competition_robot/launch) by extension 'python_setup_py'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_publisher) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_publisher) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_publisher) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_publisher) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_publisher) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_publisher) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_publisher) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_publisher) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/state_publisher' with type 'ros.ament_python' and name 'state_publisher'
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.213s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/parsa/main_robot_ws/install
+[0.214s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 431 installed packages in /opt/ros/humble
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'competition_robot' build argument 'cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'competition_robot' build argument 'cmake_target' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'competition_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'competition_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'competition_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'competition_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'competition_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'competition_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'competition_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.242s] DEBUG:colcon.colcon_core.verb:Building package 'competition_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parsa/main_robot_ws/build/competition_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parsa/main_robot_ws/install/competition_robot', 'merge_install': False, 'path': '/home/parsa/main_robot_ws/src/competition_robot', 'symlink_install': False, 'test_result_base': None}
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_target' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.242s] DEBUG:colcon.colcon_core.verb:Building package 'ldlidar_stl_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parsa/main_robot_ws/build/ldlidar_stl_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2', 'merge_install': False, 'path': '/home/parsa/main_robot_ws/src/ldlidar_stl_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'lidar_front_filter' build argument 'cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'lidar_front_filter' build argument 'cmake_target' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'lidar_front_filter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'lidar_front_filter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'lidar_front_filter' build argument 'cmake_clean_first' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'lidar_front_filter' build argument 'cmake_force_configure' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'lidar_front_filter' build argument 'ament_cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'lidar_front_filter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'lidar_front_filter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.242s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_front_filter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parsa/main_robot_ws/build/lidar_front_filter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parsa/main_robot_ws/install/lidar_front_filter', 'merge_install': False, 'path': '/home/parsa/main_robot_ws/src/lidar_front_filter', 'symlink_install': False, 'test_result_base': None}
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'my_robot_camera' build argument 'cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_camera' build argument 'cmake_target' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.243s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parsa/main_robot_ws/build/my_robot_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parsa/main_robot_ws/install/my_robot_camera', 'merge_install': False, 'path': '/home/parsa/main_robot_ws/src/my_robot_camera', 'symlink_install': False, 'test_result_base': None}
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_camera_msgs' build argument 'cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.243s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parsa/main_robot_ws/build/my_robot_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parsa/main_robot_ws/install/my_robot_camera_msgs', 'merge_install': False, 'path': '/home/parsa/main_robot_ws/src/my_robot_camera_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'cmake_target' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'my_robot_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.243s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parsa/main_robot_ws/build/my_robot_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parsa/main_robot_ws/install/my_robot_navigation', 'merge_install': False, 'path': '/home/parsa/main_robot_ws/src/my_robot_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'navigation_config' build argument 'cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'navigation_config' build argument 'cmake_target' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'navigation_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'navigation_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'navigation_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'navigation_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'navigation_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'navigation_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'navigation_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.243s] DEBUG:colcon.colcon_core.verb:Building package 'navigation_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parsa/main_robot_ws/build/navigation_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parsa/main_robot_ws/install/navigation_config', 'merge_install': False, 'path': '/home/parsa/main_robot_ws/src/navigation_config', 'symlink_install': False, 'test_result_base': None}
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'referee_box' build argument 'cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'referee_box' build argument 'cmake_target' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'referee_box' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'referee_box' build argument 'cmake_clean_cache' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'referee_box' build argument 'cmake_clean_first' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'referee_box' build argument 'cmake_force_configure' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'referee_box' build argument 'ament_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'referee_box' build argument 'catkin_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'referee_box' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.244s] DEBUG:colcon.colcon_core.verb:Building package 'referee_box' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parsa/main_robot_ws/build/referee_box', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parsa/main_robot_ws/install/referee_box', 'merge_install': False, 'path': '/home/parsa/main_robot_ws/src/referee_box', 'symlink_install': False, 'test_result_base': None}
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_target' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.244s] DEBUG:colcon.colcon_core.verb:Building package 'robot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parsa/main_robot_ws/build/robot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parsa/main_robot_ws/install/robot_control', 'merge_install': False, 'path': '/home/parsa/main_robot_ws/src/robot_control', 'symlink_install': False, 'test_result_base': None}
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_control_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_control_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_control_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_control_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_control_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_control_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_control_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_control_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_control_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.244s] DEBUG:colcon.colcon_core.verb:Building package 'robot_control_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parsa/main_robot_ws/build/robot_control_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parsa/main_robot_ws/install/robot_control_interfaces', 'merge_install': False, 'path': '/home/parsa/main_robot_ws/src/robot_control_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.244s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parsa/main_robot_ws/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parsa/main_robot_ws/install/robot_description', 'merge_install': False, 'path': '/home/parsa/main_robot_ws/src/robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'state_publisher' build argument 'cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'state_publisher' build argument 'cmake_target' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'state_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'state_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'state_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'state_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'state_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'state_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'state_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.245s] DEBUG:colcon.colcon_core.verb:Building package 'state_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parsa/main_robot_ws/build/state_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parsa/main_robot_ws/install/state_publisher', 'merge_install': False, 'path': '/home/parsa/main_robot_ws/src/state_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.245s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parsa/main_robot_ws/build/my_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parsa/main_robot_ws/install/my_robot_bringup', 'merge_install': False, 'path': '/home/parsa/main_robot_ws/src/my_robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'my_robot_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'my_robot_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'my_robot_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'my_robot_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'my_robot_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'my_robot_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'my_robot_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'my_robot_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'my_robot_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.245s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parsa/main_robot_ws/build/my_robot_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parsa/main_robot_ws/install/my_robot_moveit_config', 'merge_install': False, 'path': '/home/parsa/main_robot_ws/src/my_robot_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.245s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.246s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.246s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/parsa/main_robot_ws/src/ldlidar_stl_ros2' with build type 'ament_cmake'
+[0.246s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/parsa/main_robot_ws/src/ldlidar_stl_ros2'
+[0.248s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.248s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.248s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.251s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/parsa/main_robot_ws/src/robot_description' with build type 'ament_cmake'
+[0.251s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/parsa/main_robot_ws/src/robot_description'
+[0.251s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.251s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.254s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/parsa/main_robot_ws/src/competition_robot' with build type 'ament_python'
+[0.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('competition_robot', 'ament_prefix_path')
+[0.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/competition_robot/share/competition_robot/hook/ament_prefix_path.ps1'
+[0.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/competition_robot/share/competition_robot/hook/ament_prefix_path.dsv'
+[0.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/competition_robot/share/competition_robot/hook/ament_prefix_path.sh'
+[0.255s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.258s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/parsa/main_robot_ws/src/lidar_front_filter' with build type 'ament_python'
+[0.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_front_filter', 'ament_prefix_path')
+[0.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/lidar_front_filter/share/lidar_front_filter/hook/ament_prefix_path.ps1'
+[0.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/lidar_front_filter/share/lidar_front_filter/hook/ament_prefix_path.dsv'
+[0.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/lidar_front_filter/share/lidar_front_filter/hook/ament_prefix_path.sh'
+[0.279s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.279s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.282s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/parsa/main_robot_ws/src/my_robot_camera' with build type 'ament_python'
+[0.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_camera', 'ament_prefix_path')
+[0.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_camera/share/my_robot_camera/hook/ament_prefix_path.ps1'
+[0.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/my_robot_camera/share/my_robot_camera/hook/ament_prefix_path.dsv'
+[0.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_camera/share/my_robot_camera/hook/ament_prefix_path.sh'
+[0.284s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.284s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.287s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/parsa/main_robot_ws/src/my_robot_camera_msgs' with build type 'ament_cmake'
+[0.287s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/parsa/main_robot_ws/src/my_robot_camera_msgs'
+[0.288s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.288s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.290s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/parsa/main_robot_ws/src/my_robot_navigation' with build type 'ament_cmake'
+[0.291s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/parsa/main_robot_ws/src/my_robot_navigation'
+[0.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.293s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/parsa/main_robot_ws/src/navigation_config' with build type 'ament_python'
+[0.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_config', 'ament_prefix_path')
+[0.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/navigation_config/share/navigation_config/hook/ament_prefix_path.ps1'
+[0.294s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/navigation_config/share/navigation_config/hook/ament_prefix_path.dsv'
+[0.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/navigation_config/share/navigation_config/hook/ament_prefix_path.sh'
+[0.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.295s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.297s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/parsa/main_robot_ws/src/referee_box' with build type 'ament_python'
+[0.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('referee_box', 'ament_prefix_path')
+[0.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/referee_box/share/referee_box/hook/ament_prefix_path.ps1'
+[0.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/referee_box/share/referee_box/hook/ament_prefix_path.dsv'
+[0.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/referee_box/share/referee_box/hook/ament_prefix_path.sh'
+[0.298s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.298s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.301s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/parsa/main_robot_ws/src/robot_control' with build type 'ament_python'
+[0.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control', 'ament_prefix_path')
+[0.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/robot_control/share/robot_control/hook/ament_prefix_path.ps1'
+[0.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/robot_control/share/robot_control/hook/ament_prefix_path.dsv'
+[0.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/robot_control/share/robot_control/hook/ament_prefix_path.sh'
+[0.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.302s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.305s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/parsa/main_robot_ws/src/robot_control_interfaces' with build type 'ament_cmake'
+[0.305s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/parsa/main_robot_ws/src/robot_control_interfaces'
+[0.305s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.305s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.308s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/parsa/main_robot_ws/src/state_publisher' with build type 'ament_python'
+[0.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('state_publisher', 'ament_prefix_path')
+[0.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/state_publisher/share/state_publisher/hook/ament_prefix_path.ps1'
+[0.308s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/state_publisher/share/state_publisher/hook/ament_prefix_path.dsv'
+[0.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/state_publisher/share/state_publisher/hook/ament_prefix_path.sh'
+[0.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.309s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parsa/main_robot_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/ldlidar_stl_ros2 -- -j16 -l16
+[0.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parsa/main_robot_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/robot_description -- -j16 -l16
+[0.494s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/parsa/main_robot_ws/src/competition_robot'
+[0.494s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.494s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.669s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/parsa/main_robot_ws/src/lidar_front_filter'
+[0.669s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.669s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.888s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/parsa/main_robot_ws/src/my_robot_camera'
+[0.889s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.889s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parsa/main_robot_ws/build/my_robot_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/my_robot_camera_msgs -- -j16 -l16
+[0.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parsa/main_robot_ws/build/my_robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/my_robot_navigation -- -j16 -l16
+[1.199s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/parsa/main_robot_ws/src/navigation_config'
+[1.200s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.200s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.452s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/parsa/main_robot_ws/src/referee_box'
+[1.452s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.452s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.710s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/parsa/main_robot_ws/src/robot_control'
+[1.710s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.710s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parsa/main_robot_ws/build/robot_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/robot_control_interfaces -- -j16 -l16
+[1.935s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/parsa/main_robot_ws/src/state_publisher'
+[1.935s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.935s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parsa/main_robot_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/ldlidar_stl_ros2 -- -j16 -l16
+[2.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parsa/main_robot_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/ldlidar_stl_ros2
+[2.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parsa/main_robot_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/robot_description -- -j16 -l16
+[2.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parsa/main_robot_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/robot_description
+[2.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parsa/main_robot_ws/build/my_robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/my_robot_navigation -- -j16 -l16
+[2.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parsa/main_robot_ws/build/my_robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/my_robot_navigation
+[2.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parsa/main_robot_ws/build/my_robot_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/my_robot_camera_msgs -- -j16 -l16
+[2.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parsa/main_robot_ws/build/my_robot_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/my_robot_camera_msgs
+[2.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parsa/main_robot_ws/build/robot_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/robot_control_interfaces -- -j16 -l16
+[2.094s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parsa/main_robot_ws/build/robot_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/robot_control_interfaces
+[2.102s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[2.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parsa/main_robot_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/robot_description
+[2.105s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_description' for CMake module files
+[2.105s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_description' for CMake config files
+[2.105s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[2.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[2.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[2.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[2.108s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_description/bin'
+[2.108s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[2.109s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_description/lib/python3.10/site-packages'
+[2.109s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_description/bin'
+[2.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/robot_description/share/robot_description/package.ps1'
+[2.111s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parsa/main_robot_ws/install/robot_description/share/robot_description/package.dsv'
+[2.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/robot_description/share/robot_description/package.sh'
+[2.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/robot_description/share/robot_description/package.bash'
+[2.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/robot_description/share/robot_description/package.zsh'
+[2.118s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parsa/main_robot_ws/install/robot_description/share/colcon-core/packages/robot_description)
+[2.119s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[2.120s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_description' for CMake module files
+[2.120s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_description' for CMake config files
+[2.123s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[2.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[2.125s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[2.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[2.128s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_description/bin'
+[2.128s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[2.129s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_description/lib/python3.10/site-packages'
+[2.130s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_description/bin'
+[2.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/robot_description/share/robot_description/package.ps1'
+[2.132s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parsa/main_robot_ws/install/robot_description/share/robot_description/package.dsv'
+[2.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/robot_description/share/robot_description/package.sh'
+[2.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/robot_description/share/robot_description/package.bash'
+[2.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/robot_description/share/robot_description/package.zsh'
+[2.138s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parsa/main_robot_ws/install/robot_description/share/colcon-core/packages/robot_description)
+[2.139s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/parsa/main_robot_ws/src/my_robot_moveit_config' with build type 'ament_cmake'
+[2.139s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/parsa/main_robot_ws/src/my_robot_moveit_config'
+[2.140s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.140s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.148s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_stl_ros2)
+[2.149s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2' for CMake module files
+[2.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parsa/main_robot_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/ldlidar_stl_ros2
+[2.150s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2' for CMake config files
+[2.150s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_stl_ros2', 'cmake_prefix_path')
+[2.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.ps1'
+[2.151s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.dsv'
+[2.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.sh'
+[2.152s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/lib'
+[2.153s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/bin'
+[2.153s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/lib/pkgconfig/ldlidar_stl_ros2.pc'
+[2.153s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/lib/python3.10/site-packages'
+[2.153s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/bin'
+[2.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.ps1'
+[2.155s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.dsv'
+[2.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.sh'
+[2.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.bash'
+[2.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.zsh'
+[2.158s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/colcon-core/packages/ldlidar_stl_ros2)
+[2.159s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_stl_ros2)
+[2.160s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2' for CMake module files
+[2.160s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2' for CMake config files
+[2.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_stl_ros2', 'cmake_prefix_path')
+[2.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.ps1'
+[2.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.dsv'
+[2.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.sh'
+[2.163s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/lib'
+[2.163s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/bin'
+[2.163s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/lib/pkgconfig/ldlidar_stl_ros2.pc'
+[2.164s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/lib/python3.10/site-packages'
+[2.164s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/bin'
+[2.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.ps1'
+[2.168s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.dsv'
+[2.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.sh'
+[2.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.bash'
+[2.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.zsh'
+[2.172s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parsa/main_robot_ws/install/ldlidar_stl_ros2/share/colcon-core/packages/ldlidar_stl_ros2)
+[2.174s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/parsa/main_robot_ws/src/my_robot_bringup' with build type 'ament_cmake'
+[2.174s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/parsa/main_robot_ws/src/my_robot_bringup'
+[2.174s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.174s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.185s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_navigation)
+[2.186s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_navigation' for CMake module files
+[2.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parsa/main_robot_ws/build/my_robot_moveit_config': CMAKE_PREFIX_PATH=/home/parsa/main_robot_ws/install/robot_description:/home/parsa/main_robot_ws/install/my_robot_moveit_config:/home/parsa/main_robot_ws/install/robot_control_interfaces:/home/parsa/main_robot_ws/install/my_robot_navigation:/home/parsa/main_robot_ws/install/my_robot_camera_msgs:/home/parsa/main_robot_ws/install/my_robot_bringup:/home/parsa/main_robot_ws/install/ldlidar_stl_ros2:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/my_robot_moveit_config -- -j16 -l16
+[2.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parsa/main_robot_ws/build/my_robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/my_robot_navigation
+[2.189s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_navigation' for CMake config files
+[2.189s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_navigation', 'cmake_prefix_path')
+[2.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/hook/cmake_prefix_path.ps1'
+[2.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/hook/cmake_prefix_path.dsv'
+[2.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/hook/cmake_prefix_path.sh'
+[2.191s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_navigation/lib'
+[2.191s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_navigation', 'ld_library_path_lib')
+[2.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/hook/ld_library_path_lib.ps1'
+[2.192s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/hook/ld_library_path_lib.dsv'
+[2.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/hook/ld_library_path_lib.sh'
+[2.193s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_navigation/bin'
+[2.193s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_navigation/lib/pkgconfig/my_robot_navigation.pc'
+[2.193s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_navigation/lib/python3.10/site-packages'
+[2.193s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_navigation/bin'
+[2.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/package.ps1'
+[2.194s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/package.dsv'
+[2.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/package.sh'
+[2.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/package.bash'
+[2.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/package.zsh'
+[2.195s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parsa/main_robot_ws/install/my_robot_navigation/share/colcon-core/packages/my_robot_navigation)
+[2.195s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_navigation)
+[2.195s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_navigation' for CMake module files
+[2.196s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_navigation' for CMake config files
+[2.196s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_navigation', 'cmake_prefix_path')
+[2.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/hook/cmake_prefix_path.ps1'
+[2.197s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/hook/cmake_prefix_path.dsv'
+[2.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/hook/cmake_prefix_path.sh'
+[2.198s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_navigation/lib'
+[2.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_navigation', 'ld_library_path_lib')
+[2.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/hook/ld_library_path_lib.ps1'
+[2.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/hook/ld_library_path_lib.dsv'
+[2.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/hook/ld_library_path_lib.sh'
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_navigation/bin'
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_navigation/lib/pkgconfig/my_robot_navigation.pc'
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_navigation/lib/python3.10/site-packages'
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_navigation/bin'
+[2.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/package.ps1'
+[2.202s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/package.dsv'
+[2.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/package.sh'
+[2.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/package.bash'
+[2.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_navigation/share/my_robot_navigation/package.zsh'
+[2.208s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parsa/main_robot_ws/install/my_robot_navigation/share/colcon-core/packages/my_robot_navigation)
+[2.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parsa/main_robot_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=/home/parsa/main_robot_ws/install/ldlidar_stl_ros2:/home/parsa/main_robot_ws/install/my_robot_moveit_config:/home/parsa/main_robot_ws/install/robot_description:/home/parsa/main_robot_ws/install/robot_control_interfaces:/home/parsa/main_robot_ws/install/my_robot_navigation:/home/parsa/main_robot_ws/install/my_robot_camera_msgs:/home/parsa/main_robot_ws/install/my_robot_bringup:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/my_robot_bringup -- -j16 -l16
+[2.226s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_camera_msgs)
+[2.228s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_camera_msgs' for CMake module files
+[2.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parsa/main_robot_ws/build/my_robot_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/my_robot_camera_msgs
+[2.229s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_camera_msgs' for CMake config files
+[2.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_camera_msgs', 'cmake_prefix_path')
+[2.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/share/my_robot_camera_msgs/hook/cmake_prefix_path.ps1'
+[2.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/share/my_robot_camera_msgs/hook/cmake_prefix_path.dsv'
+[2.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/share/my_robot_camera_msgs/hook/cmake_prefix_path.sh'
+[2.231s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/lib'
+[2.231s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_camera_msgs', 'ld_library_path_lib')
+[2.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/share/my_robot_camera_msgs/hook/ld_library_path_lib.ps1'
+[2.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/share/my_robot_camera_msgs/hook/ld_library_path_lib.dsv'
+[2.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/share/my_robot_camera_msgs/hook/ld_library_path_lib.sh'
+[2.232s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/bin'
+[2.232s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/lib/pkgconfig/my_robot_camera_msgs.pc'
+[2.232s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/lib/python3.10/site-packages'
+[2.233s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/bin'
+[2.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/share/my_robot_camera_msgs/package.ps1'
+[2.233s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/share/my_robot_camera_msgs/package.dsv'
+[2.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/share/my_robot_camera_msgs/package.sh'
+[2.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/share/my_robot_camera_msgs/package.bash'
+[2.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/share/my_robot_camera_msgs/package.zsh'
+[2.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parsa/main_robot_ws/install/my_robot_camera_msgs/share/colcon-core/packages/my_robot_camera_msgs)
+[2.236s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_camera_msgs)
+[2.236s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_camera_msgs' for CMake module files
+[2.237s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_camera_msgs' for CMake config files
+[2.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_camera_msgs', 'cmake_prefix_path')
+[2.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/share/my_robot_camera_msgs/hook/cmake_prefix_path.ps1'
+[2.238s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/share/my_robot_camera_msgs/hook/cmake_prefix_path.dsv'
+[2.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/share/my_robot_camera_msgs/hook/cmake_prefix_path.sh'
+[2.239s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/lib'
+[2.239s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_camera_msgs', 'ld_library_path_lib')
+[2.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/share/my_robot_camera_msgs/hook/ld_library_path_lib.ps1'
+[2.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/share/my_robot_camera_msgs/hook/ld_library_path_lib.dsv'
+[2.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/share/my_robot_camera_msgs/hook/ld_library_path_lib.sh'
+[2.240s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/bin'
+[2.240s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/lib/pkgconfig/my_robot_camera_msgs.pc'
+[2.241s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/lib/python3.10/site-packages'
+[2.241s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/bin'
+[2.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/share/my_robot_camera_msgs/package.ps1'
+[2.241s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/share/my_robot_camera_msgs/package.dsv'
+[2.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/share/my_robot_camera_msgs/package.sh'
+[2.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/share/my_robot_camera_msgs/package.bash'
+[2.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_camera_msgs/share/my_robot_camera_msgs/package.zsh'
+[2.243s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parsa/main_robot_ws/install/my_robot_camera_msgs/share/colcon-core/packages/my_robot_camera_msgs)
+[2.281s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_control_interfaces)
+[2.282s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_control_interfaces' for CMake module files
+[2.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parsa/main_robot_ws/build/robot_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/robot_control_interfaces
+[2.283s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_control_interfaces' for CMake config files
+[2.284s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control_interfaces', 'cmake_prefix_path')
+[2.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/hook/cmake_prefix_path.ps1'
+[2.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/hook/cmake_prefix_path.dsv'
+[2.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/hook/cmake_prefix_path.sh'
+[2.286s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_control_interfaces/lib'
+[2.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control_interfaces', 'ld_library_path_lib')
+[2.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/hook/ld_library_path_lib.ps1'
+[2.288s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/hook/ld_library_path_lib.dsv'
+[2.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/hook/ld_library_path_lib.sh'
+[2.288s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_control_interfaces/bin'
+[2.288s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_control_interfaces/lib/pkgconfig/robot_control_interfaces.pc'
+[2.289s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_control_interfaces/lib/python3.10/site-packages'
+[2.289s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_control_interfaces/bin'
+[2.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/package.ps1'
+[2.290s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/package.dsv'
+[2.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/package.sh'
+[2.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/package.bash'
+[2.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/package.zsh'
+[2.292s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parsa/main_robot_ws/install/robot_control_interfaces/share/colcon-core/packages/robot_control_interfaces)
+[2.293s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_control_interfaces)
+[2.293s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_control_interfaces' for CMake module files
+[2.294s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_control_interfaces' for CMake config files
+[2.296s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control_interfaces', 'cmake_prefix_path')
+[2.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/hook/cmake_prefix_path.ps1'
+[2.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/hook/cmake_prefix_path.dsv'
+[2.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/hook/cmake_prefix_path.sh'
+[2.298s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_control_interfaces/lib'
+[2.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control_interfaces', 'ld_library_path_lib')
+[2.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/hook/ld_library_path_lib.ps1'
+[2.299s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/hook/ld_library_path_lib.dsv'
+[2.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/hook/ld_library_path_lib.sh'
+[2.299s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_control_interfaces/bin'
+[2.299s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_control_interfaces/lib/pkgconfig/robot_control_interfaces.pc'
+[2.300s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_control_interfaces/lib/python3.10/site-packages'
+[2.300s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_control_interfaces/bin'
+[2.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/package.ps1'
+[2.301s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/package.dsv'
+[2.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/package.sh'
+[2.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/package.bash'
+[2.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/robot_control_interfaces/share/robot_control_interfaces/package.zsh'
+[2.303s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parsa/main_robot_ws/install/robot_control_interfaces/share/colcon-core/packages/robot_control_interfaces)
+[2.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parsa/main_robot_ws/build/my_robot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/parsa/main_robot_ws/install/robot_description:/home/parsa/main_robot_ws/install/my_robot_moveit_config:/home/parsa/main_robot_ws/install/robot_control_interfaces:/home/parsa/main_robot_ws/install/my_robot_navigation:/home/parsa/main_robot_ws/install/my_robot_camera_msgs:/home/parsa/main_robot_ws/install/my_robot_bringup:/home/parsa/main_robot_ws/install/ldlidar_stl_ros2:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/my_robot_moveit_config -- -j16 -l16
+[2.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parsa/main_robot_ws/build/my_robot_moveit_config': CMAKE_PREFIX_PATH=/home/parsa/main_robot_ws/install/robot_description:/home/parsa/main_robot_ws/install/my_robot_moveit_config:/home/parsa/main_robot_ws/install/robot_control_interfaces:/home/parsa/main_robot_ws/install/my_robot_navigation:/home/parsa/main_robot_ws/install/my_robot_camera_msgs:/home/parsa/main_robot_ws/install/my_robot_bringup:/home/parsa/main_robot_ws/install/ldlidar_stl_ros2:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/my_robot_moveit_config
+[2.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parsa/main_robot_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/parsa/main_robot_ws/install/ldlidar_stl_ros2:/home/parsa/main_robot_ws/install/my_robot_moveit_config:/home/parsa/main_robot_ws/install/robot_description:/home/parsa/main_robot_ws/install/robot_control_interfaces:/home/parsa/main_robot_ws/install/my_robot_navigation:/home/parsa/main_robot_ws/install/my_robot_camera_msgs:/home/parsa/main_robot_ws/install/my_robot_bringup:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/my_robot_bringup -- -j16 -l16
+[2.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parsa/main_robot_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=/home/parsa/main_robot_ws/install/ldlidar_stl_ros2:/home/parsa/main_robot_ws/install/my_robot_moveit_config:/home/parsa/main_robot_ws/install/robot_description:/home/parsa/main_robot_ws/install/robot_control_interfaces:/home/parsa/main_robot_ws/install/my_robot_navigation:/home/parsa/main_robot_ws/install/my_robot_camera_msgs:/home/parsa/main_robot_ws/install/my_robot_bringup:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/my_robot_bringup
+[2.420s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_moveit_config)
+[2.421s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_moveit_config' for CMake module files
+[2.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parsa/main_robot_ws/build/my_robot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/parsa/main_robot_ws/install/robot_description:/home/parsa/main_robot_ws/install/my_robot_moveit_config:/home/parsa/main_robot_ws/install/robot_control_interfaces:/home/parsa/main_robot_ws/install/my_robot_navigation:/home/parsa/main_robot_ws/install/my_robot_camera_msgs:/home/parsa/main_robot_ws/install/my_robot_bringup:/home/parsa/main_robot_ws/install/ldlidar_stl_ros2:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/my_robot_moveit_config
+[2.422s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_moveit_config' for CMake config files
+[2.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_moveit_config', 'cmake_prefix_path')
+[2.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/hook/cmake_prefix_path.ps1'
+[2.424s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/hook/cmake_prefix_path.dsv'
+[2.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/hook/cmake_prefix_path.sh'
+[2.425s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_moveit_config/bin'
+[2.425s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_moveit_config/lib/pkgconfig/my_robot_moveit_config.pc'
+[2.426s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_moveit_config/lib/python3.10/site-packages'
+[2.426s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_moveit_config/bin'
+[2.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/package.ps1'
+[2.427s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/package.dsv'
+[2.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/package.sh'
+[2.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/package.bash'
+[2.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/package.zsh'
+[2.429s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parsa/main_robot_ws/install/my_robot_moveit_config/share/colcon-core/packages/my_robot_moveit_config)
+[2.430s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_moveit_config)
+[2.430s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_moveit_config' for CMake module files
+[2.431s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_moveit_config' for CMake config files
+[2.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_moveit_config', 'cmake_prefix_path')
+[2.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/hook/cmake_prefix_path.ps1'
+[2.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/hook/cmake_prefix_path.dsv'
+[2.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/hook/cmake_prefix_path.sh'
+[2.438s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_moveit_config/bin'
+[2.438s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_moveit_config/lib/pkgconfig/my_robot_moveit_config.pc'
+[2.439s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_moveit_config/lib/python3.10/site-packages'
+[2.439s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_moveit_config/bin'
+[2.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/package.ps1'
+[2.442s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/package.dsv'
+[2.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/package.sh'
+[2.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/package.bash'
+[2.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/package.zsh'
+[2.446s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parsa/main_robot_ws/install/my_robot_moveit_config/share/colcon-core/packages/my_robot_moveit_config)
+[2.450s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[2.450s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_bringup' for CMake module files
+[2.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parsa/main_robot_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/parsa/main_robot_ws/install/ldlidar_stl_ros2:/home/parsa/main_robot_ws/install/my_robot_moveit_config:/home/parsa/main_robot_ws/install/robot_description:/home/parsa/main_robot_ws/install/robot_control_interfaces:/home/parsa/main_robot_ws/install/my_robot_navigation:/home/parsa/main_robot_ws/install/my_robot_camera_msgs:/home/parsa/main_robot_ws/install/my_robot_bringup:/home/parsa/main_robot_ws/install/state_publisher:/home/parsa/main_robot_ws/install/robot_control:/home/parsa/main_robot_ws/install/referee_box:/home/parsa/main_robot_ws/install/navigation_config:/home/parsa/main_robot_ws/install/my_robot_camera:/home/parsa/main_robot_ws/install/lidar_front_filter:/home/parsa/main_robot_ws/install/competition_robot:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/my_robot_bringup
+[2.452s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_bringup' for CMake config files
+[2.453s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[2.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[2.455s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[2.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[2.459s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_bringup/bin'
+[2.460s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[2.460s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_bringup/lib/python3.10/site-packages'
+[2.461s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_bringup/bin'
+[2.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[2.463s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[2.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[2.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[2.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[2.465s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parsa/main_robot_ws/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[2.467s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[2.468s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_bringup' for CMake module files
+[2.468s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_bringup' for CMake config files
+[2.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[2.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[2.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[2.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[2.474s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_bringup/bin'
+[2.474s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_bringup/lib/python3.10/site-packages'
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_bringup/bin'
+[2.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[2.478s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[2.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[2.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[2.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[2.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parsa/main_robot_ws/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[2.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parsa/main_robot_ws/src/referee_box': PYTHONPATH=/home/parsa/main_robot_ws/build/referee_box/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/referee_box/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/referee_box build --build-base /home/parsa/main_robot_ws/build/referee_box/build install --record /home/parsa/main_robot_ws/build/referee_box/install.log --single-version-externally-managed install_data
+[2.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parsa/main_robot_ws/src/robot_control': PYTHONPATH=/home/parsa/main_robot_ws/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/parsa/main_robot_ws/build/robot_control/build install --record /home/parsa/main_robot_ws/build/robot_control/install.log --single-version-externally-managed install_data
+[2.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parsa/main_robot_ws/src/competition_robot': PYTHONPATH=/home/parsa/main_robot_ws/build/competition_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/competition_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/competition_robot build --build-base /home/parsa/main_robot_ws/build/competition_robot/build install --record /home/parsa/main_robot_ws/build/competition_robot/install.log --single-version-externally-managed install_data
+[2.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parsa/main_robot_ws/src/navigation_config': PYTHONPATH=/home/parsa/main_robot_ws/build/navigation_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/navigation_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigation_config build --build-base /home/parsa/main_robot_ws/build/navigation_config/build install --record /home/parsa/main_robot_ws/build/navigation_config/install.log --single-version-externally-managed install_data
+[2.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parsa/main_robot_ws/src/my_robot_camera': PYTHONPATH=/home/parsa/main_robot_ws/build/my_robot_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/my_robot_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_camera build --build-base /home/parsa/main_robot_ws/build/my_robot_camera/build install --record /home/parsa/main_robot_ws/build/my_robot_camera/install.log --single-version-externally-managed install_data
+[2.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parsa/main_robot_ws/src/state_publisher': PYTHONPATH=/home/parsa/main_robot_ws/build/state_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/state_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/state_publisher build --build-base /home/parsa/main_robot_ws/build/state_publisher/build install --record /home/parsa/main_robot_ws/build/state_publisher/install.log --single-version-externally-managed install_data
+[2.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parsa/main_robot_ws/src/lidar_front_filter': PYTHONPATH=/home/parsa/main_robot_ws/build/lidar_front_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/lidar_front_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_front_filter build --build-base /home/parsa/main_robot_ws/build/lidar_front_filter/build install --record /home/parsa/main_robot_ws/build/lidar_front_filter/install.log --single-version-externally-managed install_data
+[2.965s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_control' for CMake module files
+[2.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parsa/main_robot_ws/src/robot_control' returned '0': PYTHONPATH=/home/parsa/main_robot_ws/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/parsa/main_robot_ws/build/robot_control/build install --record /home/parsa/main_robot_ws/build/robot_control/install.log --single-version-externally-managed install_data
+[2.966s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_control' for CMake config files
+[2.966s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_control/lib'
+[2.966s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_control/bin'
+[2.966s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_control/lib/pkgconfig/robot_control.pc'
+[2.967s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_control/lib/python3.10/site-packages'
+[2.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control', 'pythonpath')
+[2.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/robot_control/share/robot_control/hook/pythonpath.ps1'
+[2.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/robot_control/share/robot_control/hook/pythonpath.dsv'
+[2.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/robot_control/share/robot_control/hook/pythonpath.sh'
+[2.968s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/robot_control/bin'
+[2.968s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_control)
+[2.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/robot_control/share/robot_control/package.ps1'
+[2.969s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parsa/main_robot_ws/install/robot_control/share/robot_control/package.dsv'
+[2.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/robot_control/share/robot_control/package.sh'
+[2.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/robot_control/share/robot_control/package.bash'
+[2.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/robot_control/share/robot_control/package.zsh'
+[2.971s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parsa/main_robot_ws/install/robot_control/share/colcon-core/packages/robot_control)
+[2.972s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/competition_robot' for CMake module files
+[2.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parsa/main_robot_ws/src/competition_robot' returned '0': PYTHONPATH=/home/parsa/main_robot_ws/build/competition_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/competition_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/competition_robot build --build-base /home/parsa/main_robot_ws/build/competition_robot/build install --record /home/parsa/main_robot_ws/build/competition_robot/install.log --single-version-externally-managed install_data
+[2.973s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/competition_robot' for CMake config files
+[2.974s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/competition_robot/lib'
+[2.974s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/competition_robot/bin'
+[2.974s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/competition_robot/lib/pkgconfig/competition_robot.pc'
+[2.975s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/competition_robot/lib/python3.10/site-packages'
+[2.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('competition_robot', 'pythonpath')
+[2.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/competition_robot/share/competition_robot/hook/pythonpath.ps1'
+[2.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/competition_robot/share/competition_robot/hook/pythonpath.dsv'
+[2.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/competition_robot/share/competition_robot/hook/pythonpath.sh'
+[2.977s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/competition_robot/bin'
+[2.977s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(competition_robot)
+[2.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/competition_robot/share/competition_robot/package.ps1'
+[2.978s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parsa/main_robot_ws/install/competition_robot/share/competition_robot/package.dsv'
+[2.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/competition_robot/share/competition_robot/package.sh'
+[2.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/competition_robot/share/competition_robot/package.bash'
+[2.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/competition_robot/share/competition_robot/package.zsh'
+[2.979s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parsa/main_robot_ws/install/competition_robot/share/colcon-core/packages/competition_robot)
+[2.980s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/navigation_config' for CMake module files
+[2.981s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/navigation_config' for CMake config files
+[2.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parsa/main_robot_ws/src/navigation_config' returned '0': PYTHONPATH=/home/parsa/main_robot_ws/build/navigation_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/navigation_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigation_config build --build-base /home/parsa/main_robot_ws/build/navigation_config/build install --record /home/parsa/main_robot_ws/build/navigation_config/install.log --single-version-externally-managed install_data
+[2.982s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/navigation_config/lib'
+[2.982s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/navigation_config/bin'
+[2.982s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/navigation_config/lib/pkgconfig/navigation_config.pc'
+[2.983s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/navigation_config/lib/python3.10/site-packages'
+[2.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_config', 'pythonpath')
+[2.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/navigation_config/share/navigation_config/hook/pythonpath.ps1'
+[2.984s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/navigation_config/share/navigation_config/hook/pythonpath.dsv'
+[2.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/navigation_config/share/navigation_config/hook/pythonpath.sh'
+[2.985s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/navigation_config/bin'
+[2.985s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_config)
+[2.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/navigation_config/share/navigation_config/package.ps1'
+[2.986s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parsa/main_robot_ws/install/navigation_config/share/navigation_config/package.dsv'
+[2.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/navigation_config/share/navigation_config/package.sh'
+[2.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/navigation_config/share/navigation_config/package.bash'
+[2.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/navigation_config/share/navigation_config/package.zsh'
+[2.987s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parsa/main_robot_ws/install/navigation_config/share/colcon-core/packages/navigation_config)
+[3.015s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/state_publisher' for CMake module files
+[3.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parsa/main_robot_ws/src/state_publisher' returned '0': PYTHONPATH=/home/parsa/main_robot_ws/build/state_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/state_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/state_publisher build --build-base /home/parsa/main_robot_ws/build/state_publisher/build install --record /home/parsa/main_robot_ws/build/state_publisher/install.log --single-version-externally-managed install_data
+[3.016s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/state_publisher' for CMake config files
+[3.017s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/state_publisher/lib'
+[3.017s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/state_publisher/bin'
+[3.017s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/state_publisher/lib/pkgconfig/state_publisher.pc'
+[3.017s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/state_publisher/lib/python3.10/site-packages'
+[3.017s] Level 1:colcon.colcon_core.shell:create_environment_hook('state_publisher', 'pythonpath')
+[3.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/state_publisher/share/state_publisher/hook/pythonpath.ps1'
+[3.018s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/state_publisher/share/state_publisher/hook/pythonpath.dsv'
+[3.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/state_publisher/share/state_publisher/hook/pythonpath.sh'
+[3.018s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/state_publisher/bin'
+[3.018s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(state_publisher)
+[3.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/state_publisher/share/state_publisher/package.ps1'
+[3.020s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parsa/main_robot_ws/install/state_publisher/share/state_publisher/package.dsv'
+[3.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/state_publisher/share/state_publisher/package.sh'
+[3.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/state_publisher/share/state_publisher/package.bash'
+[3.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/state_publisher/share/state_publisher/package.zsh'
+[3.021s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parsa/main_robot_ws/install/state_publisher/share/colcon-core/packages/state_publisher)
+[3.024s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/referee_box' for CMake module files
+[3.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parsa/main_robot_ws/src/referee_box' returned '0': PYTHONPATH=/home/parsa/main_robot_ws/build/referee_box/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/referee_box/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/referee_box build --build-base /home/parsa/main_robot_ws/build/referee_box/build install --record /home/parsa/main_robot_ws/build/referee_box/install.log --single-version-externally-managed install_data
+[3.025s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/referee_box' for CMake config files
+[3.025s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/referee_box/lib'
+[3.025s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/referee_box/bin'
+[3.025s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/referee_box/lib/pkgconfig/referee_box.pc'
+[3.026s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/referee_box/lib/python3.10/site-packages'
+[3.026s] Level 1:colcon.colcon_core.shell:create_environment_hook('referee_box', 'pythonpath')
+[3.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/referee_box/share/referee_box/hook/pythonpath.ps1'
+[3.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/referee_box/share/referee_box/hook/pythonpath.dsv'
+[3.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/referee_box/share/referee_box/hook/pythonpath.sh'
+[3.027s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/referee_box/bin'
+[3.027s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(referee_box)
+[3.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/referee_box/share/referee_box/package.ps1'
+[3.028s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parsa/main_robot_ws/install/referee_box/share/referee_box/package.dsv'
+[3.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/referee_box/share/referee_box/package.sh'
+[3.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/referee_box/share/referee_box/package.bash'
+[3.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/referee_box/share/referee_box/package.zsh'
+[3.029s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parsa/main_robot_ws/install/referee_box/share/colcon-core/packages/referee_box)
+[3.031s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_camera' for CMake module files
+[3.031s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parsa/main_robot_ws/src/my_robot_camera' returned '0': PYTHONPATH=/home/parsa/main_robot_ws/build/my_robot_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/my_robot_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_camera build --build-base /home/parsa/main_robot_ws/build/my_robot_camera/build install --record /home/parsa/main_robot_ws/build/my_robot_camera/install.log --single-version-externally-managed install_data
+[3.031s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_camera' for CMake config files
+[3.032s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_camera/lib'
+[3.032s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_camera/bin'
+[3.032s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_camera/lib/pkgconfig/my_robot_camera.pc'
+[3.032s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_camera/lib/python3.10/site-packages'
+[3.032s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_camera', 'pythonpath')
+[3.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_camera/share/my_robot_camera/hook/pythonpath.ps1'
+[3.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/my_robot_camera/share/my_robot_camera/hook/pythonpath.dsv'
+[3.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/my_robot_camera/share/my_robot_camera/hook/pythonpath.sh'
+[3.033s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/my_robot_camera/bin'
+[3.033s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_camera)
+[3.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_camera/share/my_robot_camera/package.ps1'
+[3.033s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parsa/main_robot_ws/install/my_robot_camera/share/my_robot_camera/package.dsv'
+[3.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_camera/share/my_robot_camera/package.sh'
+[3.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_camera/share/my_robot_camera/package.bash'
+[3.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/my_robot_camera/share/my_robot_camera/package.zsh'
+[3.034s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parsa/main_robot_ws/install/my_robot_camera/share/colcon-core/packages/my_robot_camera)
+[3.035s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/lidar_front_filter' for CMake module files
+[3.035s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/lidar_front_filter' for CMake config files
+[3.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parsa/main_robot_ws/src/lidar_front_filter' returned '0': PYTHONPATH=/home/parsa/main_robot_ws/build/lidar_front_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parsa/main_robot_ws/install/lidar_front_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_front_filter build --build-base /home/parsa/main_robot_ws/build/lidar_front_filter/build install --record /home/parsa/main_robot_ws/build/lidar_front_filter/install.log --single-version-externally-managed install_data
+[3.036s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/lidar_front_filter/lib'
+[3.036s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/lidar_front_filter/bin'
+[3.036s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/lidar_front_filter/lib/pkgconfig/lidar_front_filter.pc'
+[3.036s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/lidar_front_filter/lib/python3.10/site-packages'
+[3.036s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_front_filter', 'pythonpath')
+[3.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/lidar_front_filter/share/lidar_front_filter/hook/pythonpath.ps1'
+[3.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parsa/main_robot_ws/install/lidar_front_filter/share/lidar_front_filter/hook/pythonpath.dsv'
+[3.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parsa/main_robot_ws/install/lidar_front_filter/share/lidar_front_filter/hook/pythonpath.sh'
+[3.037s] Level 1:colcon.colcon_core.environment:checking '/home/parsa/main_robot_ws/install/lidar_front_filter/bin'
+[3.037s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_front_filter)
+[3.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/lidar_front_filter/share/lidar_front_filter/package.ps1'
+[3.038s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parsa/main_robot_ws/install/lidar_front_filter/share/lidar_front_filter/package.dsv'
+[3.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/lidar_front_filter/share/lidar_front_filter/package.sh'
+[3.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/lidar_front_filter/share/lidar_front_filter/package.bash'
+[3.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/parsa/main_robot_ws/install/lidar_front_filter/share/lidar_front_filter/package.zsh'
+[3.039s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parsa/main_robot_ws/install/lidar_front_filter/share/colcon-core/packages/lidar_front_filter)
+[3.039s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.039s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.039s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.039s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.044s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.044s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.044s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.051s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.052s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/parsa/main_robot_ws/install/local_setup.ps1'
+[3.053s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/parsa/main_robot_ws/install/_local_setup_util_ps1.py'
+[3.054s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/parsa/main_robot_ws/install/setup.ps1'
+[3.055s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/parsa/main_robot_ws/install/local_setup.sh'
+[3.055s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/parsa/main_robot_ws/install/_local_setup_util_sh.py'
+[3.055s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/parsa/main_robot_ws/install/setup.sh'
+[3.056s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/parsa/main_robot_ws/install/local_setup.bash'
+[3.056s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/parsa/main_robot_ws/install/setup.bash'
+[3.057s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/parsa/main_robot_ws/install/local_setup.zsh'
+[3.057s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/parsa/main_robot_ws/install/setup.zsh'

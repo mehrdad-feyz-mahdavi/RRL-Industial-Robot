@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>my_robot_bringup</name>
+  <version>1.0.0</version>
+  <description>Professional robot bringup package</description>
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  
+  <depend>tf2_ros</depend>
+  <depend>slam_toolbox</depend>
+  <depend>nav2_bringup</depend>
+  <depend>rviz2</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>ldlidar_stl_ros2</depend>
+  <depend>tf2_tools</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

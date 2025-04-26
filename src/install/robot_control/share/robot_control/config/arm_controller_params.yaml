@@ -1,0 +1,49 @@
+arm_controller:
+  ros__parameters:
+    # Network settings
+    server_ip: "192.168.243.71"
+    server_port: 4000
+    server_name: "laptop.local"
+    
+    # Speed settings
+    default_speed: 30
+    default_claw_speed: 30
+    
+    # Joint limits
+    joint1_min: 0
+    joint1_max: 1023
+    joint2_min: 0
+    joint2_max: 1023
+    joint3_min: 0
+    joint3_max: 1023
+    base_min: 0
+    base_max: 500
+    gripper_rotate_min: 0
+    gripper_rotate_max: 270
+    gripper_claw_min: 0
+    gripper_claw_max: 180
+    
+    # Preset positions
+    home_position:
+      joint1: 300
+      joint2: 300
+      joint3: 500
+      base: 0
+      gripper_rotate: 90
+      gripper_claw: 0
+    
+    extended_position:
+      joint1: 500
+      joint2: 500
+      joint3: 800
+      base: 90
+      gripper_rotate: 90
+      gripper_claw: 0
+    
+    camera_vertical_position:
+      joint1: 300
+      joint2: 300
+      joint3: 500
+      base: 0
+      gripper_rotate: 0
+      gripper_claw: 0 

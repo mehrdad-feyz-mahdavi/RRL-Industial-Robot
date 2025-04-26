@@ -1,0 +1,41 @@
+[0.037s] Invoking command in '/home/parsa/main_robot_ws/build/my_robot_moveit_config': AMENT_PREFIX_PATH=/home/parsa/main_robot_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parsa/main_robot_ws/install/robot_description:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/my_robot_moveit_config -- -j16 -l16
+[0.100s] Invoked command in '/home/parsa/main_robot_ws/build/my_robot_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/parsa/main_robot_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parsa/main_robot_ws/install/robot_description:/opt/ros/humble /home/parsa/.local/bin/cmake --build /home/parsa/main_robot_ws/build/my_robot_moveit_config -- -j16 -l16
+[0.102s] Invoking command in '/home/parsa/main_robot_ws/build/my_robot_moveit_config': AMENT_PREFIX_PATH=/home/parsa/main_robot_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parsa/main_robot_ws/install/robot_description:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/my_robot_moveit_config
+[0.160s] -- Install configuration: ""
+[0.160s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/ament_index/resource_index/package_run_dependencies/my_robot_moveit_config
+[0.160s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/ament_index/resource_index/parent_prefix_path/my_robot_moveit_config
+[0.160s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/environment/ament_prefix_path.sh
+[0.160s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/environment/ament_prefix_path.dsv
+[0.160s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/environment/path.sh
+[0.160s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/environment/path.dsv
+[0.160s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/local_setup.bash
+[0.160s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/local_setup.sh
+[0.160s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/local_setup.zsh
+[0.160s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/local_setup.dsv
+[0.161s] -- Installing: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/package.dsv
+[0.161s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/ament_index/resource_index/packages/my_robot_moveit_config
+[0.161s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/cmake/my_robot_moveit_configConfig.cmake
+[0.161s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/cmake/my_robot_moveit_configConfig-version.cmake
+[0.161s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/package.xml
+[0.161s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch
+[0.161s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch/moveit_rviz.launch.py
+[0.161s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch/move_group.launch.py
+[0.161s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch/spawn_controllers.launch.py
+[0.161s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[0.161s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch/setup_assistant.launch.py
+[0.161s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch/rsp.launch.py
+[0.161s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch/warehouse_db.launch.py
+[0.161s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch/demo.launch.py
+[0.161s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config
+[0.161s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/ros2_controllers.yaml
+[0.161s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/moveit.rviz
+[0.161s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/joint_limits.yaml
+[0.161s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/pilz_cartesian_limits.yaml
+[0.162s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/initial_positions.yaml
+[0.162s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/kinematics.yaml
+[0.162s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/robot_arm.urdf.xacro
+[0.162s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/moveit_controllers.yaml
+[0.162s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/robot_arm.srdf
+[0.162s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/robot_arm.ros2_control.xacro
+[0.162s] -- Up-to-date: /home/parsa/main_robot_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/.setup_assistant
+[0.163s] Invoked command in '/home/parsa/main_robot_ws/build/my_robot_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/parsa/main_robot_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parsa/main_robot_ws/install/robot_description:/opt/ros/humble /home/parsa/.local/bin/cmake --install /home/parsa/main_robot_ws/build/my_robot_moveit_config

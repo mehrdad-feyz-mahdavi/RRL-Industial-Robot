@@ -1,0 +1,8 @@
+[console_scripts]
+arm_controller_node = robot_control.arm_controller_node:main
+arm_driver_node = robot_control.arm_driver_node:main
+arm_gui = robot_control.arm_gui:main
+arm_server = robot_control.arm_server:main
+old_robot_server = robot_control.old_robot_server:main
+robot_server = robot_control.robot_server:main
+
