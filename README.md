@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+This robotic project is developed by the robotic team at Imam Khomeini International University.
+
 # Main Robot Workspace
 
 This ROS2 workspace contains the packages for the main robot project.
@@ -267,5 +268,4 @@ The following frame names are standardized:
 [Add your license information here] 
 =======
 # RRL-Industial-Robot
-this robotic project belongs to the Imam Khomeini International University robotic team 
 >>>>>>> origin/main
