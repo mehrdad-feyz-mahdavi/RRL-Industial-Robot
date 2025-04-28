@@ -6,7 +6,7 @@ This robotic project is developed by the robotic team at Imam Khomeini Internati
 Team members:
 - Farhan Daemi
 - Mehrdad Feyz Mahdavi
-- Bardia Aqsami
+- Bardiya Aghsami
 - Parsa Fatollahnia
 - Amir Ali Eskandary
 - Taha Ahmadzadeh
