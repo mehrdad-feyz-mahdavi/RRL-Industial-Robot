@@ -279,9 +279,6 @@ The following frame names are standardized:
 3. Test thoroughly
 4. Submit a pull request
 
-## License
 
-[Add your license information here] 
-=======
 # RRL-Industial-Robot
->>>>>>> origin/main
+
