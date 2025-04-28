@@ -3,6 +3,19 @@
 
 This robotic project is developed by the robotic team at Imam Khomeini International University.
 
+Team members:
+- Farhan Daemi
+- Mehrdad Feyz Mahdavi
+- Bardia Aqsami
+- Parsa Fatollahnia
+- Amir Ali Eskandary
+- Taha Ahmadzadeh
+- Ali Mohammadian
+- Mohammad Mehdi Zehtab
+- Amir Hossein Mossavi
+
+
+
 # Main Robot Workspace
 
 This ROS2 workspace contains the packages for the main robot project.
